@@ -1,0 +1,7 @@
+# Core analysis (R)
+# Install with: Rscript -e 'install.packages(c("tidyverse", "janitor", "knitr", "rmarkdown"))'
+
+tidyverse   # data manipulation, visualization (ggplot2, dplyr, readr...)
+janitor     # cleaning and standardizing column names - clean_names()
+knitr       # rendering tables - kable()
+rmarkdown   # required to render remote_work_productivity_analysis.Rmd to PDF

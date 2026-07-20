@@ -1,0 +1,1501 @@
+Employee_ID,Age,Years_Experience,WFH_Days_Per_Week,Department,Job_Level,Home_Office_Quality,Internet_Speed_Category,Manager_Support_Level,Team_Collaboration_Frequency,Work_Hours_Per_Week,Meetings_Per_Week,Commute_Time_Minutes,Stress_Level,Work_Life_Balance,Job_Satisfaction,Productivity_Score
+EMP0001,39,10,2,Product,Mid-Level,Good,Very Fast (100+ Mbps),Low,Few times per week,41,4,48,6,8,55.9,52.2
+EMP0002,33,4,5,Customer Success,Senior,Good,Very Fast (100+ Mbps),Moderate,Monthly,52,12,0,3,8,96.1,81.5
+EMP0003,40,3,3,Operations,Mid-Level,Excellent,Fast (50-100 Mbps),Moderate,Few times per week,43,15,24,5,6,90.4,82.2
+EMP0004,48,14,3,Finance,Manager,Excellent,Very Fast (100+ Mbps),High,Daily,45,8,8,10,5,100,75.6
+EMP0005,32,6,5,Engineering,Senior,Average,Moderate (25-50 Mbps),Very Low,Few times per week,42,10,0,3,4,100,98
+EMP0006,32,7,4,HR,Mid-Level,Good,Very Fast (100+ Mbps),Very High,Few times per week,43,7,49,7,5,100,62
+EMP0007,49,1,2,Marketing,Junior,Average,Moderate (25-50 Mbps),Moderate,Few times per week,38,10,12,8,3,100,66.2
+EMP0008,41,11,0,Sales,Manager,Excellent,Very Fast (100+ Mbps),Moderate,Weekly,45,7,13,4,5,100,77.2
+EMP0009,30,4,4,Engineering,Senior,Average,Very Fast (100+ Mbps),Moderate,Weekly,47,3,25,8,7,92.4,73.8
+EMP0010,39,9,4,Engineering,Senior,Good,Slow (<25 Mbps),High,Daily,32,6,31,4,4,100,72.4
+EMP0011,30,1,4,Engineering,Junior,Good,Very Fast (100+ Mbps),High,Weekly,32,13,14,2,5,100,81.1
+EMP0012,30,1,5,Engineering,Junior,Good,Very Fast (100+ Mbps),Moderate,Few times per week,31,8,0,6,7,100,98
+EMP0013,37,4,5,Engineering,Junior,Good,Very Fast (100+ Mbps),High,Few times per week,50,11,0,7,5,100,83.7
+EMP0014,22,1,3,HR,Junior,Good,Moderate (25-50 Mbps),Moderate,Weekly,36,11,17,4,6,100,76.7
+EMP0015,22,1,0,Engineering,Junior,Excellent,Fast (50-100 Mbps),High,Few times per week,44,7,29,3,6,100,64.4
+EMP0016,29,1,3,Sales,Junior,Average,Moderate (25-50 Mbps),High,Few times per week,52,6,25,6,8,100,84.7
+EMP0017,25,0,4,Customer Success,Junior,Excellent,Fast (50-100 Mbps),Very High,Few times per week,43,5,34,3,8,100,98
+EMP0018,37,3,4,Engineering,Senior,Good,Very Fast (100+ Mbps),Very High,Weekly,45,12,13,4,4,100,80.3
+EMP0019,26,2,3,Customer Success,Junior,Good,Very Fast (100+ Mbps),Moderate,Daily,36,5,18,7,6,85.3,76.3
+EMP0020,22,0,3,Operations,Junior,Good,Very Fast (100+ Mbps),High,Few times per week,43,5,30,6,7,100,85.9
+EMP0021,48,17,2,Sales,Lead,Average,Fast (50-100 Mbps),Moderate,Few times per week,36,7,58,9,6,99.2,73.1
+EMP0022,32,1,2,Engineering,Junior,Poor,Fast (50-100 Mbps),High,Daily,30,11,53,5,3,100,57.9
+EMP0023,35,1,3,Engineering,Junior,Excellent,Very Fast (100+ Mbps),Very High,Weekly,42,8,30,4,6,100,98
+EMP0024,22,0,1,Sales,Junior,Good,Very Fast (100+ Mbps),High,Few times per week,43,3,0,7,5,100,98
+EMP0025,30,5,2,Engineering,Mid-Level,Average,Very Fast (100+ Mbps),High,Daily,38,4,17,9,6,100,79.8
+EMP0026,35,0,2,Engineering,Junior,Good,Very Fast (100+ Mbps),Moderate,Few times per week,37,8,19,6,6,100,83.3
+EMP0027,24,0,3,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),Very Low,Daily,40,8,40,5,7,100,98
+EMP0028,38,2,0,Operations,Junior,Poor,Very Fast (100+ Mbps),Low,Weekly,37,16,13,8,6,68.8,55
+EMP0029,29,3,4,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Few times per week,46,9,1,6,5,95.4,83.1
+EMP0030,32,1,3,HR,Junior,Excellent,Moderate (25-50 Mbps),Moderate,Daily,44,6,30,4,7,89.6,98
+EMP0031,29,3,4,Engineering,Mid-Level,Average,Very Fast (100+ Mbps),Low,Monthly,51,6,32,9,8,91.5,90.3
+EMP0032,51,21,4,Customer Success,Manager,Poor,Moderate (25-50 Mbps),Moderate,Daily,39,8,13,5,3,90.7,86.8
+EMP0033,34,8,2,Engineering,Mid-Level,Average,Very Fast (100+ Mbps),Moderate,Few times per week,42,2,26,8,5,100,89.4
+EMP0034,25,0,3,Finance,Junior,Good,Fast (50-100 Mbps),Moderate,Weekly,43,4,48,6,5,100,74.7
+EMP0035,42,13,5,Sales,Lead,Poor,Very Fast (100+ Mbps),Moderate,Few times per week,39,7,0,6,5,100,77.2
+EMP0036,24,0,4,Operations,Junior,Poor,Fast (50-100 Mbps),Moderate,Monthly,30,7,4,5,9,50.3,56.3
+EMP0037,36,4,5,Engineering,Senior,Poor,Very Fast (100+ Mbps),Moderate,Weekly,44,7,0,3,4,99.8,90
+EMP0038,22,1,4,Marketing,Junior,Good,Very Fast (100+ Mbps),Moderate,Bi-weekly,56,6,9,4,9,100,50.2
+EMP0039,23,0,1,Engineering,Junior,Average,Moderate (25-50 Mbps),Moderate,Few times per week,47,6,47,5,6,100,94
+EMP0040,36,2,0,Marketing,Junior,Average,Fast (50-100 Mbps),High,Few times per week,53,8,37,5,7,100,98
+EMP0041,41,7,3,Engineering,Senior,Excellent,Very Fast (100+ Mbps),Moderate,Weekly,47,6,23,3,6,100,98
+EMP0042,36,3,2,Marketing,Mid-Level,Good,Very Fast (100+ Mbps),Very High,Bi-weekly,41,5,4,6,7,100,98
+EMP0043,33,0,2,Engineering,Junior,Average,Very Fast (100+ Mbps),Low,Bi-weekly,45,3,15,6,7,73.1,65.4
+EMP0044,32,3,4,Engineering,Senior,Average,Fast (50-100 Mbps),High,Bi-weekly,48,3,20,3,6,100,78
+EMP0045,22,1,2,Operations,Junior,Average,Fast (50-100 Mbps),High,Weekly,32,2,72,6,5,100,73.4
+EMP0046,28,2,2,Data Science,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Daily,44,7,24,3,9,100,75
+EMP0047,30,0,4,Marketing,Junior,Good,Very Fast (100+ Mbps),Moderate,Daily,41,6,2,9,9,100,90.3
+EMP0048,44,7,4,Finance,Senior,Good,Fast (50-100 Mbps),High,Daily,50,8,18,4,3,100,78.9
+EMP0049,38,9,2,Marketing,Mid-Level,Average,Very Fast (100+ Mbps),High,Daily,44,9,20,7,5,100,98
+EMP0050,22,0,4,Marketing,Junior,Excellent,Fast (50-100 Mbps),Low,Daily,27,8,33,4,7,100,68.3
+EMP0051,37,5,5,Engineering,Senior,Average,Fast (50-100 Mbps),Very High,Daily,44,16,0,6,10,100,63.6
+EMP0052,31,0,3,Engineering,Junior,Good,Fast (50-100 Mbps),Very High,Daily,29,6,0,9,8,100,98
+EMP0053,28,3,0,Product,Senior,Average,Very Fast (100+ Mbps),Moderate,Monthly,49,4,21,8,8,100,75.9
+EMP0054,40,9,0,Sales,Senior,Good,Moderate (25-50 Mbps),Moderate,Daily,37,5,63,7,5,96.2,65.9
+EMP0055,44,11,3,Operations,Lead,Average,Very Fast (100+ Mbps),Moderate,Daily,35,9,34,7,5,82.8,55.3
+EMP0056,43,7,2,Marketing,Senior,Poor,Fast (50-100 Mbps),Moderate,Weekly,37,10,36,8,5,100,82.9
+EMP0057,27,1,5,Sales,Junior,Average,Moderate (25-50 Mbps),Low,Weekly,36,5,0,7,6,100,98
+EMP0058,32,5,4,Sales,Senior,Excellent,Fast (50-100 Mbps),Low,Daily,41,12,16,8,8,100,94.4
+EMP0059,37,8,4,Operations,Senior,Excellent,Fast (50-100 Mbps),Moderate,Daily,36,7,35,5,5,75.1,84.1
+EMP0060,43,6,5,Engineering,Senior,Average,Very Fast (100+ Mbps),High,Daily,40,8,0,6,7,100,82.2
+EMP0061,30,1,5,Sales,Junior,Good,Moderate (25-50 Mbps),High,Few times per week,32,5,0,6,8,100,71.9
+EMP0062,33,2,2,Marketing,Junior,Average,Very Fast (100+ Mbps),Moderate,Daily,40,4,47,4,6,84.7,93.8
+EMP0063,25,1,1,Data Science,Junior,Average,Fast (50-100 Mbps),Moderate,Weekly,50,10,12,6,6,100,83.4
+EMP0064,24,0,4,Sales,Junior,Poor,Very Fast (100+ Mbps),Very High,Weekly,39,5,41,3,6,100,98
+EMP0065,42,6,2,Operations,Senior,Good,Very Fast (100+ Mbps),Moderate,Weekly,45,12,79,6,7,100,98
+EMP0066,47,6,3,Engineering,Lead,Average,Very Fast (100+ Mbps),Low,Few times per week,34,5,18,3,8,76,74.7
+EMP0067,34,4,4,Engineering,Mid-Level,Excellent,Very Fast (100+ Mbps),High,Daily,45,8,9,6,10,100,98
+EMP0068,44,17,5,Product,Manager,Good,Moderate (25-50 Mbps),Moderate,Few times per week,48,12,0,6,8,100,98
+EMP0069,38,11,3,HR,Lead,Excellent,Moderate (25-50 Mbps),Moderate,Few times per week,50,7,37,3,6,100,92.2
+EMP0070,29,1,4,Sales,Junior,Average,Fast (50-100 Mbps),High,Weekly,43,2,38,5,3,100,53.3
+EMP0071,38,2,2,Marketing,Junior,Average,Very Fast (100+ Mbps),Moderate,Bi-weekly,46,6,29,7,4,86,81.6
+EMP0072,48,17,4,Engineering,Manager,Excellent,Very Fast (100+ Mbps),High,Daily,34,9,6,6,2,100,98
+EMP0073,34,5,0,Finance,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Monthly,39,10,43,6,6,100,76.1
+EMP0074,49,24,5,Engineering,Director,Average,Very Fast (100+ Mbps),Moderate,Bi-weekly,37,12,0,5,6,95,84.2
+EMP0075,22,0,0,HR,Junior,Average,Fast (50-100 Mbps),Moderate,Daily,43,9,0,2,8,71.1,48.5
+EMP0076,42,7,4,Marketing,Mid-Level,Average,Very Fast (100+ Mbps),High,Daily,38,10,27,9,3,100,90.1
+EMP0077,35,3,0,Engineering,Mid-Level,Poor,Fast (50-100 Mbps),Very High,Daily,46,10,0,5,5,100,84.8
+EMP0078,32,9,2,Product,Senior,Average,Moderate (25-50 Mbps),Moderate,Few times per week,56,7,26,5,6,87.9,98
+EMP0079,35,5,3,Data Science,Mid-Level,Good,Fast (50-100 Mbps),High,Daily,45,10,43,3,8,100,98
+EMP0080,22,0,3,Engineering,Junior,Good,Moderate (25-50 Mbps),Very High,Daily,50,7,57,6,3,100,85.6
+EMP0081,33,6,1,Customer Success,Lead,Good,Fast (50-100 Mbps),High,Bi-weekly,34,9,56,9,5,100,98
+EMP0082,38,10,2,HR,Lead,Average,Fast (50-100 Mbps),Moderate,Daily,41,8,38,4,7,100,96.6
+EMP0083,48,12,4,HR,Manager,Good,Very Fast (100+ Mbps),Moderate,Few times per week,43,9,32,5,5,86.9,84.9
+EMP0084,30,0,4,Design,Mid-Level,Average,Very Fast (100+ Mbps),Very Low,Weekly,42,12,28,4,10,48.4,60.3
+EMP0085,27,1,0,Marketing,Mid-Level,Excellent,Moderate (25-50 Mbps),High,Bi-weekly,53,8,14,8,6,100,65.2
+EMP0086,30,5,4,Finance,Mid-Level,Average,Fast (50-100 Mbps),High,Daily,37,11,31,6,9,100,72.6
+EMP0087,43,13,0,Customer Success,Lead,Average,Fast (50-100 Mbps),Moderate,Daily,43,12,28,8,9,100,85.9
+EMP0088,37,5,3,Marketing,Junior,Good,Fast (50-100 Mbps),Moderate,Weekly,27,6,36,8,5,100,94.8
+EMP0089,30,0,2,Marketing,Junior,Good,Very Fast (100+ Mbps),High,Weekly,44,11,57,7,5,100,74.9
+EMP0090,39,10,3,Sales,Lead,Excellent,Slow (<25 Mbps),High,Monthly,45,7,18,4,5,100,98
+EMP0091,35,7,2,HR,Mid-Level,Average,Very Fast (100+ Mbps),High,Daily,41,14,33,2,6,100,89
+EMP0092,43,5,5,Finance,Mid-Level,Average,Moderate (25-50 Mbps),Moderate,Weekly,44,7,0,3,3,100,88.9
+EMP0093,28,2,2,Marketing,Junior,Good,Very Fast (100+ Mbps),High,Few times per week,38,5,39,7,8,100,83
+EMP0094,32,0,2,Sales,Junior,Excellent,Very Fast (100+ Mbps),Low,Bi-weekly,34,13,39,7,4,98.8,94.6
+EMP0095,31,3,2,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Few times per week,36,8,79,7,9,100,93.3
+EMP0096,22,0,5,Engineering,Junior,Good,Moderate (25-50 Mbps),High,Few times per week,36,7,0,4,7,100,89.3
+EMP0097,37,7,4,Marketing,Mid-Level,Good,Moderate (25-50 Mbps),High,Daily,34,7,20,4,6,100,87.5
+EMP0098,37,9,4,Sales,Senior,Good,Moderate (25-50 Mbps),Very High,Daily,34,12,0,9,7,100,98
+EMP0099,35,9,5,Customer Success,Senior,Excellent,Very Fast (100+ Mbps),Moderate,Few times per week,37,5,0,7,9,100,98
+EMP0100,32,4,5,Marketing,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Daily,39,12,0,7,5,100,79.6
+EMP0101,22,1,4,Design,Junior,Average,Fast (50-100 Mbps),Very High,Few times per week,42,4,21,3,5,100,92.2
+EMP0102,31,2,1,Engineering,Junior,Average,Very Fast (100+ Mbps),Moderate,Daily,34,8,73,5,6,84.4,44.5
+EMP0103,31,5,4,Data Science,Junior,Good,Fast (50-100 Mbps),Moderate,Weekly,36,9,31,2,6,100,98
+EMP0104,27,1,2,Sales,Mid-Level,Average,Fast (50-100 Mbps),High,Daily,38,9,37,7,3,100,86.8
+EMP0105,33,4,4,Operations,Mid-Level,Excellent,Very Fast (100+ Mbps),High,Weekly,44,10,6,6,7,100,98
+EMP0106,38,9,4,Marketing,Lead,Good,Fast (50-100 Mbps),High,Weekly,34,8,22,6,7,100,98
+EMP0107,51,17,4,Sales,Manager,Average,Moderate (25-50 Mbps),High,Daily,38,5,47,8,7,100,82.8
+EMP0108,36,7,3,Engineering,Lead,Excellent,Moderate (25-50 Mbps),High,Daily,47,2,41,7,5,100,98
+EMP0109,37,8,4,Engineering,Senior,Good,Fast (50-100 Mbps),Very High,Weekly,37,11,46,9,8,100,98
+EMP0110,34,4,5,Finance,Mid-Level,Excellent,Fast (50-100 Mbps),High,Daily,34,8,0,2,6,100,98
+EMP0111,22,1,1,Sales,Junior,Good,Fast (50-100 Mbps),Low,Daily,41,13,10,6,7,84.6,57.1
+EMP0112,34,1,2,Data Science,Junior,Average,Very Fast (100+ Mbps),Very High,Few times per week,37,10,49,6,5,100,75.9
+EMP0113,35,5,4,Sales,Senior,Excellent,Very Fast (100+ Mbps),Very High,Few times per week,25,11,0,2,8,100,98
+EMP0114,57,3,5,Data Science,Mid-Level,Excellent,Very Fast (100+ Mbps),Moderate,Daily,43,9,0,7,5,100,98
+EMP0115,33,3,1,Engineering,Senior,Average,Very Fast (100+ Mbps),Very High,Monthly,47,3,33,4,9,100,98
+EMP0116,37,5,0,Engineering,Senior,Good,Very Fast (100+ Mbps),High,Bi-weekly,41,8,41,7,6,100,98
+EMP0117,34,4,0,Sales,Junior,Good,Moderate (25-50 Mbps),High,Bi-weekly,48,6,58,2,4,100,72.8
+EMP0118,24,0,0,Product,Junior,Poor,Fast (50-100 Mbps),Low,Few times per week,45,9,53,6,7,84.6,67.3
+EMP0119,45,12,5,Marketing,Senior,Good,Very Fast (100+ Mbps),High,Monthly,36,6,0,6,7,100,56
+EMP0120,41,5,4,Engineering,Mid-Level,Average,Very Fast (100+ Mbps),Low,Weekly,54,6,43,6,6,99.1,70.4
+EMP0121,42,13,4,Engineering,Senior,Poor,Fast (50-100 Mbps),Moderate,Weekly,43,6,46,5,8,100,98
+EMP0122,26,1,3,Sales,Mid-Level,Excellent,Very Fast (100+ Mbps),Moderate,Few times per week,44,5,23,5,6,89.1,54.3
+EMP0123,47,14,4,Operations,Lead,Good,Very Fast (100+ Mbps),Moderate,Daily,36,10,5,6,4,100,98
+EMP0124,22,1,1,Sales,Junior,Good,Moderate (25-50 Mbps),Very High,Bi-weekly,32,8,46,5,2,100,94.8
+EMP0125,40,2,3,HR,Junior,Average,Fast (50-100 Mbps),Very High,Few times per week,35,11,37,9,9,98.5,56.6
+EMP0126,54,6,3,Operations,Senior,Good,Fast (50-100 Mbps),High,Monthly,47,8,16,9,6,100,92.2
+EMP0127,26,1,1,Product,Junior,Average,Fast (50-100 Mbps),Very High,Daily,52,10,36,5,7,100,42.6
+EMP0128,29,2,3,Marketing,Junior,Poor,Very Fast (100+ Mbps),Very Low,Monthly,43,7,35,7,4,78.4,45
+EMP0129,35,2,2,Sales,Junior,Average,Fast (50-100 Mbps),Moderate,Daily,42,10,65,7,6,100,65.2
+EMP0130,30,5,0,Data Science,Mid-Level,Average,Fast (50-100 Mbps),High,Few times per week,47,9,6,8,7,100,65.6
+EMP0131,22,1,1,Sales,Junior,Average,Fast (50-100 Mbps),Moderate,Few times per week,50,9,59,1,6,60.1,63.5
+EMP0132,35,8,4,Sales,Senior,Average,Very Fast (100+ Mbps),Very Low,Weekly,33,10,24,5,10,94.1,60.8
+EMP0133,25,1,0,Customer Success,Mid-Level,Excellent,Moderate (25-50 Mbps),Low,Weekly,51,5,31,3,7,66.7,74.6
+EMP0134,39,1,5,Engineering,Junior,Average,Very Fast (100+ Mbps),Moderate,Few times per week,39,4,0,5,10,89.1,75.2
+EMP0135,26,1,1,Sales,Junior,Average,Fast (50-100 Mbps),High,Daily,48,12,60,6,4,100,67.1
+EMP0136,48,6,4,Engineering,Mid-Level,Good,Fast (50-100 Mbps),Very High,Few times per week,35,2,16,8,9,100,75.4
+EMP0137,27,3,5,Engineering,Junior,Excellent,Fast (50-100 Mbps),Very High,Daily,48,11,0,8,7,100,97.2
+EMP0138,32,6,5,Engineering,Lead,Good,Fast (50-100 Mbps),Very High,Weekly,33,6,0,6,5,100,49.3
+EMP0139,42,4,5,Engineering,Senior,Excellent,Very Fast (100+ Mbps),Very High,Daily,48,9,0,2,8,100,98
+EMP0140,23,0,2,Sales,Junior,Good,Very Fast (100+ Mbps),Low,Few times per week,45,12,45,5,7,70.2,76.1
+EMP0141,37,5,2,Customer Success,Senior,Good,Very Fast (100+ Mbps),Low,Monthly,32,6,21,3,7,100,97.5
+EMP0142,46,6,3,Operations,Lead,Poor,Very Fast (100+ Mbps),Moderate,Daily,49,11,21,7,4,100,98
+EMP0143,22,0,1,Operations,Junior,Good,Very Fast (100+ Mbps),Moderate,Few times per week,36,7,64,7,7,98.4,92.8
+EMP0144,36,5,0,Marketing,Senior,Average,Fast (50-100 Mbps),Moderate,Daily,48,6,43,6,5,76.4,76.6
+EMP0145,37,5,5,Customer Success,Mid-Level,Excellent,Very Fast (100+ Mbps),High,Daily,42,9,0,5,6,100,79.6
+EMP0146,42,9,3,Product,Senior,Good,Very Fast (100+ Mbps),Low,Few times per week,34,11,44,8,9,75.2,86.1
+EMP0147,23,0,4,Customer Success,Junior,Good,Fast (50-100 Mbps),High,Few times per week,35,4,0,6,4,100,77.6
+EMP0148,23,0,5,Customer Success,Junior,Good,Moderate (25-50 Mbps),Moderate,Few times per week,65,8,0,6,9,100,77.5
+EMP0149,39,2,4,Engineering,Mid-Level,Average,Fast (50-100 Mbps),High,Bi-weekly,55,9,44,8,6,100,67.8
+EMP0150,37,7,4,Operations,Mid-Level,Average,Moderate (25-50 Mbps),Low,Weekly,40,7,9,2,4,91.5,48.7
+EMP0151,37,5,4,Operations,Senior,Average,Fast (50-100 Mbps),Moderate,Bi-weekly,44,9,15,4,8,100,74.9
+EMP0152,38,3,1,Marketing,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Few times per week,49,13,25,6,7,100,84.5
+EMP0153,28,3,2,Marketing,Mid-Level,Average,Fast (50-100 Mbps),Very High,Few times per week,34,6,42,6,6,100,65.1
+EMP0154,37,6,5,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),High,Few times per week,46,5,0,6,5,100,98
+EMP0155,37,8,5,Engineering,Lead,Excellent,Very Fast (100+ Mbps),Moderate,Weekly,47,11,0,7,6,100,98
+EMP0156,28,2,5,Product,Junior,Average,Very Fast (100+ Mbps),High,Few times per week,44,10,0,5,4,100,98
+EMP0157,51,2,3,Operations,Junior,Average,Very Fast (100+ Mbps),Low,Daily,50,12,30,1,8,95.8,78.3
+EMP0158,39,5,5,Engineering,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Daily,42,5,0,5,5,95.7,72.4
+EMP0159,24,0,0,Engineering,Junior,Average,Fast (50-100 Mbps),High,Few times per week,48,10,47,9,8,100,60.9
+EMP0160,40,3,1,Operations,Senior,Average,Very Fast (100+ Mbps),High,Daily,43,11,42,7,8,100,98
+EMP0161,26,1,3,Sales,Junior,Good,Moderate (25-50 Mbps),Moderate,Daily,32,8,30,5,9,100,98
+EMP0162,42,5,3,Marketing,Mid-Level,Good,Fast (50-100 Mbps),High,Weekly,47,7,20,4,3,100,72.8
+EMP0163,45,6,2,Engineering,Senior,Poor,Fast (50-100 Mbps),Very High,Daily,49,3,39,8,6,100,83.7
+EMP0164,27,1,2,Engineering,Junior,Average,Moderate (25-50 Mbps),Very High,Few times per week,41,5,43,4,7,100,70
+EMP0165,43,11,1,Sales,Senior,Good,Very Fast (100+ Mbps),Very High,Weekly,33,9,6,6,8,100,98
+EMP0166,38,3,3,Finance,Senior,Good,Fast (50-100 Mbps),High,Daily,47,13,32,6,4,100,91.1
+EMP0167,42,6,4,Engineering,Lead,Good,Very Fast (100+ Mbps),High,Daily,43,12,28,5,8,100,98
+EMP0168,52,6,4,Sales,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Daily,43,11,40,5,3,77.8,61.6
+EMP0169,32,5,1,Finance,Mid-Level,Good,Moderate (25-50 Mbps),Moderate,Few times per week,43,2,65,7,6,89.1,80.4
+EMP0170,28,2,3,Customer Success,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Weekly,48,8,48,3,3,84,59.8
+EMP0171,26,1,4,Engineering,Junior,Average,Very Fast (100+ Mbps),High,Few times per week,43,6,0,5,4,100,98
+EMP0172,27,1,3,HR,Junior,Average,Very Fast (100+ Mbps),Low,Few times per week,39,7,12,9,8,67.6,35
+EMP0173,34,8,3,Design,Senior,Poor,Very Fast (100+ Mbps),Moderate,Few times per week,32,10,9,7,1,65.8,51.6
+EMP0174,38,7,4,Product,Senior,Average,Fast (50-100 Mbps),High,Weekly,39,8,25,2,7,100,98
+EMP0175,37,5,5,HR,Mid-Level,Average,Very Fast (100+ Mbps),Moderate,Daily,47,11,0,5,3,100,84.5
+EMP0176,42,5,1,Finance,Senior,Average,Very Fast (100+ Mbps),Very High,Weekly,39,5,21,3,8,100,94
+EMP0177,35,1,3,Engineering,Junior,Good,Fast (50-100 Mbps),High,Weekly,47,9,39,6,8,100,98
+EMP0178,48,7,3,Operations,Lead,Poor,Very Fast (100+ Mbps),Very Low,Daily,33,2,14,3,7,100,91.5
+EMP0179,32,3,3,Operations,Mid-Level,Excellent,Moderate (25-50 Mbps),High,Few times per week,35,5,28,5,8,100,80.3
+EMP0180,59,20,1,Sales,Manager,Good,Very Fast (100+ Mbps),Moderate,Daily,35,11,19,6,7,99.9,98
+EMP0181,40,2,1,Marketing,Junior,Good,Very Fast (100+ Mbps),High,Few times per week,42,8,37,5,6,100,80.7
+EMP0182,27,0,2,Finance,Junior,Good,Very Fast (100+ Mbps),Low,Daily,52,10,0,6,6,96.1,66.5
+EMP0183,25,1,5,Design,Junior,Good,Slow (<25 Mbps),High,Daily,55,7,0,10,7,100,98
+EMP0184,39,7,4,Sales,Senior,Average,Fast (50-100 Mbps),High,Few times per week,48,10,15,4,6,100,68.2
+EMP0185,32,2,4,Engineering,Mid-Level,Excellent,Very Fast (100+ Mbps),Moderate,Weekly,30,7,0,6,1,68.1,70.1
+EMP0186,41,6,4,Operations,Lead,Poor,Fast (50-100 Mbps),Moderate,Bi-weekly,37,5,41,6,3,87,90.6
+EMP0187,39,6,1,Engineering,Lead,Good,Fast (50-100 Mbps),Moderate,Weekly,25,8,37,8,7,100,88.5
+EMP0188,34,6,5,Operations,Senior,Poor,Very Fast (100+ Mbps),Moderate,Few times per week,42,7,0,5,6,65.3,54.3
+EMP0189,27,3,3,Engineering,Senior,Good,Fast (50-100 Mbps),High,Monthly,51,8,23,6,10,100,98
+EMP0190,22,1,2,Marketing,Junior,Good,Very Fast (100+ Mbps),High,Daily,46,11,27,7,6,100,96.5
+EMP0191,30,0,4,Operations,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Daily,31,10,22,9,3,100,98
+EMP0192,42,3,4,Engineering,Senior,Average,Fast (50-100 Mbps),Moderate,Few times per week,50,10,40,4,5,89.8,76.5
+EMP0193,36,7,4,Engineering,Lead,Excellent,Very Fast (100+ Mbps),High,Few times per week,49,6,25,10,7,100,83.9
+EMP0194,23,0,1,Sales,Mid-Level,Good,Moderate (25-50 Mbps),Moderate,Few times per week,51,8,27,7,7,90.1,61.2
+EMP0195,36,0,5,Sales,Junior,Excellent,Very Fast (100+ Mbps),Low,Weekly,48,1,0,6,7,83.9,43
+EMP0196,38,5,5,Finance,Senior,Good,Fast (50-100 Mbps),Moderate,Daily,38,6,0,4,4,100,98
+EMP0197,27,0,2,Marketing,Junior,Poor,Very Fast (100+ Mbps),Very High,Few times per week,30,9,0,6,8,100,98
+EMP0198,36,1,0,Sales,Junior,Excellent,Moderate (25-50 Mbps),High,Few times per week,49,10,24,3,9,100,95.6
+EMP0199,35,2,1,Marketing,Mid-Level,Average,Very Fast (100+ Mbps),High,Weekly,46,10,32,9,4,100,93.2
+EMP0200,24,0,5,Engineering,Junior,Average,Slow (<25 Mbps),High,Bi-weekly,30,7,0,4,7,100,74.7
+EMP0201,38,8,3,HR,Senior,Excellent,Very Fast (100+ Mbps),High,Weekly,36,12,30,7,5,100,98
+EMP0202,40,7,2,Engineering,Lead,Good,Fast (50-100 Mbps),High,Daily,36,8,45,5,4,100,98
+EMP0203,44,15,2,Customer Success,Senior,Excellent,Fast (50-100 Mbps),Very High,Weekly,46,8,49,4,5,100,82.6
+EMP0204,44,2,2,Marketing,Junior,Good,Very Fast (100+ Mbps),High,Daily,41,9,32,8,7,100,96.9
+EMP0205,22,1,4,Marketing,Junior,Excellent,Very Fast (100+ Mbps),High,Monthly,40,4,11,8,9,100,90.9
+EMP0206,26,2,3,Finance,Junior,Good,Moderate (25-50 Mbps),High,Weekly,39,7,22,1,8,100,98
+EMP0207,39,9,5,Customer Success,Senior,Good,Very Fast (100+ Mbps),Very High,Few times per week,35,5,0,9,4,100,98
+EMP0208,39,10,4,Design,Senior,Average,Fast (50-100 Mbps),Very High,Weekly,47,8,10,5,6,100,98
+EMP0209,39,8,4,Marketing,Mid-Level,Average,Very Fast (100+ Mbps),High,Few times per week,37,7,0,3,4,100,87.2
+EMP0210,65,32,2,Engineering,Director,Average,Slow (<25 Mbps),Low,Daily,48,7,43,6,6,98.6,88.5
+EMP0211,40,8,0,Product,Senior,Good,Fast (50-100 Mbps),Moderate,Weekly,33,10,0,3,7,100,84.3
+EMP0212,45,17,3,Engineering,Manager,Good,Very Fast (100+ Mbps),High,Few times per week,39,9,8,4,8,100,73.7
+EMP0213,43,14,2,Customer Success,Senior,Good,Very Fast (100+ Mbps),Low,Bi-weekly,53,7,33,6,8,100,85.7
+EMP0214,40,15,2,Finance,Lead,Good,Very Fast (100+ Mbps),High,Daily,43,12,67,5,2,100,50.7
+EMP0215,32,6,5,Product,Senior,Good,Very Fast (100+ Mbps),Moderate,Weekly,39,9,0,4,7,100,68.4
+EMP0216,41,1,3,Product,Junior,Poor,Very Fast (100+ Mbps),Very High,Weekly,38,7,14,4,6,100,85.8
+EMP0217,28,3,1,Engineering,Mid-Level,Good,Moderate (25-50 Mbps),Moderate,Bi-weekly,36,8,0,6,6,100,83
+EMP0218,32,4,1,Operations,Junior,Good,Moderate (25-50 Mbps),Very High,Daily,44,5,31,8,5,100,72.7
+EMP0219,30,2,2,Engineering,Mid-Level,Average,Very Fast (100+ Mbps),Very High,Few times per week,47,3,33,2,2,100,98
+EMP0220,35,2,5,Engineering,Junior,Average,Fast (50-100 Mbps),High,Weekly,43,10,0,4,8,100,98
+EMP0221,55,31,2,Marketing,Manager,Good,Very Fast (100+ Mbps),Low,Few times per week,41,6,15,7,5,83.7,91.3
+EMP0222,22,1,2,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),Very High,Few times per week,45,10,29,10,9,100,80.9
+EMP0223,41,9,4,Finance,Senior,Average,Very Fast (100+ Mbps),High,Few times per week,33,8,13,7,3,100,85.6
+EMP0224,22,1,2,Data Science,Junior,Excellent,Fast (50-100 Mbps),High,Monthly,44,8,41,2,6,100,79.6
+EMP0225,30,0,2,Operations,Junior,Good,Slow (<25 Mbps),Moderate,Weekly,44,9,20,4,8,100,78.2
+EMP0226,44,4,1,Engineering,Mid-Level,Average,Very Fast (100+ Mbps),High,Few times per week,43,13,20,5,5,100,83.7
+EMP0227,35,1,2,Customer Success,Mid-Level,Average,Very Fast (100+ Mbps),Moderate,Weekly,38,7,50,4,10,88.1,68.9
+EMP0228,25,2,1,Customer Success,Junior,Excellent,Very Fast (100+ Mbps),High,Few times per week,37,6,30,4,7,100,89.9
+EMP0229,28,0,0,HR,Junior,Good,Moderate (25-50 Mbps),Moderate,Monthly,34,5,23,5,5,100,76.4
+EMP0230,41,7,4,Operations,Lead,Good,Very Fast (100+ Mbps),Very High,Few times per week,50,8,47,5,8,100,98
+EMP0231,28,0,1,Product,Junior,Good,Fast (50-100 Mbps),High,Daily,41,8,41,5,10,100,50.2
+EMP0232,36,0,4,Engineering,Junior,Good,Moderate (25-50 Mbps),Low,Daily,39,9,0,6,5,83.4,66.4
+EMP0233,35,7,4,Design,Lead,Poor,Very Fast (100+ Mbps),Moderate,Few times per week,38,11,6,9,8,81.6,81
+EMP0234,29,0,3,Design,Junior,Good,Fast (50-100 Mbps),Very Low,Few times per week,36,8,23,10,10,100,98
+EMP0235,54,8,2,Product,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Weekly,38,2,52,1,5,100,88.2
+EMP0236,40,5,1,Engineering,Junior,Good,Moderate (25-50 Mbps),High,Bi-weekly,49,8,0,6,5,100,90.3
+EMP0237,22,1,4,Customer Success,Mid-Level,Excellent,Very Fast (100+ Mbps),Moderate,Bi-weekly,45,6,6,7,7,83.2,88.5
+EMP0238,36,4,4,Marketing,Mid-Level,Good,Slow (<25 Mbps),Moderate,Daily,46,14,45,3,10,88.2,84.3
+EMP0239,29,1,4,Operations,Junior,Excellent,Moderate (25-50 Mbps),High,Few times per week,47,8,12,9,7,100,57.7
+EMP0240,42,7,0,Customer Success,Senior,Average,Fast (50-100 Mbps),Very High,Weekly,55,12,18,9,6,100,87.3
+EMP0241,27,0,5,Engineering,Junior,Good,Fast (50-100 Mbps),High,Daily,42,6,0,4,3,100,98
+EMP0242,33,4,0,Sales,Mid-Level,Good,Fast (50-100 Mbps),Very High,Few times per week,39,4,5,7,9,100,92.1
+EMP0243,39,7,2,Customer Success,Lead,Good,Very Fast (100+ Mbps),High,Daily,44,10,45,6,3,100,68.8
+EMP0244,42,0,3,Customer Success,Junior,Excellent,Very Fast (100+ Mbps),Low,Daily,45,9,0,2,5,49.1,53.1
+EMP0245,24,0,0,Customer Success,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Daily,41,7,32,5,6,93.8,60.9
+EMP0246,31,4,3,Engineering,Senior,Average,Fast (50-100 Mbps),Moderate,Weekly,36,8,31,4,6,100,80.5
+EMP0247,30,4,4,Finance,Mid-Level,Poor,Moderate (25-50 Mbps),High,Few times per week,43,9,26,8,3,100,87.8
+EMP0248,29,1,4,Engineering,Mid-Level,Excellent,Moderate (25-50 Mbps),High,Weekly,45,5,28,8,3,100,98
+EMP0249,50,9,5,HR,Senior,Average,Fast (50-100 Mbps),Moderate,Weekly,44,10,0,2,4,92.9,94.8
+EMP0250,38,1,3,Engineering,Junior,Good,Fast (50-100 Mbps),Moderate,Daily,30,7,15,7,2,100,83.8
+EMP0251,23,0,4,HR,Mid-Level,Good,Moderate (25-50 Mbps),Moderate,Daily,32,14,41,3,10,93.3,66.4
+EMP0252,43,8,0,Marketing,Senior,Average,Moderate (25-50 Mbps),Low,Daily,46,5,43,7,5,86.7,77
+EMP0253,54,11,3,Data Science,Senior,Good,Fast (50-100 Mbps),High,Few times per week,39,8,3,8,9,100,98
+EMP0254,44,5,1,Operations,Mid-Level,Excellent,Very Fast (100+ Mbps),High,Bi-weekly,55,6,24,2,8,100,98
+EMP0255,22,1,2,Operations,Mid-Level,Excellent,Fast (50-100 Mbps),High,Weekly,50,15,73,5,7,100,64.8
+EMP0256,30,3,2,Sales,Senior,Excellent,Fast (50-100 Mbps),High,Daily,34,12,42,5,7,100,98
+EMP0257,46,7,3,HR,Senior,Excellent,Fast (50-100 Mbps),Very High,Daily,48,11,35,9,6,100,98
+EMP0258,28,3,3,Marketing,Senior,Good,Slow (<25 Mbps),Low,Weekly,51,9,7,5,7,97.3,84.1
+EMP0259,38,10,5,Engineering,Senior,Good,Moderate (25-50 Mbps),Very Low,Few times per week,39,7,0,4,9,100,95.8
+EMP0260,41,2,3,Operations,Junior,Average,Very Fast (100+ Mbps),Low,Weekly,41,13,40,6,8,100,86.6
+EMP0261,26,3,5,Customer Success,Senior,Good,Very Fast (100+ Mbps),Low,Daily,38,6,0,4,5,80.7,69.4
+EMP0262,34,7,4,Engineering,Lead,Excellent,Very Fast (100+ Mbps),Very Low,Few times per week,35,10,0,6,3,93.7,75.6
+EMP0263,22,0,3,Engineering,Junior,Excellent,Very Fast (100+ Mbps),Low,Few times per week,51,8,29,6,5,72.7,75.6
+EMP0264,25,1,4,Operations,Junior,Average,Very Fast (100+ Mbps),Moderate,Weekly,26,2,20,7,4,87.6,56.8
+EMP0265,32,7,1,Customer Success,Mid-Level,Excellent,Moderate (25-50 Mbps),Very High,Daily,37,13,29,6,10,100,98
+EMP0266,23,0,4,Engineering,Junior,Average,Very Fast (100+ Mbps),Very High,Daily,39,13,40,4,6,100,70.3
+EMP0267,49,2,3,Design,Mid-Level,Good,Fast (50-100 Mbps),Very High,Few times per week,42,2,8,9,4,100,98
+EMP0268,22,0,5,Design,Junior,Poor,Very Fast (100+ Mbps),High,Daily,34,10,0,5,7,100,65.2
+EMP0269,31,4,4,Engineering,Senior,Good,Fast (50-100 Mbps),Moderate,Weekly,50,8,28,7,6,100,96
+EMP0270,36,7,4,Engineering,Lead,Excellent,Moderate (25-50 Mbps),High,Daily,30,6,28,6,5,100,98
+EMP0271,47,16,4,Finance,Director,Good,Fast (50-100 Mbps),High,Daily,31,8,28,8,3,100,80.3
+EMP0272,22,0,2,Design,Junior,Good,Very Fast (100+ Mbps),Very High,Bi-weekly,42,3,63,5,3,100,95.9
+EMP0273,45,5,2,Finance,Mid-Level,Good,Moderate (25-50 Mbps),Very High,Daily,34,13,34,6,7,100,70.9
+EMP0274,35,6,3,Marketing,Senior,Good,Very Fast (100+ Mbps),High,Daily,43,6,31,3,8,100,98
+EMP0275,26,0,3,Engineering,Junior,Excellent,Fast (50-100 Mbps),Very High,Daily,37,6,40,3,9,100,98
+EMP0276,39,4,2,Marketing,Senior,Good,Very Fast (100+ Mbps),Very High,Bi-weekly,46,7,19,8,7,100,98
+EMP0277,36,6,5,Operations,Lead,Poor,Fast (50-100 Mbps),High,Weekly,36,4,0,8,7,100,82.7
+EMP0278,29,1,3,Sales,Junior,Poor,Very Fast (100+ Mbps),Moderate,Monthly,50,11,22,5,5,96,63.7
+EMP0279,35,4,5,Marketing,Senior,Good,Fast (50-100 Mbps),High,Weekly,45,6,0,7,5,100,90
+EMP0280,31,6,4,Engineering,Senior,Excellent,Fast (50-100 Mbps),Moderate,Weekly,37,5,5,8,6,100,91.7
+EMP0281,36,2,3,Marketing,Junior,Excellent,Very Fast (100+ Mbps),High,Few times per week,45,9,33,3,8,100,98
+EMP0282,40,4,5,Engineering,Mid-Level,Average,Moderate (25-50 Mbps),Very High,Weekly,42,9,0,10,6,100,98
+EMP0283,49,8,3,Engineering,Senior,Average,Very Fast (100+ Mbps),Moderate,Few times per week,46,10,26,8,5,91.2,98
+EMP0284,23,0,5,Customer Success,Junior,Poor,Moderate (25-50 Mbps),High,Weekly,45,13,0,7,9,100,50.6
+EMP0285,54,8,2,Engineering,Senior,Good,Very Fast (100+ Mbps),Very High,Weekly,44,8,49,6,6,100,98
+EMP0286,22,0,2,Operations,Mid-Level,Average,Fast (50-100 Mbps),Low,Weekly,42,11,33,8,3,100,76.2
+EMP0287,33,9,3,Engineering,Senior,Average,Fast (50-100 Mbps),Moderate,Daily,47,8,16,7,7,100,98
+EMP0288,40,13,3,Engineering,Lead,Good,Very Fast (100+ Mbps),High,Few times per week,49,8,30,6,7,100,98
+EMP0289,37,1,3,Sales,Junior,Average,Very Fast (100+ Mbps),Low,Few times per week,42,14,46,8,10,94.6,73.3
+EMP0290,29,1,3,Engineering,Mid-Level,Excellent,Fast (50-100 Mbps),Low,Few times per week,45,3,33,4,8,35.2,49.6
+EMP0291,33,6,2,Engineering,Senior,Good,Moderate (25-50 Mbps),High,Monthly,47,7,6,4,3,100,83.2
+EMP0292,30,4,5,Product,Senior,Poor,Slow (<25 Mbps),Moderate,Few times per week,51,7,0,9,6,74.5,66.2
+EMP0293,29,2,3,Engineering,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Daily,50,6,27,2,6,79,77.2
+EMP0294,42,9,3,Engineering,Senior,Average,Very Fast (100+ Mbps),Very High,Few times per week,48,7,56,2,6,100,98
+EMP0295,38,3,4,Customer Success,Senior,Good,Fast (50-100 Mbps),Moderate,Weekly,39,6,15,7,4,100,98
+EMP0296,28,3,4,Sales,Mid-Level,Average,Fast (50-100 Mbps),Very High,Bi-weekly,34,6,17,5,6,100,82.7
+EMP0297,43,19,5,Finance,Manager,Average,Moderate (25-50 Mbps),Moderate,Few times per week,45,11,0,8,6,100,98
+EMP0298,37,2,3,Engineering,Junior,Average,Very Fast (100+ Mbps),Moderate,Daily,45,8,0,5,5,94.4,89.5
+EMP0299,42,11,1,Engineering,Lead,Average,Very Fast (100+ Mbps),High,Daily,39,6,33,5,7,100,83.9
+EMP0300,40,8,3,Operations,Lead,Good,Fast (50-100 Mbps),Low,Daily,33,12,18,9,5,100,98
+EMP0301,27,2,3,Data Science,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Daily,51,11,32,6,4,100,85.5
+EMP0302,29,2,5,Engineering,Junior,Average,Fast (50-100 Mbps),Low,Weekly,44,5,0,6,10,92.5,98
+EMP0303,41,6,3,Sales,Mid-Level,Good,Very Fast (100+ Mbps),High,Daily,34,3,25,8,7,100,98
+EMP0304,40,5,5,Engineering,Mid-Level,Average,Fast (50-100 Mbps),Very High,Daily,41,7,0,5,7,100,98
+EMP0305,34,0,3,Engineering,Junior,Excellent,Fast (50-100 Mbps),Moderate,Weekly,33,6,27,4,5,93.7,77.2
+EMP0306,36,11,5,Product,Senior,Average,Very Fast (100+ Mbps),High,Few times per week,46,5,0,6,5,100,98
+EMP0307,46,7,0,Engineering,Senior,Good,Very Fast (100+ Mbps),High,Daily,53,7,46,5,4,100,78.7
+EMP0308,29,3,5,Customer Success,Mid-Level,Average,Slow (<25 Mbps),Moderate,Few times per week,40,9,0,4,3,75.4,67.1
+EMP0309,39,5,5,Engineering,Mid-Level,Average,Moderate (25-50 Mbps),High,Daily,41,12,0,3,7,100,85.5
+EMP0310,33,3,5,Product,Mid-Level,Excellent,Moderate (25-50 Mbps),High,Few times per week,40,7,0,7,5,100,89.8
+EMP0311,33,6,0,Marketing,Senior,Good,Slow (<25 Mbps),High,Weekly,40,11,0,2,5,100,79.8
+EMP0312,44,7,1,Product,Lead,Average,Very Fast (100+ Mbps),High,Bi-weekly,37,5,57,6,4,100,71.7
+EMP0313,42,11,4,Engineering,Lead,Average,Very Fast (100+ Mbps),High,Daily,50,12,31,5,4,100,98
+EMP0314,42,15,0,HR,Manager,Good,Very Fast (100+ Mbps),Very High,Daily,43,10,54,4,6,100,74.3
+EMP0315,46,19,0,Finance,Lead,Poor,Moderate (25-50 Mbps),High,Weekly,42,15,43,8,8,100,91.5
+EMP0316,35,3,2,Marketing,Senior,Good,Fast (50-100 Mbps),Moderate,Daily,40,6,42,7,10,100,98
+EMP0317,41,11,3,Customer Success,Lead,Good,Fast (50-100 Mbps),High,Few times per week,34,8,22,7,6,100,98
+EMP0318,32,2,3,Operations,Junior,Average,Moderate (25-50 Mbps),Moderate,Daily,47,8,17,5,7,52.6,35
+EMP0319,37,6,0,Product,Lead,Excellent,Fast (50-100 Mbps),High,Weekly,50,7,52,6,4,100,98
+EMP0320,33,5,1,Sales,Senior,Good,Very Fast (100+ Mbps),Moderate,Bi-weekly,30,12,43,3,7,82.8,67.9
+EMP0321,35,5,3,Operations,Mid-Level,Average,Very Fast (100+ Mbps),Very Low,Monthly,46,7,19,3,6,100,81.3
+EMP0322,40,6,3,Product,Senior,Good,Very Fast (100+ Mbps),Moderate,Weekly,47,6,44,5,2,100,86.8
+EMP0323,27,2,1,Engineering,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Daily,49,8,31,6,6,83.2,73.3
+EMP0324,53,17,3,Marketing,Manager,Good,Very Fast (100+ Mbps),Very High,Weekly,49,9,31,3,6,100,95.6
+EMP0325,25,2,5,Data Science,Junior,Good,Fast (50-100 Mbps),High,Few times per week,57,12,0,6,6,100,89
+EMP0326,24,0,5,Marketing,Mid-Level,Good,Very Fast (100+ Mbps),Low,Bi-weekly,44,8,0,4,7,100,94.5
+EMP0327,45,9,5,Engineering,Senior,Average,Fast (50-100 Mbps),Moderate,Bi-weekly,47,9,0,7,2,86.8,98
+EMP0328,42,7,5,Sales,Senior,Excellent,Fast (50-100 Mbps),Moderate,Monthly,42,5,0,1,8,75.4,57.5
+EMP0329,40,0,3,Product,Junior,Average,Slow (<25 Mbps),Low,Bi-weekly,37,7,7,8,7,75.1,91.5
+EMP0330,40,9,4,Design,Lead,Average,Fast (50-100 Mbps),Very High,Few times per week,46,8,18,7,2,100,87.5
+EMP0331,34,0,3,Design,Junior,Average,Slow (<25 Mbps),Moderate,Weekly,47,4,8,6,10,100,88.6
+EMP0332,26,0,4,Finance,Junior,Good,Very Fast (100+ Mbps),High,Monthly,44,9,8,7,6,100,98
+EMP0333,35,10,2,Marketing,Senior,Good,Very Fast (100+ Mbps),Moderate,Few times per week,32,9,31,5,10,87.3,98
+EMP0334,28,1,4,Engineering,Junior,Good,Fast (50-100 Mbps),Very High,Weekly,33,7,16,4,4,100,71.8
+EMP0335,43,10,3,Engineering,Senior,Average,Very Fast (100+ Mbps),Low,Bi-weekly,46,8,39,1,2,100,78.9
+EMP0336,33,9,0,Engineering,Senior,Good,Fast (50-100 Mbps),Moderate,Few times per week,39,6,22,6,7,93.6,80.2
+EMP0337,27,1,4,Engineering,Junior,Good,Very Fast (100+ Mbps),High,Daily,44,5,32,5,9,100,91.6
+EMP0338,32,7,0,Product,Lead,Good,Fast (50-100 Mbps),Moderate,Daily,44,15,20,4,3,100,70.6
+EMP0339,38,1,2,Customer Success,Junior,Average,Moderate (25-50 Mbps),Moderate,Daily,41,3,34,8,8,56.7,51.4
+EMP0340,29,1,0,Operations,Junior,Excellent,Very Fast (100+ Mbps),High,Few times per week,40,8,13,7,3,100,94.7
+EMP0341,27,2,2,Data Science,Junior,Poor,Slow (<25 Mbps),Very High,Few times per week,41,12,48,10,8,100,71.8
+EMP0342,37,12,0,Design,Senior,Excellent,Very Fast (100+ Mbps),High,Few times per week,45,11,64,7,7,100,98
+EMP0343,37,7,5,Finance,Lead,Good,Very Fast (100+ Mbps),Very High,Few times per week,44,6,0,8,8,100,98
+EMP0344,30,2,3,Marketing,Junior,Good,Fast (50-100 Mbps),Moderate,Monthly,37,7,7,3,6,100,98
+EMP0345,30,3,3,Engineering,Mid-Level,Excellent,Moderate (25-50 Mbps),High,Daily,41,6,33,7,9,100,98
+EMP0346,37,10,2,Marketing,Lead,Average,Fast (50-100 Mbps),High,Bi-weekly,35,16,66,3,5,100,98
+EMP0347,22,0,4,Engineering,Junior,Good,Fast (50-100 Mbps),Moderate,Daily,45,5,12,3,5,79.9,96.4
+EMP0348,22,0,4,Sales,Mid-Level,Excellent,Very Fast (100+ Mbps),Very Low,Few times per week,39,3,46,8,10,85.6,68.2
+EMP0349,28,0,4,Design,Junior,Average,Very Fast (100+ Mbps),Moderate,Few times per week,46,6,25,5,4,100,98
+EMP0350,33,5,4,Sales,Senior,Average,Very Fast (100+ Mbps),Moderate,Weekly,40,2,23,5,7,100,62.2
+EMP0351,37,9,5,Engineering,Mid-Level,Poor,Very Fast (100+ Mbps),High,Few times per week,48,10,0,4,7,100,98
+EMP0352,48,19,5,Operations,Manager,Good,Slow (<25 Mbps),Very High,Daily,49,6,0,6,5,100,98
+EMP0353,42,8,4,Operations,Mid-Level,Good,Moderate (25-50 Mbps),Very High,Few times per week,44,7,20,4,5,100,98
+EMP0354,33,3,2,Engineering,Mid-Level,Excellent,Very Fast (100+ Mbps),Moderate,Daily,39,6,29,6,5,100,98
+EMP0355,34,4,4,Engineering,Senior,Average,Fast (50-100 Mbps),High,Few times per week,36,8,6,7,8,100,88.6
+EMP0356,25,1,3,Data Science,Junior,Good,Fast (50-100 Mbps),High,Few times per week,47,9,16,7,6,100,85.6
+EMP0357,34,2,4,Engineering,Junior,Poor,Very Fast (100+ Mbps),Low,Few times per week,41,8,57,5,6,79.6,60.7
+EMP0358,32,7,4,Customer Success,Senior,Average,Very Fast (100+ Mbps),High,Weekly,42,5,3,7,7,100,94.7
+EMP0359,37,6,4,Marketing,Lead,Poor,Fast (50-100 Mbps),Low,Bi-weekly,39,7,27,4,6,100,85.5
+EMP0360,27,1,4,Marketing,Junior,Poor,Fast (50-100 Mbps),Low,Few times per week,33,6,23,8,6,70.5,35
+EMP0361,39,9,0,Sales,Senior,Good,Very Fast (100+ Mbps),Very High,Daily,48,6,31,1,7,100,98
+EMP0362,48,10,0,HR,Senior,Excellent,Moderate (25-50 Mbps),Low,Weekly,41,11,19,9,6,71.8,84
+EMP0363,34,3,2,Product,Senior,Excellent,Fast (50-100 Mbps),Very High,Few times per week,30,6,0,5,5,100,89.6
+EMP0364,38,1,5,Engineering,Junior,Good,Very Fast (100+ Mbps),Low,Few times per week,41,8,0,5,8,100,75.6
+EMP0365,41,6,4,Engineering,Senior,Good,Very Fast (100+ Mbps),High,Few times per week,33,3,29,6,3,100,93.9
+EMP0366,31,3,4,Engineering,Junior,Excellent,Fast (50-100 Mbps),Moderate,Weekly,45,6,15,8,10,100,83.7
+EMP0367,37,6,4,Customer Success,Senior,Good,Fast (50-100 Mbps),Moderate,Bi-weekly,44,5,26,5,7,100,80.9
+EMP0368,35,5,4,Marketing,Senior,Good,Fast (50-100 Mbps),Moderate,Monthly,51,10,13,3,5,87,65.3
+EMP0369,35,1,5,Engineering,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Bi-weekly,33,8,0,5,4,100,98
+EMP0370,28,2,4,Sales,Junior,Good,Very Fast (100+ Mbps),Low,Weekly,50,10,32,1,5,79.6,71.4
+EMP0371,35,9,4,Marketing,Senior,Excellent,Very Fast (100+ Mbps),Low,Bi-weekly,45,17,24,4,9,90.7,79.5
+EMP0372,39,2,4,Customer Success,Junior,Good,Very Fast (100+ Mbps),Moderate,Daily,33,4,27,2,8,79.2,50.8
+EMP0373,48,9,2,Operations,Lead,Excellent,Fast (50-100 Mbps),Moderate,Weekly,52,3,45,5,4,96.4,98
+EMP0374,43,6,4,Engineering,Senior,Average,Very Fast (100+ Mbps),High,Daily,41,11,25,2,7,100,98
+EMP0375,54,3,3,Engineering,Senior,Excellent,Very Fast (100+ Mbps),Moderate,Weekly,34,11,13,10,9,100,81.7
+EMP0376,28,1,1,Sales,Junior,Average,Very Fast (100+ Mbps),Moderate,Daily,48,8,52,7,8,83.9,68.6
+EMP0377,42,3,4,Engineering,Senior,Good,Fast (50-100 Mbps),Moderate,Few times per week,35,13,52,5,7,99.9,75.1
+EMP0378,36,1,3,HR,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Daily,48,13,30,7,5,100,80.5
+EMP0379,54,27,5,Sales,Lead,Good,Moderate (25-50 Mbps),High,Few times per week,40,11,0,5,9,100,52.9
+EMP0380,27,2,2,Sales,Mid-Level,Good,Moderate (25-50 Mbps),High,Few times per week,39,10,0,6,9,100,80.5
+EMP0381,27,2,3,Marketing,Mid-Level,Excellent,Fast (50-100 Mbps),Very High,Daily,34,7,12,8,5,100,98
+EMP0382,29,4,3,Finance,Mid-Level,Average,Very Fast (100+ Mbps),Moderate,Weekly,35,6,21,7,6,100,98
+EMP0383,22,1,1,Operations,Mid-Level,Average,Fast (50-100 Mbps),High,Bi-weekly,42,8,27,3,3,100,86.7
+EMP0384,30,0,3,Customer Success,Junior,Poor,Very Fast (100+ Mbps),Moderate,Weekly,32,12,1,2,7,79.4,57.5
+EMP0385,28,2,2,Operations,Junior,Average,Fast (50-100 Mbps),Very High,Weekly,46,4,19,6,3,100,84.7
+EMP0386,36,6,1,HR,Senior,Good,Fast (50-100 Mbps),High,Weekly,38,15,34,4,9,100,98
+EMP0387,38,11,2,Finance,Lead,Good,Fast (50-100 Mbps),High,Bi-weekly,39,7,39,10,9,100,98
+EMP0388,51,17,2,Engineering,Lead,Average,Very Fast (100+ Mbps),High,Few times per week,45,5,34,1,5,100,60.7
+EMP0389,43,6,4,Engineering,Lead,Average,Slow (<25 Mbps),Very High,Few times per week,40,8,11,7,8,100,84.4
+EMP0390,29,0,0,Product,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Bi-weekly,49,7,10,2,6,78.9,54.1
+EMP0391,26,0,4,Design,Junior,Average,Fast (50-100 Mbps),Very High,Daily,29,10,17,6,8,100,74.7
+EMP0392,39,3,4,Finance,Mid-Level,Good,Very Fast (100+ Mbps),Very High,Daily,46,7,17,5,3,100,97.3
+EMP0393,23,0,3,Finance,Junior,Good,Very Fast (100+ Mbps),Low,Weekly,42,9,31,6,6,92.9,57.7
+EMP0394,51,8,5,Engineering,Senior,Poor,Very Fast (100+ Mbps),High,Daily,38,7,0,7,6,100,98
+EMP0395,45,0,4,Marketing,Junior,Poor,Very Fast (100+ Mbps),Moderate,Few times per week,47,12,6,2,5,72.1,90.4
+EMP0396,30,1,4,Data Science,Junior,Average,Fast (50-100 Mbps),Low,Daily,45,12,27,6,5,58.2,55.9
+EMP0397,22,0,1,Customer Success,Junior,Good,Moderate (25-50 Mbps),Moderate,Weekly,43,11,33,9,7,78.4,63.1
+EMP0398,47,7,4,Sales,Mid-Level,Excellent,Very Fast (100+ Mbps),Moderate,Monthly,40,10,18,4,5,100,95.5
+EMP0399,33,4,4,Sales,Senior,Excellent,Fast (50-100 Mbps),High,Daily,37,10,30,3,7,100,94.9
+EMP0400,46,17,2,Marketing,Manager,Average,Very Fast (100+ Mbps),High,Daily,35,10,25,7,6,100,94.8
+EMP0401,22,0,2,Sales,Mid-Level,Good,Very Fast (100+ Mbps),High,Daily,50,5,55,7,5,100,89.1
+EMP0402,29,3,3,Sales,Mid-Level,Good,Moderate (25-50 Mbps),Very High,Weekly,46,9,35,5,8,100,98
+EMP0403,35,2,4,Operations,Junior,Good,Fast (50-100 Mbps),High,Few times per week,45,7,14,8,6,100,86.4
+EMP0404,35,8,3,Engineering,Senior,Good,Fast (50-100 Mbps),Moderate,Few times per week,39,6,48,6,1,100,86.3
+EMP0405,30,2,4,HR,Junior,Good,Very Fast (100+ Mbps),High,Daily,54,10,0,6,8,100,95.6
+EMP0406,40,1,1,HR,Junior,Average,Very Fast (100+ Mbps),Moderate,Few times per week,37,3,65,8,5,100,86.5
+EMP0407,25,0,4,Customer Success,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Daily,39,6,45,3,8,100,84
+EMP0408,33,1,2,Customer Success,Junior,Average,Very Fast (100+ Mbps),Very High,Few times per week,52,7,13,4,7,100,87
+EMP0409,36,2,2,Operations,Junior,Good,Very Fast (100+ Mbps),Very High,Daily,41,11,28,5,9,100,98
+EMP0410,39,5,3,HR,Junior,Average,Fast (50-100 Mbps),High,Few times per week,52,5,8,3,6,100,96.9
+EMP0411,41,11,0,Marketing,Lead,Poor,Very Fast (100+ Mbps),Moderate,Few times per week,44,8,25,10,4,61.7,42.9
+EMP0412,24,1,0,Design,Junior,Good,Very Fast (100+ Mbps),High,Daily,38,9,62,5,1,100,80.9
+EMP0413,22,0,2,Engineering,Junior,Excellent,Fast (50-100 Mbps),Moderate,Daily,40,11,31,9,8,100,97.2
+EMP0414,46,5,3,Product,Mid-Level,Excellent,Moderate (25-50 Mbps),Moderate,Weekly,37,7,0,6,8,92.8,98
+EMP0415,37,1,5,Engineering,Junior,Excellent,Slow (<25 Mbps),Moderate,Few times per week,46,12,0,9,4,100,90.3
+EMP0416,28,1,4,Engineering,Mid-Level,Average,Moderate (25-50 Mbps),Very High,Bi-weekly,49,6,35,5,10,100,91.8
+EMP0417,48,5,3,Marketing,Mid-Level,Excellent,Very Fast (100+ Mbps),Moderate,Daily,44,13,28,8,9,91.6,93.4
+EMP0418,36,6,0,Operations,Senior,Excellent,Very Fast (100+ Mbps),Very High,Daily,43,5,11,7,6,100,95.2
+EMP0419,45,9,3,Engineering,Lead,Average,Moderate (25-50 Mbps),Very High,Daily,35,4,48,9,4,100,98
+EMP0420,35,3,4,Operations,Mid-Level,Good,Moderate (25-50 Mbps),High,Daily,48,5,35,6,5,100,86.3
+EMP0421,53,17,2,Customer Success,Manager,Good,Fast (50-100 Mbps),Moderate,Daily,47,6,28,4,9,100,95.8
+EMP0422,50,14,1,Engineering,Lead,Good,Very Fast (100+ Mbps),Very Low,Daily,43,12,39,6,7,100,58.3
+EMP0423,32,6,2,Operations,Senior,Average,Very Fast (100+ Mbps),High,Few times per week,40,3,60,3,9,100,97.8
+EMP0424,43,2,4,Sales,Junior,Excellent,Moderate (25-50 Mbps),Moderate,Weekly,42,4,33,5,2,86.8,80.9
+EMP0425,40,7,2,Marketing,Senior,Good,Very Fast (100+ Mbps),High,Weekly,36,8,5,7,10,100,98
+EMP0426,47,9,4,Finance,Lead,Average,Fast (50-100 Mbps),Moderate,Few times per week,33,4,13,1,7,73.8,58.8
+EMP0427,26,0,2,Sales,Junior,Good,Slow (<25 Mbps),High,Few times per week,40,6,0,6,4,100,66.3
+EMP0428,41,12,1,Data Science,Senior,Average,Fast (50-100 Mbps),High,Weekly,36,8,30,7,6,100,98
+EMP0429,44,2,3,Operations,Junior,Average,Very Fast (100+ Mbps),Moderate,Few times per week,38,7,0,8,8,100,82.5
+EMP0430,22,1,3,Customer Success,Junior,Average,Very Fast (100+ Mbps),Moderate,Weekly,39,11,26,7,4,97.6,81.9
+EMP0431,24,0,0,Finance,Junior,Average,Very Fast (100+ Mbps),Very High,Monthly,41,7,51,5,7,100,84.2
+EMP0432,22,0,1,Customer Success,Mid-Level,Average,Fast (50-100 Mbps),Moderate,Bi-weekly,41,8,31,7,7,100,83.2
+EMP0433,32,3,1,Engineering,Senior,Average,Fast (50-100 Mbps),High,Few times per week,25,7,9,6,6,100,82.4
+EMP0434,41,2,1,Engineering,Junior,Average,Very Fast (100+ Mbps),Very High,Few times per week,44,9,33,6,7,100,69.5
+EMP0435,48,12,2,Marketing,Senior,Good,Very Fast (100+ Mbps),High,Weekly,42,11,39,3,8,100,98
+EMP0436,35,7,5,Customer Success,Lead,Excellent,Very Fast (100+ Mbps),Low,Daily,47,11,0,6,10,100,98
+EMP0437,49,14,3,Engineering,Lead,Good,Slow (<25 Mbps),Low,Weekly,40,8,38,8,7,50.8,61.7
+EMP0438,22,0,4,Data Science,Junior,Excellent,Moderate (25-50 Mbps),Very High,Few times per week,48,8,14,5,7,100,98
+EMP0439,22,1,2,Engineering,Junior,Good,Very Fast (100+ Mbps),Moderate,Weekly,41,6,44,7,5,87.2,65.5
+EMP0440,34,5,2,Engineering,Senior,Good,Moderate (25-50 Mbps),Moderate,Daily,44,7,11,8,6,100,90.6
+EMP0441,38,7,0,Engineering,Mid-Level,Poor,Fast (50-100 Mbps),Low,Daily,36,3,16,6,9,99.3,90.7
+EMP0442,34,7,3,Operations,Senior,Poor,Fast (50-100 Mbps),Low,Few times per week,48,7,43,3,3,90.2,73
+EMP0443,22,1,3,Product,Mid-Level,Average,Fast (50-100 Mbps),Moderate,Few times per week,49,7,53,2,5,100,68.3
+EMP0444,34,5,1,Engineering,Mid-Level,Poor,Fast (50-100 Mbps),Very High,Daily,53,11,19,7,5,100,90
+EMP0445,23,0,4,Operations,Junior,Poor,Very Fast (100+ Mbps),High,Few times per week,38,12,42,2,3,98.6,51.1
+EMP0446,41,10,3,Engineering,Senior,Average,Fast (50-100 Mbps),Moderate,Daily,45,9,35,10,7,100,87.6
+EMP0447,38,14,2,Operations,Lead,Excellent,Moderate (25-50 Mbps),Low,Few times per week,33,12,25,3,9,81.7,98
+EMP0448,26,0,1,Engineering,Junior,Good,Very Fast (100+ Mbps),High,Few times per week,30,9,33,7,2,100,65.7
+EMP0449,30,4,3,Marketing,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Daily,45,7,32,8,5,98.1,57.3
+EMP0450,25,1,4,Finance,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Few times per week,41,11,34,5,9,87.2,72.8
+EMP0451,34,2,2,Operations,Mid-Level,Average,Very Fast (100+ Mbps),Very High,Daily,34,9,61,6,6,100,77.3
+EMP0452,43,11,2,Engineering,Manager,Excellent,Very Fast (100+ Mbps),Moderate,Weekly,43,12,16,9,9,100,91.7
+EMP0453,26,0,3,Engineering,Mid-Level,Good,Fast (50-100 Mbps),High,Daily,47,10,38,9,9,100,98
+EMP0454,39,6,1,Finance,Mid-Level,Excellent,Very Fast (100+ Mbps),Moderate,Weekly,42,2,49,9,10,97.1,90.3
+EMP0455,30,2,4,Customer Success,Junior,Good,Very Fast (100+ Mbps),Moderate,Daily,49,12,47,5,6,90.9,64.2
+EMP0456,27,2,4,Product,Junior,Good,Moderate (25-50 Mbps),Very Low,Few times per week,38,11,20,2,6,100,58.2
+EMP0457,34,4,1,Customer Success,Senior,Average,Fast (50-100 Mbps),Low,Few times per week,48,10,57,3,8,82.9,71.2
+EMP0458,25,1,0,Data Science,Mid-Level,Good,Very Fast (100+ Mbps),Very High,Daily,39,12,64,3,7,100,76.2
+EMP0459,30,4,4,Sales,Senior,Good,Very Fast (100+ Mbps),Very High,Daily,49,9,29,7,7,100,98
+EMP0460,24,0,2,Sales,Junior,Average,Fast (50-100 Mbps),Moderate,Daily,34,10,39,8,7,88.9,35
+EMP0461,52,12,1,Engineering,Senior,Average,Fast (50-100 Mbps),Moderate,Daily,43,11,34,2,6,96.5,98
+EMP0462,35,10,4,Marketing,Lead,Good,Very Fast (100+ Mbps),Moderate,Few times per week,43,3,37,8,5,92.2,63.3
+EMP0463,28,2,2,Finance,Junior,Excellent,Moderate (25-50 Mbps),High,Few times per week,44,9,57,7,7,100,73.7
+EMP0464,36,4,3,Customer Success,Junior,Excellent,Fast (50-100 Mbps),Moderate,Daily,39,9,34,6,5,87,57.7
+EMP0465,33,6,2,Engineering,Lead,Average,Moderate (25-50 Mbps),High,Few times per week,44,6,48,10,6,100,89.7
+EMP0466,33,3,4,Marketing,Mid-Level,Good,Very Fast (100+ Mbps),High,Monthly,40,9,14,4,7,100,74.8
+EMP0467,40,14,2,Finance,Senior,Excellent,Very Fast (100+ Mbps),Very High,Bi-weekly,38,11,22,4,7,100,96.5
+EMP0468,41,13,5,Operations,Lead,Excellent,Very Fast (100+ Mbps),Low,Daily,50,8,0,5,7,67.9,86.2
+EMP0469,30,1,4,Engineering,Junior,Average,Very Fast (100+ Mbps),Moderate,Daily,42,10,6,6,7,50.8,62
+EMP0470,29,1,1,Customer Success,Junior,Good,Very Fast (100+ Mbps),Very Low,Few times per week,32,10,75,5,6,90.4,35
+EMP0471,32,5,3,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Daily,37,9,19,8,7,100,83.6
+EMP0472,22,1,3,Product,Mid-Level,Good,Fast (50-100 Mbps),Very High,Daily,50,7,35,8,3,100,81.4
+EMP0473,22,1,3,Design,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Daily,36,7,10,9,6,94.8,86.2
+EMP0474,47,6,4,Sales,Senior,Good,Very Fast (100+ Mbps),Very High,Daily,45,11,17,8,7,100,98
+EMP0475,49,7,3,Sales,Mid-Level,Good,Moderate (25-50 Mbps),Moderate,Few times per week,37,13,7,6,6,100,98
+EMP0476,32,3,0,HR,Mid-Level,Good,Very Fast (100+ Mbps),High,Few times per week,33,13,18,6,1,100,92.3
+EMP0477,40,10,4,Marketing,Senior,Average,Fast (50-100 Mbps),Moderate,Daily,44,8,26,4,7,100,82.2
+EMP0478,37,6,0,Engineering,Lead,Good,Fast (50-100 Mbps),Moderate,Few times per week,40,14,41,4,6,90.9,50.9
+EMP0479,62,11,4,Product,Senior,Average,Slow (<25 Mbps),High,Few times per week,51,7,25,10,4,100,92
+EMP0480,45,4,4,Marketing,Mid-Level,Excellent,Moderate (25-50 Mbps),Very High,Few times per week,48,9,13,4,10,100,98
+EMP0481,33,7,2,Engineering,Lead,Good,Very Fast (100+ Mbps),High,Monthly,49,12,31,6,9,100,84.1
+EMP0482,26,0,2,Operations,Junior,Excellent,Moderate (25-50 Mbps),Very Low,Monthly,48,6,52,5,4,73.9,42.4
+EMP0483,22,1,4,Engineering,Junior,Average,Very Fast (100+ Mbps),High,Few times per week,46,5,42,7,7,100,98
+EMP0484,36,2,4,Engineering,Junior,Good,Fast (50-100 Mbps),Moderate,Weekly,33,15,35,5,6,84.5,84.2
+EMP0485,28,4,2,Marketing,Mid-Level,Good,Very Fast (100+ Mbps),Very High,Daily,40,3,41,7,5,100,92.4
+EMP0486,22,0,2,Sales,Junior,Average,Fast (50-100 Mbps),High,Few times per week,46,9,28,9,7,100,95.9
+EMP0487,29,1,3,Operations,Junior,Poor,Fast (50-100 Mbps),Moderate,Weekly,40,5,14,4,6,100,79.6
+EMP0488,25,0,0,Data Science,Junior,Excellent,Fast (50-100 Mbps),Moderate,Few times per week,41,7,33,5,9,96.9,79.1
+EMP0489,50,15,1,Customer Success,Manager,Excellent,Fast (50-100 Mbps),Moderate,Daily,46,6,38,5,7,100,95.3
+EMP0490,42,13,1,Engineering,Lead,Excellent,Very Fast (100+ Mbps),Moderate,Daily,48,4,55,5,6,100,98
+EMP0491,34,1,1,Engineering,Junior,Average,Very Fast (100+ Mbps),Moderate,Few times per week,36,8,22,5,6,100,74.7
+EMP0492,48,17,3,Operations,Manager,Excellent,Fast (50-100 Mbps),High,Few times per week,46,9,9,6,2,100,98
+EMP0493,35,6,5,Operations,Senior,Good,Very Fast (100+ Mbps),Very High,Monthly,45,12,0,6,4,100,96.3
+EMP0494,27,1,4,Product,Junior,Good,Very Fast (100+ Mbps),High,Daily,36,9,0,6,2,100,97.6
+EMP0495,48,9,0,Operations,Senior,Good,Fast (50-100 Mbps),Very High,Bi-weekly,39,11,56,8,3,100,73.5
+EMP0496,39,2,3,Engineering,Mid-Level,Excellent,Moderate (25-50 Mbps),Low,Daily,42,8,23,3,3,84.8,64.4
+EMP0497,25,0,3,Marketing,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Bi-weekly,50,13,1,4,1,96.4,98
+EMP0498,33,6,1,Customer Success,Mid-Level,Excellent,Fast (50-100 Mbps),High,Weekly,39,10,23,6,8,100,98
+EMP0499,27,0,5,Design,Junior,Excellent,Very Fast (100+ Mbps),Low,Daily,44,10,0,5,6,100,79.7
+EMP0500,22,1,3,Engineering,Junior,Good,Very Fast (100+ Mbps),Low,Daily,49,11,14,4,8,100,97.8
+EMP0501,43,13,5,Marketing,Senior,Average,Very Fast (100+ Mbps),High,Daily,53,9,0,7,4,100,98
+EMP0502,52,9,3,Engineering,Lead,Excellent,Fast (50-100 Mbps),Low,Monthly,43,9,17,6,8,100,98
+EMP0503,22,1,4,Marketing,Mid-Level,Good,Fast (50-100 Mbps),Very High,Few times per week,29,10,34,4,3,100,93.8
+EMP0504,40,5,1,Engineering,Mid-Level,Excellent,Very Fast (100+ Mbps),Low,Weekly,47,5,13,4,5,88.2,85.1
+EMP0505,29,3,3,Design,Junior,Average,Fast (50-100 Mbps),High,Daily,43,4,37,7,6,100,85
+EMP0506,30,0,2,Operations,Junior,Average,Very Fast (100+ Mbps),Moderate,Bi-weekly,36,15,21,5,5,88.4,74.5
+EMP0507,29,2,4,Customer Success,Junior,Average,Very Fast (100+ Mbps),High,Daily,46,13,13,4,4,100,66.4
+EMP0508,27,1,4,Data Science,Mid-Level,Good,Fast (50-100 Mbps),Very Low,Daily,53,3,7,9,7,71.4,35
+EMP0509,35,0,4,Engineering,Junior,Good,Very Fast (100+ Mbps),Very High,Daily,43,2,23,3,1,100,83
+EMP0510,27,3,4,Finance,Mid-Level,Average,Very Fast (100+ Mbps),High,Few times per week,32,6,29,3,8,100,82.5
+EMP0511,37,5,4,Product,Mid-Level,Excellent,Fast (50-100 Mbps),Moderate,Daily,50,6,18,7,2,77,87.9
+EMP0512,34,1,2,Operations,Junior,Good,Fast (50-100 Mbps),Moderate,Few times per week,42,8,33,5,10,100,98
+EMP0513,32,2,3,Operations,Junior,Average,Moderate (25-50 Mbps),Moderate,Daily,46,8,20,7,8,100,93.4
+EMP0514,26,1,4,Sales,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Few times per week,42,8,38,6,6,54.9,40.3
+EMP0515,29,0,4,Finance,Junior,Good,Very Fast (100+ Mbps),Moderate,Few times per week,44,5,21,2,4,86.5,72.4
+EMP0516,41,3,4,Sales,Mid-Level,Average,Moderate (25-50 Mbps),High,Daily,45,6,25,7,9,100,50.2
+EMP0517,39,8,2,Marketing,Mid-Level,Excellent,Very Fast (100+ Mbps),High,Daily,46,7,65,8,7,100,98
+EMP0518,26,2,1,Engineering,Junior,Good,Fast (50-100 Mbps),High,Weekly,42,7,88,6,6,100,71.3
+EMP0519,35,1,5,Engineering,Junior,Good,Moderate (25-50 Mbps),Low,Daily,37,10,0,5,5,100,96.1
+EMP0520,41,11,3,Engineering,Lead,Excellent,Fast (50-100 Mbps),High,Daily,43,3,12,1,7,100,98
+EMP0521,22,0,1,Engineering,Junior,Excellent,Very Fast (100+ Mbps),High,Weekly,46,7,62,8,6,100,98
+EMP0522,39,2,4,Marketing,Junior,Good,Moderate (25-50 Mbps),Moderate,Daily,37,4,10,7,6,81.4,72.9
+EMP0523,29,2,5,Engineering,Junior,Excellent,Fast (50-100 Mbps),High,Few times per week,35,6,0,2,8,100,98
+EMP0524,40,7,1,Engineering,Mid-Level,Good,Fast (50-100 Mbps),High,Daily,49,9,49,8,10,100,98
+EMP0525,28,3,4,HR,Senior,Good,Fast (50-100 Mbps),Moderate,Daily,52,14,51,2,10,98.5,72.6
+EMP0526,22,1,5,HR,Junior,Excellent,Very Fast (100+ Mbps),High,Weekly,42,9,0,7,9,100,67.2
+EMP0527,22,0,5,HR,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Daily,45,11,0,7,8,83.3,54.8
+EMP0528,35,0,5,Design,Junior,Excellent,Moderate (25-50 Mbps),High,Few times per week,44,10,0,8,6,100,92.9
+EMP0529,37,7,3,Engineering,Lead,Good,Very Fast (100+ Mbps),High,Weekly,28,5,34,4,3,100,98
+EMP0530,26,1,2,Engineering,Junior,Good,Very Fast (100+ Mbps),Low,Daily,43,14,34,6,7,80.8,77.2
+EMP0531,40,6,0,Sales,Lead,Average,Very Fast (100+ Mbps),High,Few times per week,50,8,0,6,6,100,76.6
+EMP0532,22,1,0,Product,Junior,Good,Very Fast (100+ Mbps),High,Bi-weekly,34,10,23,2,7,100,84.1
+EMP0533,34,1,3,HR,Junior,Good,Fast (50-100 Mbps),Low,Few times per week,34,8,15,6,5,100,95.1
+EMP0534,24,0,3,Sales,Junior,Average,Slow (<25 Mbps),Very High,Daily,37,6,14,4,8,100,77.4
+EMP0535,29,3,1,Engineering,Senior,Good,Very Fast (100+ Mbps),Very High,Few times per week,39,4,35,5,4,100,98
+EMP0536,35,3,3,Operations,Senior,Good,Fast (50-100 Mbps),High,Daily,46,7,28,4,8,100,54.7
+EMP0537,27,2,1,Engineering,Mid-Level,Average,Fast (50-100 Mbps),Moderate,Daily,49,14,0,2,9,61.4,41.4
+EMP0538,31,4,4,Marketing,Senior,Excellent,Fast (50-100 Mbps),High,Weekly,49,18,0,4,9,100,90.9
+EMP0539,44,4,2,Design,Senior,Poor,Very Fast (100+ Mbps),Moderate,Daily,45,8,59,4,6,77.3,78.9
+EMP0540,29,1,3,Operations,Junior,Average,Fast (50-100 Mbps),Very High,Daily,32,8,19,6,6,100,93.9
+EMP0541,42,5,3,Design,Junior,Good,Slow (<25 Mbps),High,Few times per week,32,9,15,3,8,100,98
+EMP0542,24,1,0,Sales,Junior,Average,Very Fast (100+ Mbps),Moderate,Monthly,46,3,41,9,7,63.5,49
+EMP0543,39,6,5,Operations,Senior,Average,Fast (50-100 Mbps),High,Daily,32,7,0,4,7,100,98
+EMP0544,47,1,3,Product,Junior,Poor,Slow (<25 Mbps),High,Daily,45,10,43,7,10,100,72.3
+EMP0545,22,1,2,Operations,Junior,Average,Fast (50-100 Mbps),Moderate,Few times per week,43,10,0,4,6,100,87.3
+EMP0546,27,2,1,Operations,Junior,Average,Fast (50-100 Mbps),Very Low,Few times per week,39,5,9,7,5,89.4,45.1
+EMP0547,40,2,2,Finance,Junior,Excellent,Slow (<25 Mbps),Very High,Few times per week,26,9,24,3,7,100,80.1
+EMP0548,33,4,0,Product,Mid-Level,Good,Very Fast (100+ Mbps),High,Bi-weekly,43,11,61,7,6,100,73
+EMP0549,38,1,2,Engineering,Junior,Excellent,Fast (50-100 Mbps),High,Daily,45,3,68,5,5,100,95.2
+EMP0550,29,4,3,Sales,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Daily,38,8,25,6,4,100,94.7
+EMP0551,35,3,5,Sales,Mid-Level,Poor,Very Fast (100+ Mbps),Low,Daily,35,4,0,5,6,84.4,75.6
+EMP0552,33,0,4,Product,Mid-Level,Excellent,Fast (50-100 Mbps),Low,Weekly,43,2,31,5,10,78.4,74.4
+EMP0553,45,7,1,Design,Senior,Average,Very Fast (100+ Mbps),High,Daily,33,6,22,1,4,100,98
+EMP0554,37,8,1,Engineering,Lead,Excellent,Very Fast (100+ Mbps),High,Weekly,45,12,33,2,6,100,98
+EMP0555,38,0,3,Engineering,Junior,Excellent,Very Fast (100+ Mbps),High,Monthly,48,5,25,7,5,100,98
+EMP0556,31,3,1,Design,Mid-Level,Good,Very Fast (100+ Mbps),High,Daily,30,10,11,4,9,100,98
+EMP0557,30,0,0,Sales,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Monthly,38,11,41,6,6,95,68.9
+EMP0558,31,0,4,Engineering,Junior,Poor,Moderate (25-50 Mbps),High,Daily,41,5,36,7,5,100,92.1
+EMP0559,38,3,0,Engineering,Mid-Level,Excellent,Very Fast (100+ Mbps),Moderate,Few times per week,41,9,47,7,6,90.4,98
+EMP0560,31,0,4,Engineering,Junior,Excellent,Fast (50-100 Mbps),Low,Weekly,36,1,10,6,4,89.4,69.7
+EMP0561,37,5,1,Finance,Senior,Excellent,Fast (50-100 Mbps),High,Weekly,33,10,22,6,6,100,92.3
+EMP0562,53,4,5,Sales,Senior,Good,Very Fast (100+ Mbps),Moderate,Weekly,39,9,0,6,8,91.6,66
+EMP0563,42,17,4,Marketing,Director,Excellent,Moderate (25-50 Mbps),Very High,Few times per week,45,7,18,9,7,100,80.7
+EMP0564,32,0,4,Product,Mid-Level,Good,Moderate (25-50 Mbps),Very High,Bi-weekly,45,5,29,7,1,100,68.5
+EMP0565,45,10,1,Engineering,Senior,Good,Very Fast (100+ Mbps),Very High,Weekly,45,7,39,5,6,100,76.6
+EMP0566,31,4,5,Engineering,Mid-Level,Excellent,Slow (<25 Mbps),Very High,Daily,49,7,0,5,8,100,98
+EMP0567,22,0,4,Customer Success,Junior,Excellent,Fast (50-100 Mbps),High,Bi-weekly,35,9,42,3,7,100,74.1
+EMP0568,25,1,4,HR,Junior,Average,Very Fast (100+ Mbps),Moderate,Monthly,39,11,27,10,6,94.3,64.2
+EMP0569,22,0,3,Engineering,Junior,Good,Fast (50-100 Mbps),Moderate,Few times per week,40,8,44,8,6,100,67
+EMP0570,31,1,4,Sales,Mid-Level,Good,Fast (50-100 Mbps),Very High,Weekly,25,11,44,2,7,81.8,51.5
+EMP0571,35,1,0,Sales,Junior,Average,Fast (50-100 Mbps),Low,Weekly,43,7,23,8,3,100,86.9
+EMP0572,50,6,3,Operations,Lead,Average,Fast (50-100 Mbps),Moderate,Weekly,41,11,26,3,8,98.3,71.9
+EMP0573,37,5,4,Engineering,Mid-Level,Average,Very Fast (100+ Mbps),Moderate,Daily,35,7,22,4,8,100,85.4
+EMP0574,33,1,2,Marketing,Junior,Average,Slow (<25 Mbps),High,Few times per week,47,9,45,7,7,100,96.4
+EMP0575,42,16,1,Engineering,Manager,Excellent,Moderate (25-50 Mbps),Very High,Monthly,46,10,45,7,10,100,96.8
+EMP0576,22,1,3,Customer Success,Mid-Level,Excellent,Fast (50-100 Mbps),Moderate,Daily,44,10,32,6,7,100,75.9
+EMP0577,37,8,4,Sales,Lead,Good,Very Fast (100+ Mbps),Low,Weekly,31,6,24,9,2,100,65.1
+EMP0578,41,6,1,Marketing,Senior,Average,Fast (50-100 Mbps),High,Few times per week,36,10,37,6,6,100,95.6
+EMP0579,22,0,2,Engineering,Junior,Excellent,Fast (50-100 Mbps),Moderate,Daily,43,10,71,4,6,99.6,67.8
+EMP0580,45,5,1,Engineering,Mid-Level,Good,Moderate (25-50 Mbps),Very High,Daily,38,2,26,1,4,100,91.2
+EMP0581,38,1,4,Finance,Junior,Average,Moderate (25-50 Mbps),Moderate,Weekly,40,10,17,8,7,87,94.6
+EMP0582,31,2,0,HR,Mid-Level,Good,Moderate (25-50 Mbps),Very High,Daily,35,7,20,5,6,100,86.2
+EMP0583,40,6,4,Finance,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Few times per week,43,6,34,7,4,100,90
+EMP0584,55,23,2,HR,Manager,Good,Moderate (25-50 Mbps),Moderate,Few times per week,51,5,43,7,6,100,98
+EMP0585,36,3,4,Engineering,Mid-Level,Excellent,Very Fast (100+ Mbps),High,Few times per week,43,12,26,2,8,100,98
+EMP0586,37,1,5,Finance,Mid-Level,Good,Very Fast (100+ Mbps),Very High,Daily,47,3,0,8,6,100,98
+EMP0587,30,5,1,Engineering,Mid-Level,Excellent,Very Fast (100+ Mbps),Low,Weekly,47,8,24,5,5,95.3,79.8
+EMP0588,27,2,2,Engineering,Junior,Average,Moderate (25-50 Mbps),Moderate,Weekly,39,5,40,8,7,100,54.8
+EMP0589,42,13,4,HR,Lead,Average,Moderate (25-50 Mbps),Moderate,Daily,40,5,33,6,8,99.7,98
+EMP0590,27,1,2,Product,Junior,Good,Very Fast (100+ Mbps),Moderate,Few times per week,50,4,14,6,6,95.3,71.2
+EMP0591,35,2,2,Finance,Junior,Average,Very Fast (100+ Mbps),Low,Few times per week,46,7,47,3,3,95,79.1
+EMP0592,30,6,4,Customer Success,Lead,Good,Slow (<25 Mbps),Very High,Daily,47,5,6,5,9,100,84.5
+EMP0593,39,5,5,Data Science,Senior,Excellent,Fast (50-100 Mbps),Low,Bi-weekly,42,5,0,9,7,100,96.2
+EMP0594,38,14,3,Engineering,Lead,Excellent,Fast (50-100 Mbps),High,Few times per week,39,9,53,9,10,100,98
+EMP0595,44,1,2,Data Science,Junior,Good,Fast (50-100 Mbps),Very High,Daily,40,9,32,10,7,100,84.2
+EMP0596,30,4,3,Operations,Senior,Average,Fast (50-100 Mbps),Moderate,Daily,50,4,44,6,4,67.1,86.5
+EMP0597,32,1,1,Customer Success,Junior,Poor,Slow (<25 Mbps),Very Low,Few times per week,41,10,33,8,6,95.6,59.1
+EMP0598,26,2,4,Finance,Junior,Good,Very Fast (100+ Mbps),Very High,Daily,49,8,44,6,2,91.1,70.4
+EMP0599,31,5,4,Operations,Mid-Level,Good,Very Fast (100+ Mbps),High,Daily,50,7,48,9,6,100,56.3
+EMP0600,38,1,5,Finance,Junior,Good,Very Fast (100+ Mbps),Moderate,Daily,47,8,0,10,8,100,98
+EMP0601,41,7,0,Sales,Senior,Good,Very Fast (100+ Mbps),High,Few times per week,46,11,44,8,7,100,98
+EMP0602,26,0,3,Design,Mid-Level,Good,Fast (50-100 Mbps),Very Low,Daily,52,8,11,6,6,82.5,77.3
+EMP0603,42,5,2,Engineering,Senior,Average,Moderate (25-50 Mbps),Moderate,Bi-weekly,36,11,18,10,8,100,97.2
+EMP0604,47,6,2,Sales,Mid-Level,Average,Fast (50-100 Mbps),Moderate,Few times per week,39,5,41,10,4,100,98
+EMP0605,38,13,4,Engineering,Manager,Good,Slow (<25 Mbps),High,Weekly,34,11,26,6,7,100,97.3
+EMP0606,51,23,1,Engineering,Manager,Good,Moderate (25-50 Mbps),High,Weekly,33,12,53,5,7,100,93
+EMP0607,28,4,4,Engineering,Mid-Level,Poor,Fast (50-100 Mbps),Moderate,Few times per week,41,8,23,4,9,83.5,80.1
+EMP0608,23,0,4,Engineering,Junior,Average,Fast (50-100 Mbps),High,Weekly,43,6,31,7,4,100,90.7
+EMP0609,22,1,5,Marketing,Junior,Good,Fast (50-100 Mbps),Moderate,Few times per week,45,15,0,2,7,100,89.2
+EMP0610,48,2,4,Marketing,Mid-Level,Good,Very Fast (100+ Mbps),High,Few times per week,37,8,25,7,2,100,65.9
+EMP0611,40,10,4,Engineering,Lead,Average,Fast (50-100 Mbps),High,Few times per week,39,9,31,2,7,100,98
+EMP0612,34,0,3,Engineering,Mid-Level,Good,Fast (50-100 Mbps),Low,Weekly,47,13,30,4,7,100,80.9
+EMP0613,37,2,1,Design,Junior,Good,Fast (50-100 Mbps),Moderate,Few times per week,33,9,51,6,8,66.6,65.4
+EMP0614,24,0,3,Engineering,Junior,Good,Fast (50-100 Mbps),Very High,Few times per week,42,6,30,3,5,100,98
+EMP0615,57,5,3,Sales,Mid-Level,Average,Very Fast (100+ Mbps),Low,Daily,49,10,46,2,7,100,96.2
+EMP0616,36,6,4,Engineering,Lead,Good,Fast (50-100 Mbps),Moderate,Few times per week,40,7,54,6,3,89,98
+EMP0617,35,1,4,Engineering,Junior,Good,Very Fast (100+ Mbps),Moderate,Daily,39,10,41,8,5,100,98
+EMP0618,41,9,3,Finance,Mid-Level,Average,Very Fast (100+ Mbps),High,Monthly,49,4,24,5,8,100,89.4
+EMP0619,39,9,2,Sales,Senior,Average,Fast (50-100 Mbps),High,Few times per week,33,8,52,4,9,100,98
+EMP0620,37,4,1,Marketing,Mid-Level,Average,Very Fast (100+ Mbps),Moderate,Daily,37,7,50,5,1,89.3,76.2
+EMP0621,27,3,4,Engineering,Senior,Excellent,Moderate (25-50 Mbps),High,Daily,37,8,15,7,4,100,98
+EMP0622,39,9,4,Finance,Lead,Good,Very Fast (100+ Mbps),Very High,Daily,46,8,54,2,5,100,98
+EMP0623,51,5,4,HR,Senior,Good,Fast (50-100 Mbps),High,Daily,32,12,43,2,6,100,98
+EMP0624,47,10,2,Engineering,Lead,Excellent,Fast (50-100 Mbps),Very High,Bi-weekly,49,10,32,6,4,100,98
+EMP0625,49,6,2,Engineering,Senior,Average,Very Fast (100+ Mbps),Moderate,Bi-weekly,41,7,36,7,10,99.6,89.9
+EMP0626,30,4,4,Engineering,Mid-Level,Average,Very Fast (100+ Mbps),Very High,Monthly,48,7,7,6,6,100,66
+EMP0627,26,2,4,Finance,Junior,Good,Fast (50-100 Mbps),High,Weekly,49,12,25,6,4,100,86.2
+EMP0628,33,4,3,Engineering,Senior,Excellent,Very Fast (100+ Mbps),Low,Few times per week,37,13,32,4,8,100,98
+EMP0629,35,1,4,Marketing,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Bi-weekly,42,5,22,6,7,93.1,88.3
+EMP0630,44,4,2,Engineering,Mid-Level,Good,Fast (50-100 Mbps),High,Bi-weekly,40,8,12,5,9,100,77.7
+EMP0631,22,0,4,Engineering,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Bi-weekly,41,4,34,3,9,100,81.9
+EMP0632,48,4,4,Engineering,Mid-Level,Good,Fast (50-100 Mbps),High,Bi-weekly,38,8,21,3,8,100,98
+EMP0633,33,3,4,Sales,Mid-Level,Good,Moderate (25-50 Mbps),Very High,Weekly,48,4,13,6,7,100,62.5
+EMP0634,31,4,3,Engineering,Mid-Level,Average,Very Fast (100+ Mbps),Moderate,Daily,40,5,30,9,5,100,95
+EMP0635,25,0,3,Sales,Mid-Level,Excellent,Very Fast (100+ Mbps),Moderate,Few times per week,39,3,8,3,6,100,79.8
+EMP0636,22,0,4,Operations,Junior,Good,Very Fast (100+ Mbps),Low,Few times per week,48,6,26,6,6,75.1,65.5
+EMP0637,42,2,4,Sales,Junior,Average,Fast (50-100 Mbps),Moderate,Few times per week,47,15,43,4,10,63.1,56.1
+EMP0638,35,7,3,Finance,Lead,Good,Very Fast (100+ Mbps),Low,Weekly,43,8,38,5,5,100,98
+EMP0639,23,0,4,HR,Junior,Excellent,Very Fast (100+ Mbps),Very Low,Weekly,39,9,32,4,6,73.3,68.1
+EMP0640,23,0,1,Finance,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Few times per week,50,10,36,6,7,94.8,92
+EMP0641,31,5,5,Design,Mid-Level,Average,Very Fast (100+ Mbps),Low,Daily,35,11,0,2,6,91.4,98
+EMP0642,50,9,4,Engineering,Senior,Average,Fast (50-100 Mbps),Moderate,Few times per week,48,7,0,7,4,100,98
+EMP0643,32,4,2,Engineering,Mid-Level,Average,Very Fast (100+ Mbps),Very High,Daily,45,11,28,6,9,100,98
+EMP0644,22,1,3,Operations,Junior,Excellent,Very Fast (100+ Mbps),High,Daily,34,9,25,5,8,100,98
+EMP0645,32,5,0,Operations,Senior,Average,Very Fast (100+ Mbps),Very High,Few times per week,42,5,50,4,5,100,98
+EMP0646,32,2,0,Marketing,Junior,Average,Very Fast (100+ Mbps),Low,Daily,34,4,17,6,6,100,61.8
+EMP0647,22,0,2,Engineering,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Daily,39,11,45,9,8,82.8,66
+EMP0648,34,2,4,Operations,Junior,Poor,Very Fast (100+ Mbps),Moderate,Few times per week,43,3,34,7,10,99.9,63.2
+EMP0649,32,5,5,Design,Senior,Good,Very Fast (100+ Mbps),High,Weekly,35,9,0,5,4,100,95.8
+EMP0650,41,6,3,Sales,Lead,Average,Fast (50-100 Mbps),High,Daily,27,12,26,7,7,100,79.9
+EMP0651,51,24,3,Data Science,Manager,Average,Very Fast (100+ Mbps),Very High,Weekly,41,15,38,6,8,100,98
+EMP0652,45,15,3,Sales,Lead,Good,Fast (50-100 Mbps),Low,Few times per week,43,8,6,2,2,95.6,60.2
+EMP0653,32,0,1,Engineering,Junior,Good,Very Fast (100+ Mbps),Low,Daily,39,5,16,6,8,68.1,58.2
+EMP0654,25,1,1,Sales,Junior,Good,Fast (50-100 Mbps),Moderate,Few times per week,41,9,37,4,8,91.6,62.9
+EMP0655,58,4,4,Marketing,Mid-Level,Average,Very Fast (100+ Mbps),Very High,Monthly,40,4,14,5,9,100,98
+EMP0656,35,4,5,Operations,Mid-Level,Good,Moderate (25-50 Mbps),Very High,Few times per week,35,4,0,6,3,100,97
+EMP0657,35,2,3,Marketing,Junior,Average,Fast (50-100 Mbps),High,Weekly,53,7,23,7,4,100,87
+EMP0658,34,4,4,Marketing,Mid-Level,Excellent,Very Fast (100+ Mbps),High,Weekly,43,5,42,6,6,100,78.2
+EMP0659,36,11,5,Engineering,Senior,Average,Very Fast (100+ Mbps),Moderate,Weekly,39,5,0,5,9,91.8,63.4
+EMP0660,33,5,1,Engineering,Junior,Good,Fast (50-100 Mbps),High,Daily,37,8,0,7,9,100,66.7
+EMP0661,29,1,4,Sales,Junior,Excellent,Moderate (25-50 Mbps),Moderate,Weekly,39,13,60,4,7,66,41.2
+EMP0662,30,1,4,Data Science,Junior,Average,Very Fast (100+ Mbps),Moderate,Bi-weekly,39,9,34,8,6,80.3,55.2
+EMP0663,34,7,3,Sales,Mid-Level,Excellent,Fast (50-100 Mbps),High,Weekly,42,10,26,4,5,100,98
+EMP0664,30,3,2,Product,Senior,Excellent,Very Fast (100+ Mbps),High,Weekly,48,8,27,6,6,100,98
+EMP0665,28,4,4,Sales,Mid-Level,Excellent,Very Fast (100+ Mbps),Low,Few times per week,37,12,31,4,5,92.2,63.2
+EMP0666,35,6,4,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),High,Daily,43,4,18,5,8,100,87.2
+EMP0667,32,3,1,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Weekly,46,13,37,5,6,100,75
+EMP0668,48,13,3,Engineering,Lead,Average,Very Fast (100+ Mbps),High,Few times per week,37,7,25,5,7,100,98
+EMP0669,22,1,1,Data Science,Junior,Average,Very Fast (100+ Mbps),Moderate,Bi-weekly,37,9,26,9,7,89.5,83
+EMP0670,44,8,5,Finance,Mid-Level,Good,Fast (50-100 Mbps),High,Monthly,32,4,0,4,7,100,98
+EMP0671,46,11,3,Design,Lead,Good,Fast (50-100 Mbps),Moderate,Weekly,52,8,28,4,8,100,98
+EMP0672,22,1,4,Customer Success,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Monthly,45,6,16,6,8,100,57.8
+EMP0673,31,1,2,Operations,Junior,Average,Moderate (25-50 Mbps),Very High,Daily,38,6,42,9,5,100,87.4
+EMP0674,31,3,1,Finance,Senior,Good,Very Fast (100+ Mbps),Very High,Bi-weekly,38,11,48,6,5,100,73.3
+EMP0675,22,0,0,Operations,Mid-Level,Excellent,Very Fast (100+ Mbps),Low,Daily,35,11,74,9,3,68,57.7
+EMP0676,27,0,2,Finance,Junior,Excellent,Fast (50-100 Mbps),Very High,Daily,42,4,37,4,3,100,65.3
+EMP0677,25,1,2,Engineering,Junior,Good,Fast (50-100 Mbps),Moderate,Few times per week,39,8,80,1,8,100,98
+EMP0678,50,10,3,Sales,Lead,Average,Moderate (25-50 Mbps),Moderate,Few times per week,36,4,33,5,5,100,98
+EMP0679,43,7,0,Operations,Senior,Excellent,Very Fast (100+ Mbps),High,Bi-weekly,37,6,39,6,8,100,98
+EMP0680,46,3,3,Engineering,Senior,Good,Very Fast (100+ Mbps),High,Few times per week,46,5,12,6,10,100,86.5
+EMP0681,41,10,3,Marketing,Mid-Level,Excellent,Fast (50-100 Mbps),Very High,Bi-weekly,39,8,21,4,5,100,83.2
+EMP0682,24,1,3,Customer Success,Junior,Poor,Very Fast (100+ Mbps),Moderate,Daily,34,9,41,7,6,100,90.1
+EMP0683,30,1,4,Marketing,Junior,Average,Very Fast (100+ Mbps),Moderate,Weekly,42,6,8,8,7,100,96.9
+EMP0684,39,5,4,Operations,Mid-Level,Excellent,Fast (50-100 Mbps),Low,Weekly,37,3,13,7,9,100,96.3
+EMP0685,24,0,5,Engineering,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Weekly,45,8,0,7,4,95.7,73.7
+EMP0686,41,11,1,Customer Success,Lead,Average,Very Fast (100+ Mbps),Moderate,Few times per week,51,6,34,5,8,100,98
+EMP0687,32,0,3,Sales,Junior,Excellent,Very Fast (100+ Mbps),Very High,Weekly,30,7,23,6,10,100,98
+EMP0688,31,2,3,Design,Junior,Poor,Very Fast (100+ Mbps),Moderate,Few times per week,37,7,41,2,7,100,75.2
+EMP0689,41,11,3,Data Science,Senior,Good,Very Fast (100+ Mbps),High,Weekly,42,6,43,5,4,100,98
+EMP0690,38,5,4,Product,Mid-Level,Excellent,Fast (50-100 Mbps),High,Few times per week,41,4,7,8,6,100,88.6
+EMP0691,31,4,3,Engineering,Junior,Average,Very Fast (100+ Mbps),Moderate,Daily,49,11,37,7,10,100,95.9
+EMP0692,45,6,3,Sales,Mid-Level,Good,Moderate (25-50 Mbps),Moderate,Daily,41,16,17,9,4,88.8,65.8
+EMP0693,25,0,3,Design,Junior,Poor,Very Fast (100+ Mbps),High,Few times per week,43,2,29,9,6,100,77.6
+EMP0694,40,15,5,Customer Success,Lead,Average,Moderate (25-50 Mbps),Moderate,Bi-weekly,44,4,0,9,4,91.5,78.3
+EMP0695,40,3,5,Product,Senior,Good,Very Fast (100+ Mbps),High,Few times per week,37,10,0,4,9,100,72.7
+EMP0696,32,0,2,Operations,Junior,Average,Very Fast (100+ Mbps),Low,Weekly,45,6,33,3,7,71.5,75.5
+EMP0697,37,1,1,Marketing,Junior,Average,Very Fast (100+ Mbps),Very High,Few times per week,44,7,50,8,9,100,98
+EMP0698,23,0,4,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),Very High,Monthly,42,5,0,5,9,100,98
+EMP0699,43,4,5,Customer Success,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Few times per week,30,7,0,5,6,71.1,75.6
+EMP0700,33,1,2,HR,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Daily,37,8,28,6,9,100,72.6
+EMP0701,30,0,2,Engineering,Junior,Good,Fast (50-100 Mbps),Moderate,Weekly,43,6,65,6,1,100,78.2
+EMP0702,44,8,5,Engineering,Senior,Average,Very Fast (100+ Mbps),Moderate,Weekly,41,4,0,4,4,100,98
+EMP0703,28,2,4,Operations,Mid-Level,Good,Fast (50-100 Mbps),Low,Few times per week,46,12,23,8,8,92.2,68.5
+EMP0704,22,0,2,Finance,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Daily,46,9,0,8,7,78,81
+EMP0705,22,0,3,Engineering,Junior,Average,Very Fast (100+ Mbps),Moderate,Daily,44,7,14,7,10,74.9,72.7
+EMP0706,40,9,5,Engineering,Senior,Excellent,Moderate (25-50 Mbps),Moderate,Few times per week,46,10,0,2,8,100,98
+EMP0707,23,0,4,Engineering,Mid-Level,Good,Fast (50-100 Mbps),Low,Weekly,45,7,40,3,7,80.8,93.1
+EMP0708,50,0,4,Engineering,Mid-Level,Average,Slow (<25 Mbps),High,Few times per week,38,9,8,5,9,100,98
+EMP0709,22,0,4,Design,Junior,Good,Very Fast (100+ Mbps),Moderate,Few times per week,41,4,17,6,6,78.4,80.2
+EMP0710,50,17,1,Finance,Manager,Good,Moderate (25-50 Mbps),Moderate,Few times per week,35,5,46,6,4,100,98
+EMP0711,36,4,4,HR,Mid-Level,Good,Moderate (25-50 Mbps),Very High,Daily,50,14,29,3,7,100,52.3
+EMP0712,34,2,2,Customer Success,Junior,Average,Fast (50-100 Mbps),Moderate,Weekly,34,10,8,9,5,100,98
+EMP0713,30,0,5,Sales,Junior,Good,Fast (50-100 Mbps),Very High,Weekly,29,7,0,6,5,100,98
+EMP0714,38,1,2,HR,Mid-Level,Excellent,Slow (<25 Mbps),High,Daily,54,8,0,5,5,100,98
+EMP0715,34,4,5,Data Science,Senior,Excellent,Slow (<25 Mbps),Low,Daily,41,10,0,4,7,100,98
+EMP0716,44,16,2,Finance,Manager,Average,Fast (50-100 Mbps),Very High,Daily,47,13,21,9,2,100,91.4
+EMP0717,36,1,3,Sales,Junior,Good,Very Fast (100+ Mbps),Moderate,Monthly,46,3,28,5,8,100,66.6
+EMP0718,36,10,1,Finance,Senior,Average,Moderate (25-50 Mbps),High,Few times per week,48,10,40,3,7,100,71.4
+EMP0719,31,5,4,Product,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Few times per week,45,8,43,6,5,97.8,76.2
+EMP0720,34,0,4,Engineering,Junior,Good,Very Fast (100+ Mbps),High,Few times per week,45,9,0,5,4,100,60.5
+EMP0721,37,9,4,Engineering,Senior,Average,Slow (<25 Mbps),High,Monthly,27,10,32,8,8,100,84.9
+EMP0722,22,0,3,Product,Junior,Excellent,Moderate (25-50 Mbps),Low,Weekly,36,4,17,6,6,66.1,64.9
+EMP0723,22,1,0,Design,Junior,Excellent,Moderate (25-50 Mbps),High,Daily,26,13,31,3,6,100,88.7
+EMP0724,41,3,5,Marketing,Junior,Good,Fast (50-100 Mbps),High,Few times per week,37,7,0,7,6,100,67.5
+EMP0725,36,5,4,Sales,Senior,Excellent,Very Fast (100+ Mbps),High,Weekly,38,12,33,5,6,100,98
+EMP0726,33,6,4,Sales,Mid-Level,Good,Slow (<25 Mbps),Very High,Few times per week,41,8,46,5,6,100,86.8
+EMP0727,35,4,4,Marketing,Junior,Poor,Very Fast (100+ Mbps),High,Daily,36,9,24,7,7,100,98
+EMP0728,38,8,4,Design,Senior,Average,Fast (50-100 Mbps),Very High,Monthly,39,10,26,3,6,100,81.4
+EMP0729,30,2,3,Engineering,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Bi-weekly,38,5,33,9,10,100,96
+EMP0730,27,0,4,Sales,Junior,Average,Very Fast (100+ Mbps),Moderate,Bi-weekly,44,9,28,7,6,72.9,40.3
+EMP0731,36,7,4,Product,Mid-Level,Excellent,Very Fast (100+ Mbps),Moderate,Daily,46,7,35,4,5,85.8,66.2
+EMP0732,26,1,5,Sales,Junior,Good,Very Fast (100+ Mbps),Moderate,Daily,43,8,0,2,10,85.6,98
+EMP0733,38,4,4,HR,Mid-Level,Good,Fast (50-100 Mbps),Very High,Few times per week,45,11,57,6,5,100,91.1
+EMP0734,22,0,0,Sales,Junior,Good,Very Fast (100+ Mbps),Low,Weekly,43,6,94,5,7,80.2,62.8
+EMP0735,44,2,2,Customer Success,Junior,Excellent,Very Fast (100+ Mbps),High,Weekly,49,9,34,2,8,100,81.5
+EMP0736,39,2,0,Data Science,Junior,Average,Fast (50-100 Mbps),Very Low,Weekly,53,16,72,6,1,76.8,50.4
+EMP0737,37,8,1,Sales,Lead,Average,Fast (50-100 Mbps),Very High,Bi-weekly,27,8,27,5,5,100,88.3
+EMP0738,43,4,4,Customer Success,Mid-Level,Average,Very Fast (100+ Mbps),Low,Weekly,48,6,13,5,7,73.7,67.6
+EMP0739,49,9,5,Data Science,Senior,Excellent,Fast (50-100 Mbps),Moderate,Daily,34,9,0,4,6,81,98
+EMP0740,44,4,1,Data Science,Mid-Level,Good,Very Fast (100+ Mbps),Very High,Daily,43,5,0,3,3,100,91.9
+EMP0741,22,0,3,Marketing,Mid-Level,Average,Very Fast (100+ Mbps),Very Low,Few times per week,43,1,27,3,6,65.6,38.7
+EMP0742,23,0,5,Marketing,Junior,Good,Very Fast (100+ Mbps),Very High,Daily,45,7,0,8,3,100,35
+EMP0743,29,1,4,Sales,Junior,Good,Fast (50-100 Mbps),Moderate,Daily,41,6,21,6,5,87.4,79.6
+EMP0744,35,3,3,Sales,Mid-Level,Average,Very Fast (100+ Mbps),Low,Weekly,41,8,26,6,8,100,74.7
+EMP0745,39,8,4,Marketing,Senior,Good,Very Fast (100+ Mbps),Very High,Daily,44,8,26,7,4,100,93.8
+EMP0746,28,3,3,Engineering,Senior,Good,Very Fast (100+ Mbps),High,Weekly,39,13,26,5,7,100,76.6
+EMP0747,36,6,1,Finance,Lead,Good,Moderate (25-50 Mbps),Moderate,Weekly,30,6,39,8,10,100,98
+EMP0748,28,1,1,Marketing,Junior,Good,Moderate (25-50 Mbps),Moderate,Daily,41,10,0,4,5,80.4,42
+EMP0749,29,3,1,Product,Mid-Level,Average,Very Fast (100+ Mbps),Low,Daily,37,9,12,8,5,72.2,44.6
+EMP0750,22,1,2,Customer Success,Junior,Good,Very Fast (100+ Mbps),Moderate,Daily,36,6,38,2,10,100,88.6
+EMP0751,26,0,5,Sales,Junior,Good,Moderate (25-50 Mbps),High,Daily,36,6,0,4,7,100,57
+EMP0752,22,1,4,Marketing,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Few times per week,30,5,2,8,8,60.6,74.7
+EMP0753,26,3,3,HR,Mid-Level,Excellent,Very Fast (100+ Mbps),Low,Weekly,39,9,33,3,8,100,84.8
+EMP0754,44,10,3,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),High,Few times per week,42,6,17,4,8,100,89.5
+EMP0755,26,1,2,Engineering,Junior,Excellent,Slow (<25 Mbps),Very High,Few times per week,46,9,28,2,10,97.3,54.6
+EMP0756,58,21,4,Customer Success,Manager,Average,Fast (50-100 Mbps),High,Few times per week,38,10,29,6,5,100,96.5
+EMP0757,39,4,4,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),Low,Few times per week,51,11,37,5,6,100,87.6
+EMP0758,36,5,2,Product,Senior,Good,Very Fast (100+ Mbps),Very High,Daily,45,7,46,6,7,100,79.5
+EMP0759,27,2,0,Product,Junior,Good,Slow (<25 Mbps),Low,Daily,35,6,30,3,7,68.3,35
+EMP0760,41,8,4,Marketing,Senior,Good,Very Fast (100+ Mbps),Very Low,Bi-weekly,39,4,31,5,4,100,85
+EMP0761,29,1,3,Customer Success,Junior,Good,Fast (50-100 Mbps),Very High,Daily,54,18,15,5,9,100,58.6
+EMP0762,36,0,3,Sales,Mid-Level,Average,Very Fast (100+ Mbps),High,Weekly,46,10,2,6,8,100,66.4
+EMP0763,58,2,4,Customer Success,Junior,Good,Fast (50-100 Mbps),High,Daily,38,9,1,5,5,100,94.4
+EMP0764,34,3,3,Customer Success,Mid-Level,Average,Very Fast (100+ Mbps),High,Daily,47,10,21,10,7,100,65
+EMP0765,45,3,2,Engineering,Mid-Level,Excellent,Fast (50-100 Mbps),High,Few times per week,34,13,39,5,5,100,84.9
+EMP0766,28,0,3,Operations,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Bi-weekly,38,8,15,7,6,100,96.5
+EMP0767,34,2,3,Operations,Mid-Level,Average,Very Fast (100+ Mbps),Moderate,Weekly,28,10,11,5,7,81,92.8
+EMP0768,50,16,5,Engineering,Manager,Good,Fast (50-100 Mbps),Low,Daily,45,7,0,6,7,78.4,62
+EMP0769,29,3,5,Data Science,Mid-Level,Good,Moderate (25-50 Mbps),High,Bi-weekly,35,8,0,4,7,100,98
+EMP0770,51,3,5,Sales,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Few times per week,41,10,0,4,7,97,95.2
+EMP0771,41,9,4,Marketing,Senior,Excellent,Very Fast (100+ Mbps),Moderate,Daily,32,12,15,9,7,84.5,98
+EMP0772,29,0,3,Engineering,Junior,Good,Fast (50-100 Mbps),High,Daily,43,12,15,6,1,100,85.7
+EMP0773,40,10,4,Operations,Lead,Average,Fast (50-100 Mbps),High,Few times per week,41,7,11,6,4,100,90.5
+EMP0774,43,9,5,Customer Success,Senior,Excellent,Fast (50-100 Mbps),Moderate,Few times per week,33,9,0,6,6,100,98
+EMP0775,40,1,2,Operations,Junior,Average,Very Fast (100+ Mbps),Low,Daily,39,10,40,4,7,93,73.1
+EMP0776,22,1,3,HR,Junior,Good,Very Fast (100+ Mbps),High,Bi-weekly,42,6,25,8,6,100,74.8
+EMP0777,28,2,4,HR,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Weekly,44,7,62,4,7,85.8,80.9
+EMP0778,32,0,4,Engineering,Junior,Excellent,Very Fast (100+ Mbps),Very Low,Weekly,51,5,19,6,10,77.6,56.8
+EMP0779,34,4,2,Marketing,Mid-Level,Good,Moderate (25-50 Mbps),Very High,Few times per week,49,6,25,3,8,100,98
+EMP0780,40,8,3,Engineering,Senior,Excellent,Fast (50-100 Mbps),High,Weekly,37,7,39,6,9,100,98
+EMP0781,36,10,4,Engineering,Senior,Excellent,Fast (50-100 Mbps),Moderate,Few times per week,37,5,21,6,1,100,98
+EMP0782,22,1,3,Engineering,Junior,Poor,Very Fast (100+ Mbps),Very High,Weekly,33,5,5,5,6,100,48.9
+EMP0783,38,8,4,Design,Lead,Average,Very Fast (100+ Mbps),Moderate,Monthly,35,13,37,5,6,100,83.5
+EMP0784,40,6,2,Data Science,Lead,Average,Fast (50-100 Mbps),Very High,Few times per week,47,10,27,1,7,100,98
+EMP0785,40,6,5,Engineering,Senior,Excellent,Very Fast (100+ Mbps),Low,Daily,32,8,0,2,9,100,98
+EMP0786,44,17,3,Sales,Manager,Average,Moderate (25-50 Mbps),Moderate,Daily,41,11,44,6,2,100,91.6
+EMP0787,42,11,3,Engineering,Senior,Good,Very Fast (100+ Mbps),Very High,Monthly,40,10,38,7,3,100,98
+EMP0788,39,4,0,Customer Success,Senior,Average,Very Fast (100+ Mbps),Very High,Daily,37,5,79,6,7,100,79.8
+EMP0789,34,6,1,Marketing,Senior,Excellent,Very Fast (100+ Mbps),Moderate,Weekly,34,9,23,3,6,79,85.7
+EMP0790,22,1,4,Operations,Junior,Good,Fast (50-100 Mbps),High,Few times per week,30,8,24,9,5,100,93.2
+EMP0791,38,6,3,Marketing,Lead,Poor,Very Fast (100+ Mbps),Moderate,Few times per week,34,10,13,7,10,100,98
+EMP0792,36,2,3,Finance,Junior,Good,Very Fast (100+ Mbps),High,Weekly,41,6,18,4,1,100,98
+EMP0793,37,2,0,Sales,Mid-Level,Average,Fast (50-100 Mbps),Very High,Daily,45,8,31,7,5,100,59.4
+EMP0794,23,0,4,Engineering,Junior,Good,Very Fast (100+ Mbps),High,Few times per week,51,5,0,3,6,100,70
+EMP0795,25,0,4,Engineering,Junior,Good,Fast (50-100 Mbps),High,Daily,44,12,35,7,8,100,77.3
+EMP0796,44,0,1,Marketing,Junior,Average,Fast (50-100 Mbps),High,Weekly,45,8,42,6,7,100,97.1
+EMP0797,34,3,4,Product,Mid-Level,Good,Slow (<25 Mbps),Moderate,Daily,51,13,63,5,5,100,92.5
+EMP0798,41,4,4,Sales,Senior,Average,Fast (50-100 Mbps),Moderate,Daily,44,9,29,1,4,100,78.5
+EMP0799,35,4,4,Engineering,Mid-Level,Excellent,Fast (50-100 Mbps),Moderate,Weekly,47,10,0,7,5,100,98
+EMP0800,35,2,2,Design,Junior,Excellent,Very Fast (100+ Mbps),High,Few times per week,39,15,48,8,2,100,98
+EMP0801,43,12,4,Engineering,Senior,Excellent,Very Fast (100+ Mbps),High,Daily,46,6,21,5,8,100,87.7
+EMP0802,30,2,2,Engineering,Junior,Good,Very Fast (100+ Mbps),Very High,Few times per week,43,11,26,1,4,100,98
+EMP0803,35,2,2,Product,Junior,Average,Fast (50-100 Mbps),High,Few times per week,40,4,32,7,8,100,98
+EMP0804,30,1,2,Finance,Junior,Good,Very Fast (100+ Mbps),Moderate,Few times per week,51,12,56,6,4,55.8,52
+EMP0805,31,5,3,Sales,Senior,Good,Fast (50-100 Mbps),Moderate,Bi-weekly,34,9,30,7,9,100,77.8
+EMP0806,32,4,1,HR,Mid-Level,Average,Very Fast (100+ Mbps),High,Weekly,36,7,80,6,7,100,98
+EMP0807,36,3,5,HR,Mid-Level,Excellent,Fast (50-100 Mbps),Moderate,Daily,49,8,0,6,6,100,98
+EMP0808,30,1,2,Engineering,Junior,Average,Very Fast (100+ Mbps),High,Few times per week,47,5,24,4,6,100,74.4
+EMP0809,46,8,2,Finance,Senior,Poor,Fast (50-100 Mbps),Low,Daily,42,8,43,3,5,97.7,98
+EMP0810,26,3,3,Operations,Senior,Excellent,Moderate (25-50 Mbps),Low,Daily,44,6,27,6,5,58.9,56.3
+EMP0811,33,3,2,Data Science,Mid-Level,Excellent,Fast (50-100 Mbps),High,Bi-weekly,45,15,12,8,9,100,98
+EMP0812,31,5,3,Data Science,Mid-Level,Excellent,Very Fast (100+ Mbps),Moderate,Few times per week,44,12,13,2,4,100,75.2
+EMP0813,48,12,2,Sales,Lead,Average,Fast (50-100 Mbps),Moderate,Bi-weekly,43,4,52,10,4,89.7,94.4
+EMP0814,36,4,1,Operations,Junior,Excellent,Fast (50-100 Mbps),High,Daily,36,13,29,9,6,100,94.2
+EMP0815,44,16,2,Engineering,Manager,Average,Fast (50-100 Mbps),Low,Daily,49,8,47,6,10,98.8,89
+EMP0816,22,0,3,Engineering,Junior,Good,Moderate (25-50 Mbps),Moderate,Few times per week,40,6,24,8,6,96.1,63.9
+EMP0817,37,8,0,Marketing,Senior,Average,Very Fast (100+ Mbps),Moderate,Few times per week,36,10,19,6,6,100,86.6
+EMP0818,43,16,4,Finance,Lead,Average,Moderate (25-50 Mbps),Moderate,Weekly,42,11,14,5,10,100,81.4
+EMP0819,35,5,4,Operations,Mid-Level,Poor,Very Fast (100+ Mbps),Very High,Few times per week,44,9,7,6,8,100,76.4
+EMP0820,44,0,4,Sales,Junior,Good,Fast (50-100 Mbps),Very High,Few times per week,44,7,40,8,9,100,78.3
+EMP0821,30,2,3,Customer Success,Junior,Excellent,Very Fast (100+ Mbps),High,Few times per week,47,15,20,9,5,100,80
+EMP0822,47,10,3,Customer Success,Mid-Level,Excellent,Very Fast (100+ Mbps),High,Weekly,39,4,10,8,8,100,64.6
+EMP0823,55,7,5,HR,Senior,Good,Moderate (25-50 Mbps),Low,Bi-weekly,41,2,0,4,9,100,77.4
+EMP0824,31,4,0,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),High,Few times per week,36,8,23,6,7,100,98
+EMP0825,30,0,0,Customer Success,Junior,Poor,Slow (<25 Mbps),Low,Weekly,43,3,3,5,6,100,64.8
+EMP0826,48,21,1,Product,Lead,Average,Very Fast (100+ Mbps),Moderate,Few times per week,36,6,44,6,5,100,93.2
+EMP0827,49,6,1,Engineering,Lead,Excellent,Fast (50-100 Mbps),Moderate,Weekly,38,12,43,5,7,100,82.3
+EMP0828,30,0,1,Sales,Junior,Average,Fast (50-100 Mbps),High,Bi-weekly,47,7,50,2,4,100,90.9
+EMP0829,31,1,4,Data Science,Junior,Excellent,Very Fast (100+ Mbps),High,Daily,42,6,18,8,6,100,98
+EMP0830,32,7,3,Operations,Lead,Excellent,Very Fast (100+ Mbps),High,Few times per week,50,10,15,9,7,100,60.2
+EMP0831,22,1,5,Marketing,Junior,Average,Very Fast (100+ Mbps),Very Low,Monthly,49,13,0,4,7,100,74.2
+EMP0832,26,1,2,Engineering,Junior,Poor,Slow (<25 Mbps),Low,Few times per week,43,12,37,6,7,100,73.4
+EMP0833,25,0,2,Operations,Mid-Level,Excellent,Fast (50-100 Mbps),High,Bi-weekly,44,6,31,6,7,100,98
+EMP0834,28,0,5,Marketing,Junior,Average,Very Fast (100+ Mbps),High,Daily,40,13,0,8,1,100,78.5
+EMP0835,34,6,4,Engineering,Lead,Average,Very Fast (100+ Mbps),Moderate,Few times per week,48,14,7,7,2,93.3,67.5
+EMP0836,37,5,3,Marketing,Senior,Excellent,Very Fast (100+ Mbps),High,Bi-weekly,44,11,44,7,7,100,91.9
+EMP0837,48,18,3,Engineering,Lead,Good,Fast (50-100 Mbps),Moderate,Few times per week,47,7,18,9,10,85.4,82
+EMP0838,26,2,4,HR,Mid-Level,Average,Slow (<25 Mbps),Moderate,Few times per week,38,9,47,7,4,84.6,50.4
+EMP0839,43,6,3,Data Science,Lead,Average,Fast (50-100 Mbps),Moderate,Daily,33,9,4,6,7,100,92.7
+EMP0840,33,4,2,Marketing,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Daily,45,9,55,2,6,100,95
+EMP0841,34,1,4,Operations,Mid-Level,Excellent,Fast (50-100 Mbps),Moderate,Few times per week,46,5,24,8,4,100,91.1
+EMP0842,41,11,3,Marketing,Senior,Good,Slow (<25 Mbps),High,Weekly,42,6,27,6,2,100,98
+EMP0843,24,0,1,Engineering,Junior,Average,Fast (50-100 Mbps),Moderate,Bi-weekly,45,5,90,7,7,100,71
+EMP0844,38,9,3,Data Science,Senior,Good,Slow (<25 Mbps),Low,Weekly,36,9,14,6,4,100,98
+EMP0845,36,4,3,Engineering,Mid-Level,Excellent,Very Fast (100+ Mbps),Very High,Weekly,47,4,34,5,5,100,98
+EMP0846,39,5,5,Engineering,Mid-Level,Average,Fast (50-100 Mbps),High,Weekly,49,6,0,6,6,100,71
+EMP0847,37,6,1,Marketing,Senior,Good,Fast (50-100 Mbps),Very High,Weekly,48,10,56,2,7,100,98
+EMP0848,57,15,5,Finance,Lead,Average,Fast (50-100 Mbps),Moderate,Weekly,42,9,0,7,6,100,96.5
+EMP0849,29,3,3,Sales,Mid-Level,Poor,Fast (50-100 Mbps),Very High,Few times per week,49,5,38,4,6,100,98
+EMP0850,30,0,3,Engineering,Junior,Average,Very Fast (100+ Mbps),Moderate,Few times per week,35,11,24,5,8,100,95.3
+EMP0851,29,1,1,Customer Success,Junior,Poor,Very Fast (100+ Mbps),High,Daily,45,6,26,3,1,100,61.2
+EMP0852,30,6,4,Sales,Senior,Poor,Moderate (25-50 Mbps),Moderate,Weekly,46,5,28,8,8,86.6,72.9
+EMP0853,29,0,5,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Daily,45,12,0,4,7,100,98
+EMP0854,45,7,2,Sales,Senior,Average,Slow (<25 Mbps),High,Daily,36,9,54,5,7,100,71.5
+EMP0855,47,5,2,Engineering,Mid-Level,Average,Fast (50-100 Mbps),High,Few times per week,43,10,51,5,6,100,97.1
+EMP0856,29,2,3,Marketing,Junior,Good,Very Fast (100+ Mbps),High,Monthly,40,11,17,5,3,100,88.3
+EMP0857,27,1,4,Finance,Junior,Excellent,Moderate (25-50 Mbps),Moderate,Weekly,30,4,21,8,3,100,98
+EMP0858,39,4,0,Customer Success,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Few times per week,34,10,34,7,6,100,87
+EMP0859,30,4,4,Engineering,Senior,Excellent,Very Fast (100+ Mbps),High,Weekly,48,8,32,7,8,100,98
+EMP0860,40,4,3,Engineering,Senior,Good,Very Fast (100+ Mbps),High,Bi-weekly,39,7,32,4,9,100,98
+EMP0861,36,2,2,Engineering,Junior,Excellent,Moderate (25-50 Mbps),Very High,Few times per week,48,6,30,4,8,100,97.1
+EMP0862,22,0,3,Engineering,Junior,Average,Fast (50-100 Mbps),Moderate,Few times per week,48,7,43,4,8,78.2,49.9
+EMP0863,48,8,2,Engineering,Senior,Good,Fast (50-100 Mbps),High,Few times per week,45,5,23,5,1,100,92.8
+EMP0864,51,2,4,Sales,Junior,Excellent,Fast (50-100 Mbps),Low,Daily,38,10,43,6,4,94.4,79.1
+EMP0865,29,3,4,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Bi-weekly,47,5,30,4,9,100,84.2
+EMP0866,31,3,3,Operations,Mid-Level,Excellent,Moderate (25-50 Mbps),Moderate,Weekly,43,6,40,6,9,100,73.4
+EMP0867,37,3,3,Sales,Mid-Level,Average,Very Fast (100+ Mbps),Very High,Weekly,42,8,44,4,4,100,98
+EMP0868,38,2,2,Engineering,Junior,Good,Very Fast (100+ Mbps),Very High,Few times per week,36,5,19,4,7,100,91.9
+EMP0869,40,0,4,Sales,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Monthly,38,7,9,4,6,100,94.3
+EMP0870,53,24,3,Engineering,Manager,Average,Very Fast (100+ Mbps),High,Daily,36,10,50,7,1,100,98
+EMP0871,33,4,3,Finance,Senior,Good,Fast (50-100 Mbps),Very High,Daily,47,9,49,6,8,100,79.5
+EMP0872,27,1,3,Sales,Junior,Average,Very Fast (100+ Mbps),Moderate,Daily,51,7,30,6,9,94,88.3
+EMP0873,22,0,3,Engineering,Junior,Good,Very Fast (100+ Mbps),High,Weekly,47,8,25,7,9,100,71.1
+EMP0874,28,1,2,Sales,Junior,Good,Very Fast (100+ Mbps),High,Weekly,43,8,5,2,6,100,75
+EMP0875,34,1,1,Engineering,Junior,Good,Fast (50-100 Mbps),Moderate,Few times per week,40,1,29,7,8,95.5,86.5
+EMP0876,51,18,1,Customer Success,Manager,Excellent,Fast (50-100 Mbps),Low,Weekly,44,7,25,5,6,100,87.9
+EMP0877,30,1,4,Data Science,Junior,Excellent,Fast (50-100 Mbps),High,Daily,39,5,36,6,10,100,96.8
+EMP0878,37,7,2,Engineering,Senior,Excellent,Fast (50-100 Mbps),Moderate,Daily,41,5,43,5,10,100,86.3
+EMP0879,34,1,0,Finance,Junior,Average,Fast (50-100 Mbps),Moderate,Daily,37,5,69,7,8,100,91.8
+EMP0880,45,12,4,Engineering,Senior,Average,Very Fast (100+ Mbps),Very Low,Few times per week,45,6,0,4,6,89.8,96.9
+EMP0881,57,28,1,Engineering,Manager,Excellent,Slow (<25 Mbps),High,Weekly,46,9,47,9,9,100,98
+EMP0882,30,4,4,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),Low,Weekly,47,6,15,5,5,100,98
+EMP0883,30,3,2,Product,Mid-Level,Poor,Very Fast (100+ Mbps),High,Daily,45,3,34,7,5,100,98
+EMP0884,44,2,1,Sales,Junior,Excellent,Fast (50-100 Mbps),High,Daily,44,9,55,6,7,100,98
+EMP0885,41,13,3,Data Science,Senior,Good,Fast (50-100 Mbps),High,Bi-weekly,35,8,21,7,8,100,82.1
+EMP0886,51,7,0,Marketing,Senior,Good,Moderate (25-50 Mbps),High,Daily,35,5,99,6,3,100,98
+EMP0887,40,10,4,Engineering,Mid-Level,Average,Very Fast (100+ Mbps),Moderate,Few times per week,43,10,19,5,8,87.9,98
+EMP0888,31,3,3,HR,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Daily,48,13,18,4,9,93.8,70.7
+EMP0889,40,2,1,Design,Mid-Level,Poor,Fast (50-100 Mbps),High,Few times per week,40,14,0,6,7,100,61.6
+EMP0890,44,4,2,Customer Success,Mid-Level,Good,Very Fast (100+ Mbps),Very High,Few times per week,42,7,42,2,5,100,72.3
+EMP0891,42,1,3,HR,Junior,Good,Very Fast (100+ Mbps),High,Daily,42,9,26,2,7,100,83.2
+EMP0892,39,4,1,Sales,Junior,Good,Fast (50-100 Mbps),High,Few times per week,30,7,5,6,4,100,64.3
+EMP0893,44,19,2,Engineering,Director,Good,Very Fast (100+ Mbps),High,Few times per week,43,10,26,6,6,100,98
+EMP0894,45,3,3,Engineering,Junior,Excellent,Very Fast (100+ Mbps),High,Daily,38,12,35,6,7,100,98
+EMP0895,47,2,4,Marketing,Mid-Level,Average,Very Fast (100+ Mbps),Very High,Weekly,45,4,7,5,6,100,98
+EMP0896,40,3,3,Design,Mid-Level,Excellent,Very Fast (100+ Mbps),High,Weekly,41,9,13,7,6,100,69.2
+EMP0897,33,7,4,Finance,Senior,Average,Very Fast (100+ Mbps),Moderate,Daily,40,12,28,4,7,100,67.8
+EMP0898,36,4,5,Customer Success,Junior,Good,Very Fast (100+ Mbps),High,Daily,41,8,0,6,6,100,71.7
+EMP0899,45,10,2,Engineering,Senior,Good,Very Fast (100+ Mbps),Very High,Daily,40,10,46,8,3,100,98
+EMP0900,27,1,4,Finance,Junior,Excellent,Moderate (25-50 Mbps),High,Few times per week,33,9,44,8,6,100,86.9
+EMP0901,38,4,4,Product,Mid-Level,Good,Very Fast (100+ Mbps),High,Weekly,47,13,73,2,6,100,88.4
+EMP0902,31,5,2,Marketing,Mid-Level,Average,Fast (50-100 Mbps),Moderate,Daily,38,3,30,5,6,98.9,98
+EMP0903,35,5,5,Sales,Mid-Level,Average,Slow (<25 Mbps),Low,Few times per week,39,8,0,7,4,90.1,66.9
+EMP0904,46,9,2,Finance,Senior,Average,Moderate (25-50 Mbps),Moderate,Daily,42,9,0,7,3,100,73.7
+EMP0905,36,6,2,Operations,Senior,Good,Very Fast (100+ Mbps),Moderate,Few times per week,35,8,1,6,8,100,98
+EMP0906,35,9,4,Data Science,Senior,Excellent,Very Fast (100+ Mbps),High,Daily,39,5,71,4,7,100,98
+EMP0907,22,1,3,Sales,Junior,Average,Fast (50-100 Mbps),High,Bi-weekly,53,6,22,5,10,100,98
+EMP0908,41,8,2,Engineering,Senior,Average,Moderate (25-50 Mbps),Moderate,Weekly,44,5,68,8,10,82.5,77.3
+EMP0909,40,15,1,Marketing,Lead,Good,Very Fast (100+ Mbps),Low,Daily,36,8,50,4,7,78.9,62
+EMP0910,54,5,4,Engineering,Mid-Level,Excellent,Very Fast (100+ Mbps),Low,Bi-weekly,29,3,4,9,6,86.3,81.8
+EMP0911,32,1,4,Operations,Junior,Average,Moderate (25-50 Mbps),High,Daily,48,8,13,6,4,100,88.8
+EMP0912,36,2,3,Engineering,Junior,Average,Very Fast (100+ Mbps),High,Daily,35,11,59,5,6,100,98
+EMP0913,37,3,5,Design,Mid-Level,Good,Fast (50-100 Mbps),High,Bi-weekly,38,6,0,5,8,100,97.8
+EMP0914,49,5,2,Customer Success,Junior,Good,Fast (50-100 Mbps),Very High,Daily,39,12,21,4,10,100,90.4
+EMP0915,34,2,2,Engineering,Mid-Level,Average,Very Fast (100+ Mbps),Moderate,Bi-weekly,36,9,42,5,7,100,56.9
+EMP0916,37,4,4,Engineering,Mid-Level,Excellent,Very Fast (100+ Mbps),High,Few times per week,41,4,25,3,7,100,89.4
+EMP0917,40,8,4,Marketing,Senior,Good,Fast (50-100 Mbps),High,Monthly,38,5,0,8,9,100,98
+EMP0918,36,8,2,HR,Lead,Excellent,Fast (50-100 Mbps),Moderate,Weekly,45,5,77,9,4,100,98
+EMP0919,30,3,0,Engineering,Mid-Level,Excellent,Moderate (25-50 Mbps),Very High,Daily,42,6,7,7,7,100,98
+EMP0920,36,4,4,Engineering,Senior,Poor,Fast (50-100 Mbps),High,Bi-weekly,50,9,25,8,7,100,73.8
+EMP0921,44,0,5,Marketing,Junior,Good,Very Fast (100+ Mbps),Very High,Daily,50,6,0,4,5,100,70.9
+EMP0922,25,2,4,Finance,Junior,Average,Fast (50-100 Mbps),High,Weekly,36,9,10,2,8,100,88.4
+EMP0923,36,5,2,Engineering,Mid-Level,Good,Fast (50-100 Mbps),Very High,Few times per week,40,7,55,6,4,100,77.9
+EMP0924,28,2,5,HR,Mid-Level,Average,Fast (50-100 Mbps),Moderate,Weekly,54,9,0,8,3,92.4,64.9
+EMP0925,45,15,5,Design,Lead,Good,Very Fast (100+ Mbps),Moderate,Weekly,35,12,0,8,6,82.9,91.4
+EMP0926,22,0,3,Engineering,Junior,Excellent,Fast (50-100 Mbps),Moderate,Weekly,46,7,27,6,5,67.4,75.4
+EMP0927,29,1,4,Marketing,Junior,Average,Fast (50-100 Mbps),Moderate,Weekly,45,5,47,6,6,100,88.6
+EMP0928,38,4,4,Engineering,Mid-Level,Excellent,Fast (50-100 Mbps),Moderate,Weekly,36,3,58,5,4,78.6,87.4
+EMP0929,49,4,5,Engineering,Mid-Level,Good,Moderate (25-50 Mbps),High,Few times per week,37,8,0,8,6,100,74.5
+EMP0930,34,6,4,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Bi-weekly,53,9,41,7,6,100,98
+EMP0931,30,0,4,Sales,Junior,Excellent,Very Fast (100+ Mbps),High,Weekly,52,10,32,4,10,100,86.6
+EMP0932,51,16,4,Customer Success,Manager,Excellent,Fast (50-100 Mbps),High,Weekly,44,10,15,5,8,100,71.9
+EMP0933,22,0,3,Operations,Mid-Level,Average,Slow (<25 Mbps),Very High,Monthly,33,11,18,4,9,100,98
+EMP0934,22,0,4,Engineering,Junior,Good,Very Fast (100+ Mbps),Very High,Daily,49,7,38,6,8,100,98
+EMP0935,38,3,4,Engineering,Senior,Good,Very Fast (100+ Mbps),Low,Few times per week,33,8,25,4,8,100,98
+EMP0936,30,4,5,Operations,Mid-Level,Good,Moderate (25-50 Mbps),High,Weekly,46,12,0,4,8,100,98
+EMP0937,25,1,3,Engineering,Junior,Good,Moderate (25-50 Mbps),High,Daily,32,6,48,4,5,100,69.2
+EMP0938,41,7,3,Sales,Senior,Average,Moderate (25-50 Mbps),Moderate,Few times per week,42,1,48,4,6,100,98
+EMP0939,37,6,3,Marketing,Senior,Average,Very Fast (100+ Mbps),High,Bi-weekly,47,12,30,8,9,100,95.7
+EMP0940,29,4,4,Product,Mid-Level,Excellent,Moderate (25-50 Mbps),Low,Daily,25,8,12,9,3,100,72.3
+EMP0941,23,0,4,Engineering,Junior,Good,Fast (50-100 Mbps),Low,Bi-weekly,38,11,22,10,3,79.3,91
+EMP0942,42,3,0,Finance,Mid-Level,Good,Fast (50-100 Mbps),High,Monthly,42,11,54,2,7,100,70.8
+EMP0943,40,11,3,Engineering,Lead,Good,Very Fast (100+ Mbps),Very High,Daily,39,10,7,6,9,100,98
+EMP0944,34,5,1,Operations,Mid-Level,Good,Fast (50-100 Mbps),High,Weekly,37,5,55,4,8,100,83.2
+EMP0945,51,1,0,Operations,Junior,Good,Very Fast (100+ Mbps),High,Daily,41,8,18,10,8,100,86.9
+EMP0946,25,1,4,Customer Success,Junior,Excellent,Very Fast (100+ Mbps),High,Weekly,48,6,16,10,6,100,98
+EMP0947,22,0,2,Marketing,Junior,Good,Fast (50-100 Mbps),High,Few times per week,50,9,20,9,7,100,94.7
+EMP0948,28,0,2,Sales,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Bi-weekly,46,4,10,1,8,93.5,98
+EMP0949,34,6,0,Engineering,Senior,Excellent,Very Fast (100+ Mbps),High,Daily,51,7,63,4,8,100,79
+EMP0950,37,8,1,Engineering,Senior,Poor,Very Fast (100+ Mbps),High,Weekly,38,9,41,6,7,100,98
+EMP0951,32,2,4,Marketing,Junior,Good,Fast (50-100 Mbps),High,Weekly,45,6,12,4,8,100,97.2
+EMP0952,38,3,3,Product,Senior,Good,Very Fast (100+ Mbps),Moderate,Daily,35,7,17,8,2,100,79.2
+EMP0953,23,0,5,Marketing,Junior,Good,Fast (50-100 Mbps),High,Weekly,59,9,0,7,9,100,79.7
+EMP0954,47,10,3,HR,Mid-Level,Average,Fast (50-100 Mbps),High,Monthly,42,10,46,4,9,100,79.9
+EMP0955,34,4,2,Sales,Senior,Good,Fast (50-100 Mbps),High,Few times per week,46,4,30,8,3,100,83.4
+EMP0956,45,12,2,Marketing,Senior,Good,Fast (50-100 Mbps),High,Weekly,31,14,50,6,6,100,95.1
+EMP0957,38,6,4,Sales,Senior,Good,Fast (50-100 Mbps),High,Few times per week,46,9,21,7,9,100,96.8
+EMP0958,39,10,3,Engineering,Senior,Average,Very Fast (100+ Mbps),Very Low,Few times per week,42,8,37,3,6,90.5,77.3
+EMP0959,40,4,5,Sales,Mid-Level,Average,Very Fast (100+ Mbps),Moderate,Daily,44,5,0,6,3,81.2,92.9
+EMP0960,39,6,4,HR,Senior,Good,Fast (50-100 Mbps),Moderate,Few times per week,42,10,13,7,10,100,93.2
+EMP0961,40,6,3,Sales,Mid-Level,Average,Slow (<25 Mbps),Low,Few times per week,41,4,10,5,6,100,98
+EMP0962,46,12,4,Finance,Manager,Average,Very Fast (100+ Mbps),Moderate,Weekly,40,8,23,4,6,100,95.7
+EMP0963,36,1,5,HR,Junior,Poor,Fast (50-100 Mbps),Moderate,Daily,41,6,0,6,7,74.2,53.4
+EMP0964,41,13,2,Sales,Lead,Poor,Moderate (25-50 Mbps),High,Daily,50,8,49,6,8,100,59.7
+EMP0965,34,3,2,Customer Success,Mid-Level,Good,Moderate (25-50 Mbps),Moderate,Weekly,39,9,26,4,9,87.5,85.5
+EMP0966,47,8,4,Sales,Mid-Level,Average,Very Fast (100+ Mbps),Very High,Daily,55,7,21,2,7,100,82.7
+EMP0967,28,0,3,Engineering,Junior,Good,Fast (50-100 Mbps),High,Few times per week,42,9,27,4,9,100,83.6
+EMP0968,51,11,5,Engineering,Manager,Good,Very Fast (100+ Mbps),High,Daily,50,9,0,5,5,100,82.9
+EMP0969,34,0,3,Engineering,Junior,Excellent,Fast (50-100 Mbps),Moderate,Few times per week,48,9,16,2,9,97.7,77.8
+EMP0970,22,0,0,HR,Junior,Excellent,Very Fast (100+ Mbps),High,Monthly,32,4,21,9,4,100,98
+EMP0971,36,3,5,Product,Mid-Level,Excellent,Fast (50-100 Mbps),Moderate,Bi-weekly,33,9,0,4,9,100,74.4
+EMP0972,28,4,4,Engineering,Senior,Poor,Moderate (25-50 Mbps),Moderate,Daily,37,10,27,7,5,70.7,47.4
+EMP0973,42,11,1,Engineering,Senior,Excellent,Slow (<25 Mbps),Very High,Few times per week,32,7,61,5,7,100,98
+EMP0974,29,1,5,Sales,Junior,Excellent,Moderate (25-50 Mbps),High,Bi-weekly,39,8,0,6,8,100,81.3
+EMP0975,30,3,2,Finance,Mid-Level,Good,Very Fast (100+ Mbps),Very High,Bi-weekly,42,8,20,6,6,100,93.3
+EMP0976,22,1,2,Sales,Mid-Level,Good,Very Fast (100+ Mbps),High,Daily,45,5,29,7,4,100,73.8
+EMP0977,30,3,5,Marketing,Senior,Poor,Fast (50-100 Mbps),Moderate,Weekly,43,10,0,7,6,95.7,86.9
+EMP0978,22,1,3,HR,Mid-Level,Average,Fast (50-100 Mbps),Moderate,Daily,42,8,31,3,3,86.8,66.1
+EMP0979,22,1,1,Sales,Mid-Level,Good,Very Fast (100+ Mbps),High,Few times per week,48,7,39,5,7,100,88.1
+EMP0980,41,9,2,Data Science,Senior,Poor,Very Fast (100+ Mbps),Moderate,Daily,47,8,63,6,7,100,84
+EMP0981,42,11,4,Sales,Senior,Excellent,Moderate (25-50 Mbps),Low,Monthly,53,13,24,5,5,100,88
+EMP0982,38,4,1,Data Science,Mid-Level,Poor,Moderate (25-50 Mbps),High,Weekly,43,9,7,3,7,100,98
+EMP0983,26,1,3,Engineering,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Daily,27,7,7,5,3,100,75.4
+EMP0984,34,9,4,Engineering,Senior,Average,Very Fast (100+ Mbps),Very High,Weekly,44,10,44,4,2,100,98
+EMP0985,34,3,2,HR,Senior,Excellent,Fast (50-100 Mbps),Moderate,Daily,55,5,10,3,6,75.6,87
+EMP0986,24,0,4,Finance,Junior,Poor,Moderate (25-50 Mbps),Very High,Daily,48,7,22,5,6,100,90.9
+EMP0987,48,6,5,Customer Success,Senior,Excellent,Fast (50-100 Mbps),Moderate,Few times per week,49,9,0,5,1,100,95.8
+EMP0988,42,12,3,Sales,Manager,Excellent,Slow (<25 Mbps),High,Few times per week,42,5,8,3,7,100,98
+EMP0989,33,2,3,Design,Junior,Average,Fast (50-100 Mbps),Low,Daily,47,14,25,6,8,67.3,66.9
+EMP0990,35,6,2,Engineering,Senior,Excellent,Slow (<25 Mbps),High,Few times per week,49,10,40,5,6,100,98
+EMP0991,36,8,4,Engineering,Senior,Average,Fast (50-100 Mbps),Very High,Few times per week,39,17,29,4,8,100,98
+EMP0992,22,0,5,Sales,Junior,Average,Moderate (25-50 Mbps),High,Few times per week,38,3,0,8,4,100,58.8
+EMP0993,32,7,2,Customer Success,Lead,Good,Moderate (25-50 Mbps),Moderate,Daily,44,3,32,1,7,99.3,98
+EMP0994,28,2,3,Finance,Junior,Good,Very Fast (100+ Mbps),Moderate,Daily,47,6,4,6,8,93,68
+EMP0995,25,0,3,Marketing,Junior,Average,Very Fast (100+ Mbps),Low,Daily,25,7,16,5,7,90.8,68.3
+EMP0996,32,3,3,Engineering,Mid-Level,Average,Moderate (25-50 Mbps),Moderate,Few times per week,40,7,15,7,8,75.5,55.8
+EMP0997,51,3,2,Engineering,Junior,Good,Very Fast (100+ Mbps),Moderate,Few times per week,30,15,54,5,8,100,95.6
+EMP0998,40,5,4,Sales,Junior,Excellent,Very Fast (100+ Mbps),High,Bi-weekly,41,10,16,6,4,100,98
+EMP0999,29,0,2,Marketing,Junior,Good,Moderate (25-50 Mbps),Very High,Daily,52,7,0,8,3,100,84.3
+EMP1000,40,4,4,Finance,Mid-Level,Excellent,Moderate (25-50 Mbps),Very Low,Weekly,38,12,37,4,10,65.4,58.4
+EMP1001,47,13,3,Operations,Lead,Good,Very Fast (100+ Mbps),Low,Daily,40,8,32,3,6,100,85.5
+EMP1002,43,9,3,Design,Senior,Average,Fast (50-100 Mbps),High,Daily,45,8,15,7,8,100,86.7
+EMP1003,35,0,1,Engineering,Junior,Average,Fast (50-100 Mbps),Moderate,Few times per week,47,9,9,7,7,100,91.8
+EMP1004,29,0,4,Sales,Junior,Average,Very Fast (100+ Mbps),Moderate,Weekly,47,7,18,8,2,71.8,37.5
+EMP1005,41,8,1,Marketing,Mid-Level,Good,Moderate (25-50 Mbps),Moderate,Bi-weekly,42,4,34,10,6,98.5,93.8
+EMP1006,38,4,1,Finance,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Weekly,45,13,46,5,7,97.7,84.5
+EMP1007,43,3,3,Marketing,Mid-Level,Average,Slow (<25 Mbps),Very High,Daily,45,8,51,5,8,100,98
+EMP1008,40,9,4,Product,Lead,Average,Very Fast (100+ Mbps),Low,Weekly,37,8,29,8,10,92.1,87.4
+EMP1009,44,5,0,Operations,Senior,Average,Very Fast (100+ Mbps),High,Weekly,31,3,48,8,5,100,88.1
+EMP1010,30,2,0,Engineering,Junior,Excellent,Moderate (25-50 Mbps),High,Few times per week,36,8,3,5,3,100,71.2
+EMP1011,46,23,4,Engineering,Manager,Good,Very Fast (100+ Mbps),High,Monthly,50,8,8,3,6,100,97.2
+EMP1012,36,2,4,HR,Junior,Good,Very Fast (100+ Mbps),Moderate,Daily,55,5,41,6,2,52.5,35
+EMP1013,53,12,2,Finance,Senior,Excellent,Slow (<25 Mbps),Moderate,Weekly,41,8,8,4,6,81.7,98
+EMP1014,28,2,4,Engineering,Mid-Level,Average,Moderate (25-50 Mbps),Moderate,Daily,50,9,13,8,5,90.8,98
+EMP1015,50,5,3,Engineering,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Weekly,40,10,30,8,5,100,91
+EMP1016,36,2,4,Operations,Junior,Average,Fast (50-100 Mbps),Moderate,Weekly,44,11,30,8,1,100,76.7
+EMP1017,29,2,5,Operations,Mid-Level,Good,Very Fast (100+ Mbps),High,Daily,38,7,0,3,5,100,74
+EMP1018,30,0,0,Engineering,Junior,Good,Slow (<25 Mbps),Low,Monthly,48,12,16,8,5,82,84.2
+EMP1019,32,3,4,Marketing,Mid-Level,Average,Moderate (25-50 Mbps),Very High,Daily,38,8,48,6,9,100,98
+EMP1020,38,1,3,Sales,Junior,Good,Very Fast (100+ Mbps),Moderate,Daily,36,7,7,4,3,100,88.7
+EMP1021,39,8,3,Design,Mid-Level,Average,Very Fast (100+ Mbps),Very High,Bi-weekly,42,10,29,5,8,100,98
+EMP1022,29,0,4,Engineering,Junior,Average,Moderate (25-50 Mbps),High,Daily,46,8,51,6,8,100,41.5
+EMP1023,34,0,5,HR,Junior,Average,Very Fast (100+ Mbps),High,Few times per week,42,12,0,6,5,100,98
+EMP1024,54,2,0,Marketing,Mid-Level,Good,Moderate (25-50 Mbps),Low,Weekly,39,2,41,4,9,100,66.9
+EMP1025,50,21,0,Engineering,Manager,Excellent,Slow (<25 Mbps),Very High,Weekly,36,3,2,4,7,100,92.1
+EMP1026,38,3,1,Marketing,Mid-Level,Good,Moderate (25-50 Mbps),High,Monthly,31,11,53,8,3,100,91
+EMP1027,35,7,5,Engineering,Mid-Level,Average,Fast (50-100 Mbps),Moderate,Weekly,39,6,0,8,5,100,88.8
+EMP1028,36,9,4,Finance,Senior,Good,Fast (50-100 Mbps),High,Weekly,41,12,22,7,6,100,98
+EMP1029,40,9,4,Operations,Lead,Good,Very Fast (100+ Mbps),Moderate,Bi-weekly,45,5,35,7,10,100,98
+EMP1030,25,1,0,Engineering,Junior,Excellent,Fast (50-100 Mbps),Low,Few times per week,34,11,63,7,5,95.1,85.1
+EMP1031,32,5,5,Engineering,Senior,Good,Very Fast (100+ Mbps),Moderate,Daily,46,8,0,9,6,83.9,77.1
+EMP1032,22,0,4,HR,Junior,Average,Fast (50-100 Mbps),High,Weekly,38,8,0,8,7,100,91.6
+EMP1033,38,7,4,Engineering,Senior,Excellent,Very Fast (100+ Mbps),High,Daily,38,8,31,5,6,100,98
+EMP1034,40,1,2,Marketing,Mid-Level,Good,Very Fast (100+ Mbps),Very High,Daily,49,10,59,6,7,100,92.9
+EMP1035,30,0,0,Sales,Junior,Excellent,Very Fast (100+ Mbps),High,Weekly,27,8,42,6,7,100,63.2
+EMP1036,49,8,3,Design,Senior,Average,Moderate (25-50 Mbps),Very High,Monthly,34,5,47,6,3,100,91.3
+EMP1037,23,0,4,Marketing,Junior,Average,Very Fast (100+ Mbps),Low,Few times per week,42,10,28,5,6,80.9,55.3
+EMP1038,22,0,1,Finance,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Daily,41,6,68,8,8,82,55.9
+EMP1039,37,5,4,Engineering,Senior,Excellent,Very Fast (100+ Mbps),High,Few times per week,31,9,0,8,7,100,98
+EMP1040,44,13,2,Engineering,Manager,Excellent,Very Fast (100+ Mbps),High,Few times per week,39,5,53,5,6,100,98
+EMP1041,50,8,4,Engineering,Mid-Level,Good,Moderate (25-50 Mbps),Moderate,Few times per week,47,7,0,3,8,100,98
+EMP1042,30,4,3,Sales,Mid-Level,Good,Fast (50-100 Mbps),High,Few times per week,35,6,30,1,7,100,91.1
+EMP1043,44,20,1,Finance,Manager,Good,Very Fast (100+ Mbps),Low,Daily,48,9,11,3,8,100,98
+EMP1044,34,3,3,Operations,Mid-Level,Average,Very Fast (100+ Mbps),High,Few times per week,37,10,37,4,3,100,80.8
+EMP1045,33,1,3,Sales,Junior,Poor,Slow (<25 Mbps),Low,Bi-weekly,30,5,18,7,7,86.6,55.8
+EMP1046,42,6,1,Finance,Senior,Excellent,Fast (50-100 Mbps),Moderate,Weekly,46,11,37,4,7,100,98
+EMP1047,40,6,4,Engineering,Mid-Level,Excellent,Very Fast (100+ Mbps),Low,Daily,43,3,15,6,7,100,67.8
+EMP1048,22,1,0,Engineering,Junior,Good,Very Fast (100+ Mbps),Very High,Few times per week,33,6,71,5,9,100,60.8
+EMP1049,48,7,2,Customer Success,Lead,Good,Very Fast (100+ Mbps),Very High,Daily,38,12,30,8,6,100,98
+EMP1050,47,3,0,Operations,Senior,Good,Very Fast (100+ Mbps),Moderate,Monthly,52,3,17,6,8,92.9,98
+EMP1051,29,5,1,Operations,Mid-Level,Average,Moderate (25-50 Mbps),Low,Daily,45,10,5,7,8,78,40.7
+EMP1052,38,3,2,Sales,Mid-Level,Excellent,Very Fast (100+ Mbps),Moderate,Bi-weekly,48,9,17,6,5,84.3,98
+EMP1053,39,2,0,Sales,Junior,Average,Moderate (25-50 Mbps),Moderate,Weekly,35,7,14,8,5,100,95
+EMP1054,37,3,3,Engineering,Mid-Level,Good,Fast (50-100 Mbps),Very High,Few times per week,49,9,25,7,9,100,92.6
+EMP1055,30,3,1,Customer Success,Mid-Level,Poor,Very Fast (100+ Mbps),High,Daily,33,14,29,6,5,100,87.4
+EMP1056,28,2,4,Operations,Mid-Level,Average,Moderate (25-50 Mbps),High,Bi-weekly,33,8,0,6,6,100,91.3
+EMP1057,34,6,0,Engineering,Mid-Level,Average,Very Fast (100+ Mbps),Moderate,Daily,47,3,26,10,7,98.4,98
+EMP1058,45,4,0,Customer Success,Mid-Level,Excellent,Fast (50-100 Mbps),High,Daily,34,11,0,7,5,100,89.9
+EMP1059,39,3,2,Marketing,Junior,Average,Moderate (25-50 Mbps),High,Daily,51,11,51,7,7,100,70.2
+EMP1060,31,3,5,HR,Mid-Level,Excellent,Slow (<25 Mbps),Moderate,Few times per week,34,8,0,3,5,83.3,83.6
+EMP1061,41,11,4,Engineering,Senior,Average,Very Fast (100+ Mbps),Low,Daily,36,5,21,8,7,100,98
+EMP1062,22,1,4,Engineering,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Monthly,48,6,5,6,7,88.2,87.6
+EMP1063,45,7,1,Engineering,Senior,Excellent,Fast (50-100 Mbps),Moderate,Daily,38,9,30,5,8,100,98
+EMP1064,22,1,4,Engineering,Junior,Excellent,Very Fast (100+ Mbps),Very Low,Weekly,46,8,39,6,8,100,53
+EMP1065,31,5,0,HR,Mid-Level,Excellent,Fast (50-100 Mbps),Very High,Daily,35,10,29,6,7,100,98
+EMP1066,24,0,2,Finance,Junior,Good,Very Fast (100+ Mbps),Very High,Few times per week,40,3,36,4,5,100,95
+EMP1067,23,0,4,Operations,Junior,Poor,Fast (50-100 Mbps),Moderate,Daily,46,6,37,5,6,94.2,74.9
+EMP1068,45,3,2,Product,Junior,Good,Very Fast (100+ Mbps),High,Monthly,36,14,23,7,7,100,98
+EMP1069,30,2,5,Engineering,Mid-Level,Average,Moderate (25-50 Mbps),High,Daily,48,12,0,4,5,100,76.6
+EMP1070,38,4,0,Product,Mid-Level,Excellent,Fast (50-100 Mbps),High,Weekly,39,9,17,8,9,100,95.7
+EMP1071,34,2,5,Product,Junior,Good,Very Fast (100+ Mbps),Moderate,Daily,42,11,0,3,3,100,89.7
+EMP1072,39,5,4,Marketing,Senior,Excellent,Moderate (25-50 Mbps),High,Weekly,35,9,11,6,8,100,94.5
+EMP1073,35,2,3,Engineering,Junior,Excellent,Very Fast (100+ Mbps),High,Daily,37,2,37,5,6,100,92.3
+EMP1074,23,0,0,Finance,Mid-Level,Excellent,Very Fast (100+ Mbps),High,Daily,36,12,39,2,9,100,94.8
+EMP1075,43,1,2,Sales,Mid-Level,Good,Very Fast (100+ Mbps),High,Weekly,38,5,45,7,7,100,98
+EMP1076,30,5,5,Customer Success,Mid-Level,Excellent,Moderate (25-50 Mbps),Low,Daily,51,8,0,6,8,100,80
+EMP1077,22,0,2,Engineering,Mid-Level,Average,Very Fast (100+ Mbps),Very Low,Few times per week,48,9,9,7,8,56.2,44.9
+EMP1078,31,5,4,Marketing,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Daily,44,9,50,5,7,53.9,57.7
+EMP1079,48,1,5,Marketing,Junior,Average,Slow (<25 Mbps),Very Low,Weekly,38,12,0,8,2,63.4,47.3
+EMP1080,42,15,2,Engineering,Manager,Poor,Very Fast (100+ Mbps),High,Few times per week,36,4,56,3,7,100,98
+EMP1081,31,2,3,Sales,Mid-Level,Average,Moderate (25-50 Mbps),Moderate,Daily,36,5,9,4,9,97.5,84.1
+EMP1082,31,0,4,Engineering,Junior,Average,Very Fast (100+ Mbps),High,Weekly,40,7,32,7,8,100,76.1
+EMP1083,32,0,1,Marketing,Junior,Excellent,Moderate (25-50 Mbps),Moderate,Daily,43,7,16,9,9,100,56.8
+EMP1084,53,3,1,Customer Success,Mid-Level,Average,Fast (50-100 Mbps),High,Few times per week,45,8,3,8,6,100,98
+EMP1085,38,8,3,Engineering,Senior,Good,Moderate (25-50 Mbps),Moderate,Few times per week,42,10,31,4,6,74.6,98
+EMP1086,38,8,3,HR,Senior,Good,Slow (<25 Mbps),Very High,Bi-weekly,45,15,28,5,8,100,98
+EMP1087,44,2,4,Engineering,Mid-Level,Good,Moderate (25-50 Mbps),High,Daily,47,12,33,7,5,100,98
+EMP1088,37,8,0,Finance,Senior,Average,Very Fast (100+ Mbps),Moderate,Weekly,39,9,53,9,8,86.2,80.2
+EMP1089,32,9,5,Product,Senior,Average,Moderate (25-50 Mbps),Moderate,Few times per week,48,10,0,5,6,97.4,82
+EMP1090,33,7,0,Sales,Mid-Level,Excellent,Fast (50-100 Mbps),Moderate,Few times per week,36,11,51,5,5,100,98
+EMP1091,34,6,4,Product,Senior,Good,Very Fast (100+ Mbps),Moderate,Few times per week,45,6,26,2,7,99.2,74.7
+EMP1092,34,3,3,Marketing,Mid-Level,Average,Moderate (25-50 Mbps),High,Daily,42,10,23,6,5,100,98
+EMP1093,41,11,1,Sales,Senior,Average,Fast (50-100 Mbps),Moderate,Few times per week,43,3,61,3,7,100,98
+EMP1094,35,0,1,Product,Junior,Excellent,Very Fast (100+ Mbps),Very High,Weekly,39,9,28,3,7,100,87.4
+EMP1095,41,3,4,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Few times per week,49,5,41,7,8,100,98
+EMP1096,34,1,5,Engineering,Junior,Average,Fast (50-100 Mbps),Moderate,Daily,38,9,0,5,7,100,84
+EMP1097,35,4,2,Operations,Senior,Average,Fast (50-100 Mbps),Low,Daily,50,8,0,9,8,68.5,66.7
+EMP1098,22,1,3,Customer Success,Junior,Good,Fast (50-100 Mbps),High,Few times per week,50,11,16,7,10,97.1,62.4
+EMP1099,43,12,2,HR,Lead,Average,Very Fast (100+ Mbps),High,Few times per week,44,7,34,5,6,100,67.7
+EMP1100,38,0,0,Engineering,Junior,Good,Fast (50-100 Mbps),High,Daily,40,11,47,7,7,100,96.1
+EMP1101,43,13,4,Design,Lead,Average,Moderate (25-50 Mbps),High,Few times per week,36,8,37,8,3,100,98
+EMP1102,22,1,4,Finance,Junior,Good,Very Fast (100+ Mbps),Very High,Weekly,30,6,40,5,10,100,84.7
+EMP1103,53,5,2,Design,Senior,Good,Fast (50-100 Mbps),Moderate,Daily,45,8,39,6,7,95.8,66.9
+EMP1104,33,5,5,Sales,Senior,Average,Very Fast (100+ Mbps),High,Weekly,35,13,0,4,3,100,88.4
+EMP1105,44,5,0,Finance,Mid-Level,Excellent,Very Fast (100+ Mbps),Moderate,Monthly,36,8,32,5,6,99.5,93.5
+EMP1106,25,1,4,Customer Success,Junior,Average,Fast (50-100 Mbps),Very High,Daily,45,7,42,6,3,100,90.5
+EMP1107,40,3,3,Sales,Junior,Average,Very Fast (100+ Mbps),Very High,Daily,39,5,27,6,6,100,98
+EMP1108,25,1,3,Data Science,Junior,Poor,Fast (50-100 Mbps),Moderate,Few times per week,43,7,43,7,5,59.1,35
+EMP1109,29,6,3,Engineering,Senior,Good,Fast (50-100 Mbps),Low,Daily,44,7,32,9,6,88.1,82.9
+EMP1110,52,12,2,Sales,Manager,Average,Very Fast (100+ Mbps),High,Weekly,51,10,35,8,3,100,93.4
+EMP1111,33,4,4,Design,Mid-Level,Average,Very Fast (100+ Mbps),Very High,Daily,43,3,38,8,8,100,98
+EMP1112,36,1,4,Data Science,Junior,Average,Moderate (25-50 Mbps),Very High,Daily,38,5,29,6,8,100,98
+EMP1113,42,1,2,Sales,Junior,Excellent,Very Fast (100+ Mbps),Low,Daily,41,7,40,3,4,55.4,81.3
+EMP1114,39,2,4,Engineering,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Daily,38,6,12,6,8,100,98
+EMP1115,36,11,2,HR,Lead,Good,Moderate (25-50 Mbps),Low,Daily,53,9,31,5,4,100,98
+EMP1116,38,8,4,Design,Senior,Good,Moderate (25-50 Mbps),Very High,Daily,44,9,17,2,3,100,98
+EMP1117,56,10,1,Operations,Lead,Average,Fast (50-100 Mbps),Low,Daily,45,9,40,4,4,85.2,84
+EMP1118,34,5,1,Operations,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Few times per week,50,7,38,7,2,100,86.4
+EMP1119,36,10,2,HR,Mid-Level,Average,Very Fast (100+ Mbps),Low,Daily,36,8,31,6,6,100,98
+EMP1120,44,10,3,Engineering,Senior,Good,Very Fast (100+ Mbps),Very High,Weekly,33,11,23,9,10,100,98
+EMP1121,44,4,4,Data Science,Senior,Excellent,Fast (50-100 Mbps),Moderate,Daily,41,7,31,9,9,100,98
+EMP1122,45,11,3,Sales,Manager,Excellent,Very Fast (100+ Mbps),Moderate,Daily,33,12,0,6,6,100,97.9
+EMP1123,40,9,0,Operations,Mid-Level,Good,Moderate (25-50 Mbps),Moderate,Daily,39,6,5,4,8,100,87.4
+EMP1124,24,0,2,Marketing,Junior,Good,Fast (50-100 Mbps),High,Weekly,28,2,31,5,8,100,98
+EMP1125,49,13,4,Marketing,Senior,Good,Very Fast (100+ Mbps),Moderate,Few times per week,33,6,43,4,4,100,80.7
+EMP1126,24,0,4,Finance,Junior,Average,Very Fast (100+ Mbps),Very Low,Daily,49,10,46,6,5,86.1,70.4
+EMP1127,37,7,1,Data Science,Lead,Good,Fast (50-100 Mbps),Moderate,Daily,44,11,5,8,7,100,86.4
+EMP1128,28,0,0,Finance,Junior,Poor,Very Fast (100+ Mbps),Moderate,Monthly,52,8,97,8,5,37.6,38.3
+EMP1129,34,0,4,Customer Success,Junior,Poor,Fast (50-100 Mbps),Moderate,Weekly,41,3,11,4,9,100,72.1
+EMP1130,37,0,1,Engineering,Junior,Excellent,Moderate (25-50 Mbps),Moderate,Daily,41,4,15,6,5,85.9,79.1
+EMP1131,37,8,1,Customer Success,Lead,Average,Slow (<25 Mbps),High,Few times per week,43,9,0,7,8,100,65.2
+EMP1132,38,8,0,Sales,Lead,Average,Fast (50-100 Mbps),High,Few times per week,63,3,21,5,8,100,98
+EMP1133,49,10,3,Engineering,Senior,Good,Moderate (25-50 Mbps),Moderate,Daily,48,5,19,8,6,100,75.8
+EMP1134,39,1,3,Engineering,Junior,Good,Fast (50-100 Mbps),Very High,Weekly,36,8,48,5,5,100,86.1
+EMP1135,32,4,4,Finance,Mid-Level,Average,Fast (50-100 Mbps),Moderate,Weekly,44,7,37,6,2,65,46.3
+EMP1136,43,10,2,Data Science,Lead,Poor,Fast (50-100 Mbps),Moderate,Few times per week,42,10,57,6,8,82.9,69
+EMP1137,45,8,4,Finance,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Weekly,46,12,53,5,6,82,73.2
+EMP1138,23,0,1,Engineering,Mid-Level,Excellent,Very Fast (100+ Mbps),Low,Few times per week,53,5,79,9,6,73.9,49.7
+EMP1139,40,3,4,Engineering,Junior,Good,Fast (50-100 Mbps),High,Daily,45,8,54,7,2,100,81.3
+EMP1140,41,5,3,Marketing,Junior,Excellent,Slow (<25 Mbps),Very High,Daily,39,7,30,8,4,100,98
+EMP1141,32,7,3,Engineering,Mid-Level,Good,Fast (50-100 Mbps),High,Few times per week,53,12,18,7,6,100,98
+EMP1142,47,4,2,Sales,Senior,Average,Fast (50-100 Mbps),Low,Daily,34,5,55,6,7,100,84.8
+EMP1143,33,8,0,Finance,Senior,Good,Fast (50-100 Mbps),Very Low,Few times per week,40,14,20,2,5,88.3,91.4
+EMP1144,36,1,3,Data Science,Junior,Excellent,Fast (50-100 Mbps),High,Daily,47,9,34,7,4,100,58.2
+EMP1145,33,5,4,Sales,Senior,Average,Very Fast (100+ Mbps),Very High,Daily,37,8,21,6,5,100,87.1
+EMP1146,35,0,1,Engineering,Junior,Good,Moderate (25-50 Mbps),High,Bi-weekly,41,13,23,3,5,100,95.8
+EMP1147,25,0,5,Customer Success,Mid-Level,Excellent,Fast (50-100 Mbps),Moderate,Monthly,37,10,0,3,6,99.1,67
+EMP1148,22,0,5,HR,Junior,Average,Very Fast (100+ Mbps),Moderate,Few times per week,41,11,0,6,6,100,72
+EMP1149,49,17,3,Customer Success,Lead,Poor,Fast (50-100 Mbps),Moderate,Few times per week,37,7,0,8,3,99.9,81
+EMP1150,27,2,5,Engineering,Junior,Average,Very Fast (100+ Mbps),Moderate,Weekly,42,5,0,6,7,70.9,64
+EMP1151,26,0,1,Sales,Junior,Good,Fast (50-100 Mbps),Moderate,Weekly,40,8,44,8,4,84.5,56.9
+EMP1152,22,1,0,Data Science,Junior,Good,Fast (50-100 Mbps),High,Daily,49,12,16,8,8,100,52.3
+EMP1153,29,3,0,Engineering,Mid-Level,Excellent,Fast (50-100 Mbps),High,Few times per week,44,7,47,6,8,100,71.5
+EMP1154,23,0,3,Finance,Junior,Average,Very Fast (100+ Mbps),Moderate,Few times per week,46,9,22,5,3,100,43.8
+EMP1155,49,16,0,Engineering,Manager,Good,Very Fast (100+ Mbps),Moderate,Few times per week,42,9,34,8,6,93.7,55.2
+EMP1156,44,4,5,Marketing,Mid-Level,Poor,Very Fast (100+ Mbps),Very High,Daily,39,6,0,7,6,100,89.4
+EMP1157,28,1,1,Customer Success,Junior,Poor,Fast (50-100 Mbps),High,Weekly,44,3,32,6,10,100,76.5
+EMP1158,55,5,2,Marketing,Junior,Good,Very Fast (100+ Mbps),Moderate,Daily,43,8,6,6,5,91.1,98
+EMP1159,43,1,4,Customer Success,Junior,Poor,Very Fast (100+ Mbps),Very High,Daily,27,10,14,4,7,100,77.2
+EMP1160,32,1,2,Sales,Junior,Poor,Slow (<25 Mbps),Moderate,Daily,42,10,17,1,6,100,62.9
+EMP1161,22,0,2,Data Science,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Daily,46,9,17,7,8,100,77.1
+EMP1162,55,22,4,Marketing,Manager,Good,Moderate (25-50 Mbps),Very High,Weekly,37,7,11,8,5,100,95.8
+EMP1163,22,0,2,Engineering,Junior,Average,Moderate (25-50 Mbps),Moderate,Few times per week,47,10,15,4,7,63.7,35
+EMP1164,22,1,2,Sales,Junior,Good,Moderate (25-50 Mbps),Very High,Weekly,44,6,19,9,4,100,98
+EMP1165,44,9,2,HR,Lead,Good,Moderate (25-50 Mbps),High,Few times per week,39,8,20,3,1,100,98
+EMP1166,56,16,3,Customer Success,Manager,Excellent,Fast (50-100 Mbps),High,Few times per week,45,11,33,6,1,100,95.7
+EMP1167,47,0,5,Marketing,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Few times per week,39,11,0,3,6,79.2,71
+EMP1168,40,11,4,Operations,Manager,Poor,Fast (50-100 Mbps),Moderate,Few times per week,43,12,27,8,8,100,98
+EMP1169,40,8,2,Customer Success,Senior,Excellent,Very Fast (100+ Mbps),Very High,Few times per week,40,9,15,3,7,100,98
+EMP1170,42,9,2,Customer Success,Mid-Level,Average,Very Fast (100+ Mbps),Moderate,Few times per week,45,6,26,4,2,100,95
+EMP1171,41,0,3,Finance,Junior,Good,Very Fast (100+ Mbps),Very High,Monthly,50,7,0,8,7,100,86.1
+EMP1172,37,13,5,Customer Success,Senior,Average,Very Fast (100+ Mbps),Moderate,Bi-weekly,39,10,0,7,4,79.9,75.7
+EMP1173,35,3,1,Operations,Mid-Level,Average,Fast (50-100 Mbps),Moderate,Daily,47,11,38,5,10,73.6,60.3
+EMP1174,34,0,2,Engineering,Junior,Excellent,Slow (<25 Mbps),Moderate,Daily,40,8,29,8,6,100,98
+EMP1175,28,4,4,Engineering,Mid-Level,Good,Moderate (25-50 Mbps),High,Weekly,40,5,11,6,6,100,86.6
+EMP1176,32,2,5,Data Science,Junior,Average,Very Fast (100+ Mbps),Very High,Daily,39,8,0,4,6,100,79
+EMP1177,22,0,1,Engineering,Junior,Good,Very Fast (100+ Mbps),High,Daily,31,11,76,7,6,100,86.1
+EMP1178,34,5,2,Sales,Mid-Level,Average,Fast (50-100 Mbps),Very High,Daily,45,8,29,5,10,100,95.7
+EMP1179,26,0,2,Design,Junior,Average,Very Fast (100+ Mbps),Low,Few times per week,43,8,43,8,5,93.1,61.4
+EMP1180,25,2,0,Engineering,Junior,Good,Moderate (25-50 Mbps),Very High,Few times per week,42,10,28,7,7,100,98
+EMP1181,36,1,4,Customer Success,Junior,Average,Fast (50-100 Mbps),High,Few times per week,51,8,7,5,8,100,75.1
+EMP1182,47,19,4,Customer Success,Manager,Good,Fast (50-100 Mbps),High,Monthly,51,5,27,3,4,100,79.9
+EMP1183,43,12,4,Data Science,Lead,Good,Very Fast (100+ Mbps),Moderate,Few times per week,49,6,17,8,8,99,86.3
+EMP1184,22,0,0,Sales,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Daily,40,13,48,5,7,81.6,72.7
+EMP1185,26,1,0,Sales,Junior,Good,Very Fast (100+ Mbps),High,Few times per week,40,8,28,5,5,100,84.2
+EMP1186,43,5,2,Product,Mid-Level,Average,Fast (50-100 Mbps),Very High,Daily,35,6,29,1,7,100,98
+EMP1187,26,1,2,Engineering,Mid-Level,Good,Slow (<25 Mbps),Moderate,Bi-weekly,42,7,55,7,7,79.3,66.2
+EMP1188,32,3,4,Marketing,Junior,Average,Very Fast (100+ Mbps),Very High,Daily,42,5,27,5,8,100,74.4
+EMP1189,39,9,1,Finance,Senior,Average,Very Fast (100+ Mbps),Moderate,Monthly,45,13,38,5,4,100,50.9
+EMP1190,26,2,0,Engineering,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Few times per week,35,7,39,8,10,100,93.2
+EMP1191,35,1,3,Design,Junior,Good,Very Fast (100+ Mbps),High,Weekly,39,9,38,3,8,100,79.8
+EMP1192,22,1,3,Finance,Junior,Poor,Moderate (25-50 Mbps),High,Few times per week,31,10,62,2,7,100,84.2
+EMP1193,29,5,3,Engineering,Senior,Poor,Very Fast (100+ Mbps),Very High,Bi-weekly,37,4,18,6,8,100,59.2
+EMP1194,37,6,4,Engineering,Senior,Good,Slow (<25 Mbps),Moderate,Few times per week,47,3,23,7,8,100,98
+EMP1195,22,1,1,Engineering,Junior,Average,Moderate (25-50 Mbps),Moderate,Few times per week,35,11,21,6,6,89.1,70.4
+EMP1196,38,2,4,Engineering,Junior,Good,Moderate (25-50 Mbps),High,Weekly,52,10,20,5,6,100,98
+EMP1197,34,8,2,HR,Lead,Excellent,Very Fast (100+ Mbps),High,Weekly,48,10,42,5,10,100,98
+EMP1198,39,8,2,Engineering,Lead,Average,Very Fast (100+ Mbps),Moderate,Bi-weekly,45,14,44,3,9,87.1,73.5
+EMP1199,37,9,5,Sales,Lead,Good,Moderate (25-50 Mbps),High,Daily,50,6,0,5,10,100,98
+EMP1200,47,6,2,Product,Senior,Excellent,Moderate (25-50 Mbps),Very High,Daily,41,9,57,7,2,100,98
+EMP1201,36,6,4,Operations,Lead,Average,Fast (50-100 Mbps),Moderate,Daily,37,5,19,6,8,93.8,73.8
+EMP1202,31,4,2,Engineering,Senior,Average,Very Fast (100+ Mbps),Moderate,Few times per week,41,5,42,8,9,81.9,58.3
+EMP1203,36,3,3,Design,Senior,Poor,Very Fast (100+ Mbps),High,Weekly,31,7,11,4,6,100,74.3
+EMP1204,39,2,4,Engineering,Junior,Good,Slow (<25 Mbps),Very High,Daily,49,7,13,5,9,100,82.5
+EMP1205,35,0,5,Product,Junior,Good,Very Fast (100+ Mbps),Moderate,Few times per week,39,9,0,7,3,93.2,66.1
+EMP1206,35,4,4,Finance,Senior,Excellent,Very Fast (100+ Mbps),High,Weekly,37,11,38,5,3,100,98
+EMP1207,28,3,3,HR,Junior,Average,Very Fast (100+ Mbps),Moderate,Weekly,38,2,20,4,5,85.2,61.5
+EMP1208,29,0,2,HR,Junior,Poor,Fast (50-100 Mbps),Moderate,Few times per week,42,10,21,3,2,100,98
+EMP1209,22,1,4,Marketing,Junior,Average,Very Fast (100+ Mbps),High,Daily,42,9,1,8,7,100,90.5
+EMP1210,50,12,4,Customer Success,Manager,Average,Fast (50-100 Mbps),Moderate,Monthly,41,6,39,4,9,100,85.9
+EMP1211,23,0,0,Customer Success,Junior,Excellent,Very Fast (100+ Mbps),High,Daily,41,7,0,9,5,100,77.8
+EMP1212,28,1,3,Sales,Junior,Good,Very Fast (100+ Mbps),Moderate,Weekly,45,11,1,5,7,99.4,87.1
+EMP1213,28,2,4,Sales,Junior,Good,Fast (50-100 Mbps),Moderate,Daily,35,12,33,10,6,50,59.1
+EMP1214,43,3,3,Product,Mid-Level,Average,Very Fast (100+ Mbps),Moderate,Daily,43,19,21,2,5,78.6,63.9
+EMP1215,32,1,2,Marketing,Junior,Excellent,Very Fast (100+ Mbps),Moderate,Bi-weekly,40,4,42,6,9,100,92.1
+EMP1216,46,6,5,Product,Senior,Good,Fast (50-100 Mbps),High,Weekly,30,11,0,7,10,100,98
+EMP1217,28,1,1,Operations,Mid-Level,Excellent,Very Fast (100+ Mbps),Very High,Few times per week,35,12,29,6,4,100,76.9
+EMP1218,37,6,2,Operations,Mid-Level,Average,Very Fast (100+ Mbps),Very High,Few times per week,37,7,52,6,8,100,95.8
+EMP1219,27,0,4,Engineering,Junior,Average,Moderate (25-50 Mbps),Low,Few times per week,52,10,43,6,4,100,71.4
+EMP1220,54,10,2,Engineering,Senior,Good,Moderate (25-50 Mbps),Low,Daily,44,7,61,3,6,86.3,79.3
+EMP1221,24,0,4,Marketing,Junior,Average,Very Fast (100+ Mbps),Very High,Weekly,43,5,21,6,6,100,87.5
+EMP1222,37,4,1,Operations,Mid-Level,Good,Very Fast (100+ Mbps),High,Weekly,39,10,12,6,5,100,86.2
+EMP1223,40,15,2,Operations,Senior,Excellent,Very Fast (100+ Mbps),Very High,Bi-weekly,38,8,34,5,7,100,98
+EMP1224,38,1,1,Finance,Junior,Good,Moderate (25-50 Mbps),Low,Few times per week,34,8,18,6,8,78.3,57.7
+EMP1225,33,7,5,Finance,Senior,Poor,Fast (50-100 Mbps),High,Weekly,40,17,0,5,8,100,76.8
+EMP1226,33,3,3,Customer Success,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Few times per week,50,8,16,7,8,75.5,98
+EMP1227,35,5,2,Sales,Senior,Excellent,Moderate (25-50 Mbps),Very High,Daily,34,8,72,2,3,100,98
+EMP1228,33,1,0,Operations,Junior,Good,Fast (50-100 Mbps),High,Few times per week,38,5,51,1,3,98.8,62.6
+EMP1229,43,8,1,Engineering,Senior,Good,Very Fast (100+ Mbps),High,Bi-weekly,47,9,29,6,6,100,88.2
+EMP1230,54,8,3,Marketing,Senior,Good,Very Fast (100+ Mbps),High,Daily,47,9,23,10,7,100,98
+EMP1231,29,2,0,Engineering,Junior,Good,Very Fast (100+ Mbps),High,Daily,37,9,25,5,8,100,79.6
+EMP1232,22,0,3,Sales,Junior,Poor,Slow (<25 Mbps),High,Few times per week,48,6,27,1,6,100,47.2
+EMP1233,34,6,3,Sales,Senior,Average,Fast (50-100 Mbps),Very High,Daily,39,10,18,5,2,100,98
+EMP1234,58,4,4,Engineering,Mid-Level,Excellent,Very Fast (100+ Mbps),High,Bi-weekly,35,10,41,6,2,100,98
+EMP1235,27,3,4,Marketing,Mid-Level,Average,Fast (50-100 Mbps),Low,Daily,50,6,24,8,8,83.5,49.2
+EMP1236,49,10,3,Data Science,Lead,Average,Fast (50-100 Mbps),Moderate,Weekly,42,11,11,3,4,100,73.7
+EMP1237,50,6,2,Sales,Lead,Average,Very Fast (100+ Mbps),Moderate,Few times per week,40,8,63,9,9,78.1,82.5
+EMP1238,30,3,4,HR,Junior,Good,Very Fast (100+ Mbps),High,Daily,43,5,32,9,6,100,98
+EMP1239,40,8,4,Marketing,Senior,Good,Fast (50-100 Mbps),Moderate,Weekly,36,7,30,6,7,100,98
+EMP1240,49,15,1,Sales,Senior,Average,Very Fast (100+ Mbps),High,Few times per week,38,6,0,4,4,100,94
+EMP1241,31,4,5,Engineering,Mid-Level,Average,Very Fast (100+ Mbps),Very High,Daily,50,8,0,6,6,100,93.6
+EMP1242,33,5,0,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),High,Daily,53,10,34,8,9,100,98
+EMP1243,29,0,0,HR,Mid-Level,Excellent,Very Fast (100+ Mbps),Very High,Few times per week,35,8,20,5,10,100,98
+EMP1244,25,1,1,Engineering,Mid-Level,Average,Fast (50-100 Mbps),Very High,Daily,39,7,0,8,8,100,83
+EMP1245,29,2,5,Engineering,Junior,Excellent,Very Fast (100+ Mbps),Very High,Few times per week,42,6,0,3,8,100,87.6
+EMP1246,23,0,3,Sales,Junior,Excellent,Fast (50-100 Mbps),High,Few times per week,43,4,23,5,9,100,98
+EMP1247,35,3,4,Operations,Mid-Level,Good,Very Fast (100+ Mbps),High,Few times per week,36,7,22,10,5,100,62.6
+EMP1248,28,3,2,Finance,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Daily,45,7,60,6,8,100,93.6
+EMP1249,37,7,3,Sales,Senior,Good,Very Fast (100+ Mbps),Moderate,Few times per week,46,8,16,6,7,66.2,82.8
+EMP1250,22,0,2,Marketing,Junior,Good,Fast (50-100 Mbps),Low,Daily,47,5,18,4,5,70.9,77.9
+EMP1251,37,4,4,Marketing,Senior,Excellent,Fast (50-100 Mbps),Very High,Few times per week,46,9,14,8,3,100,63.3
+EMP1252,42,13,0,Engineering,Manager,Excellent,Fast (50-100 Mbps),High,Few times per week,42,4,39,5,5,100,86.3
+EMP1253,22,0,2,Sales,Junior,Excellent,Fast (50-100 Mbps),Low,Daily,47,3,58,7,7,59.7,60.3
+EMP1254,38,6,1,Operations,Lead,Good,Very Fast (100+ Mbps),High,Daily,45,7,34,8,7,100,98
+EMP1255,46,14,5,Operations,Manager,Excellent,Slow (<25 Mbps),Moderate,Daily,33,3,0,4,3,88.8,75
+EMP1256,24,1,3,HR,Junior,Good,Moderate (25-50 Mbps),High,Few times per week,33,7,16,6,7,100,98
+EMP1257,50,24,3,Finance,Lead,Good,Fast (50-100 Mbps),High,Few times per week,43,11,22,5,6,100,98
+EMP1258,38,13,3,Engineering,Manager,Excellent,Moderate (25-50 Mbps),Very High,Few times per week,49,5,34,4,1,100,98
+EMP1259,28,2,5,Engineering,Mid-Level,Excellent,Very Fast (100+ Mbps),Low,Monthly,44,10,0,3,9,69,48.4
+EMP1260,34,10,5,Marketing,Mid-Level,Average,Very Fast (100+ Mbps),Very High,Few times per week,45,5,0,2,5,100,83.4
+EMP1261,40,5,4,HR,Mid-Level,Good,Fast (50-100 Mbps),High,Weekly,35,11,42,7,7,100,84.8
+EMP1262,35,0,2,Engineering,Junior,Average,Moderate (25-50 Mbps),Moderate,Daily,42,8,58,7,7,83.6,69.4
+EMP1263,39,3,1,Design,Senior,Good,Very Fast (100+ Mbps),Moderate,Daily,48,7,32,6,6,70,95.7
+EMP1264,26,0,5,Marketing,Mid-Level,Average,Fast (50-100 Mbps),Low,Daily,44,4,0,6,5,95.2,67
+EMP1265,36,9,3,Sales,Senior,Good,Moderate (25-50 Mbps),Very High,Few times per week,42,6,31,4,6,100,98
+EMP1266,22,1,2,Finance,Junior,Good,Moderate (25-50 Mbps),Moderate,Daily,45,3,51,7,5,93.9,98
+EMP1267,33,2,3,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),High,Few times per week,43,8,23,6,6,100,96
+EMP1268,26,3,5,Marketing,Mid-Level,Average,Very Fast (100+ Mbps),Very High,Weekly,49,7,0,8,3,100,76.3
+EMP1269,28,3,3,Marketing,Senior,Good,Very Fast (100+ Mbps),Moderate,Daily,43,5,35,7,4,82.4,67.9
+EMP1270,46,7,3,Engineering,Senior,Average,Fast (50-100 Mbps),High,Few times per week,41,5,36,1,4,100,95.5
+EMP1271,44,18,4,Customer Success,Manager,Good,Moderate (25-50 Mbps),Moderate,Daily,35,10,32,8,7,74.1,77.9
+EMP1272,40,1,3,Customer Success,Junior,Average,Fast (50-100 Mbps),Low,Few times per week,49,8,37,2,7,100,80.3
+EMP1273,25,0,2,Engineering,Junior,Average,Moderate (25-50 Mbps),High,Weekly,36,15,76,8,9,100,86.1
+EMP1274,32,3,5,Sales,Senior,Poor,Fast (50-100 Mbps),Moderate,Weekly,43,3,0,10,5,93.1,73.9
+EMP1275,45,7,5,Engineering,Lead,Average,Fast (50-100 Mbps),Moderate,Daily,46,7,0,6,6,100,81
+EMP1276,36,2,4,Customer Success,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Daily,52,8,12,4,7,81,60
+EMP1277,55,9,4,Sales,Mid-Level,Good,Very Fast (100+ Mbps),Low,Few times per week,43,12,44,1,10,100,84.1
+EMP1278,38,0,2,Marketing,Junior,Good,Very Fast (100+ Mbps),High,Daily,50,6,38,4,6,100,98
+EMP1279,36,6,5,Sales,Senior,Excellent,Very Fast (100+ Mbps),Moderate,Monthly,42,8,0,6,5,82.6,66.9
+EMP1280,32,2,2,Sales,Mid-Level,Excellent,Very Fast (100+ Mbps),High,Daily,38,10,33,8,6,100,98
+EMP1281,36,2,4,HR,Junior,Good,Very Fast (100+ Mbps),Moderate,Bi-weekly,58,6,16,8,5,100,98
+EMP1282,33,0,5,HR,Mid-Level,Average,Very Fast (100+ Mbps),High,Bi-weekly,34,7,0,7,3,100,78.2
+EMP1283,41,11,4,Marketing,Manager,Excellent,Fast (50-100 Mbps),Low,Few times per week,59,12,29,3,6,100,98
+EMP1284,43,2,4,Finance,Junior,Good,Very Fast (100+ Mbps),Low,Daily,51,10,17,10,7,64.7,83.3
+EMP1285,27,1,4,Marketing,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Weekly,38,13,22,7,4,86.7,56.5
+EMP1286,23,0,1,Engineering,Mid-Level,Average,Fast (50-100 Mbps),Moderate,Daily,45,9,5,5,8,100,84.3
+EMP1287,22,0,4,Engineering,Mid-Level,Excellent,Fast (50-100 Mbps),Moderate,Few times per week,33,7,26,8,8,73.3,85.8
+EMP1288,39,12,1,Sales,Lead,Good,Fast (50-100 Mbps),High,Daily,45,4,16,6,7,100,83.7
+EMP1289,25,0,3,HR,Mid-Level,Poor,Fast (50-100 Mbps),Very High,Few times per week,43,6,22,6,8,100,67
+EMP1290,22,0,1,Product,Junior,Good,Moderate (25-50 Mbps),High,Daily,47,12,35,9,5,100,58.8
+EMP1291,38,2,3,Engineering,Junior,Average,Very Fast (100+ Mbps),Moderate,Daily,39,8,11,8,5,100,94
+EMP1292,57,9,4,Sales,Senior,Average,Very Fast (100+ Mbps),High,Weekly,42,5,10,4,8,100,98
+EMP1293,34,6,5,Engineering,Mid-Level,Excellent,Very Fast (100+ Mbps),High,Monthly,44,10,0,4,8,100,98
+EMP1294,42,1,2,Customer Success,Mid-Level,Poor,Fast (50-100 Mbps),Very High,Daily,39,9,26,4,8,100,63
+EMP1295,35,5,3,Customer Success,Mid-Level,Average,Very Fast (100+ Mbps),High,Few times per week,50,11,14,6,5,100,91.1
+EMP1296,34,7,3,Engineering,Senior,Excellent,Fast (50-100 Mbps),High,Few times per week,42,13,26,5,6,100,98
+EMP1297,43,7,5,Finance,Senior,Good,Very Fast (100+ Mbps),High,Daily,44,7,0,6,6,100,98
+EMP1298,32,5,3,HR,Senior,Good,Fast (50-100 Mbps),High,Few times per week,37,6,22,2,4,100,87
+EMP1299,37,4,4,Engineering,Senior,Average,Fast (50-100 Mbps),Moderate,Weekly,32,11,38,4,8,100,96.6
+EMP1300,37,10,5,Marketing,Mid-Level,Excellent,Very Fast (100+ Mbps),High,Daily,33,11,0,7,4,100,98
+EMP1301,28,1,2,Operations,Mid-Level,Average,Fast (50-100 Mbps),Low,Weekly,45,8,36,7,5,100,65.1
+EMP1302,43,13,5,Engineering,Lead,Good,Moderate (25-50 Mbps),Moderate,Weekly,37,4,0,5,2,100,88.9
+EMP1303,33,5,5,Sales,Mid-Level,Average,Fast (50-100 Mbps),Very High,Daily,46,10,0,5,7,100,98
+EMP1304,28,3,5,Engineering,Senior,Average,Very Fast (100+ Mbps),High,Few times per week,51,11,0,8,9,100,98
+EMP1305,39,0,2,Marketing,Mid-Level,Good,Moderate (25-50 Mbps),Moderate,Few times per week,46,8,41,4,6,81.8,46.8
+EMP1306,26,0,3,Customer Success,Mid-Level,Good,Very Fast (100+ Mbps),Very High,Weekly,44,5,23,5,9,100,58.7
+EMP1307,35,4,5,Marketing,Mid-Level,Average,Very Fast (100+ Mbps),Low,Few times per week,45,1,0,7,8,100,72
+EMP1308,34,1,2,Engineering,Junior,Good,Very Fast (100+ Mbps),High,Daily,48,9,3,6,8,100,86.4
+EMP1309,44,11,4,Engineering,Lead,Average,Moderate (25-50 Mbps),Moderate,Weekly,43,8,23,2,4,100,98
+EMP1310,39,9,1,Operations,Senior,Excellent,Very Fast (100+ Mbps),Very Low,Few times per week,45,9,0,1,6,85.9,81.2
+EMP1311,34,4,0,Sales,Mid-Level,Average,Very Fast (100+ Mbps),Moderate,Weekly,38,7,25,1,7,100,98
+EMP1312,42,5,3,Operations,Mid-Level,Average,Moderate (25-50 Mbps),Low,Daily,36,8,33,7,6,100,75.6
+EMP1313,47,3,3,Engineering,Mid-Level,Good,Fast (50-100 Mbps),Low,Weekly,38,2,7,6,7,98.3,64
+EMP1314,40,4,3,HR,Mid-Level,Average,Fast (50-100 Mbps),Low,Few times per week,40,10,0,2,5,100,98
+EMP1315,35,0,3,Product,Junior,Good,Very Fast (100+ Mbps),Moderate,Weekly,39,8,13,3,6,100,74.3
+EMP1316,23,0,3,Product,Junior,Poor,Very Fast (100+ Mbps),High,Few times per week,48,2,27,7,8,100,98
+EMP1317,25,0,4,Sales,Junior,Excellent,Slow (<25 Mbps),High,Few times per week,25,8,18,5,4,100,71.9
+EMP1318,32,2,4,Finance,Mid-Level,Excellent,Fast (50-100 Mbps),High,Daily,40,11,5,10,8,100,74.6
+EMP1319,29,0,3,Engineering,Junior,Average,Moderate (25-50 Mbps),Very Low,Weekly,46,8,17,5,7,92.8,75.7
+EMP1320,33,2,3,HR,Junior,Average,Slow (<25 Mbps),High,Few times per week,46,7,32,5,6,100,84.4
+EMP1321,35,9,1,Engineering,Senior,Good,Fast (50-100 Mbps),Very High,Monthly,37,8,28,5,6,100,98
+EMP1322,39,0,3,HR,Junior,Poor,Very Fast (100+ Mbps),Moderate,Few times per week,52,12,37,8,9,100,88.6
+EMP1323,34,0,3,Marketing,Junior,Average,Very Fast (100+ Mbps),High,Weekly,33,5,16,6,7,100,98
+EMP1324,39,5,3,Customer Success,Senior,Poor,Very Fast (100+ Mbps),Moderate,Few times per week,39,8,2,8,7,88.3,67.3
+EMP1325,35,1,2,HR,Junior,Good,Very Fast (100+ Mbps),Low,Few times per week,40,10,68,5,8,100,98
+EMP1326,22,0,4,Sales,Junior,Excellent,Moderate (25-50 Mbps),Moderate,Weekly,40,7,30,6,6,100,73.8
+EMP1327,26,0,0,Product,Junior,Good,Fast (50-100 Mbps),Moderate,Daily,50,7,61,1,5,95.7,66.3
+EMP1328,33,0,5,Sales,Mid-Level,Poor,Moderate (25-50 Mbps),Moderate,Few times per week,42,10,0,6,5,97.1,41.5
+EMP1329,24,0,0,Data Science,Junior,Good,Moderate (25-50 Mbps),Moderate,Few times per week,43,7,33,3,7,66.1,51.5
+EMP1330,40,10,5,HR,Lead,Poor,Slow (<25 Mbps),Very High,Daily,47,7,0,4,10,100,74.1
+EMP1331,48,4,3,Data Science,Mid-Level,Average,Moderate (25-50 Mbps),High,Few times per week,38,10,20,10,9,100,96.7
+EMP1332,45,12,3,Engineering,Lead,Good,Fast (50-100 Mbps),Very High,Few times per week,41,7,46,6,6,100,98
+EMP1333,33,6,2,Engineering,Mid-Level,Good,Moderate (25-50 Mbps),Moderate,Daily,52,4,65,8,4,100,98
+EMP1334,48,7,0,HR,Lead,Good,Fast (50-100 Mbps),Moderate,Daily,44,8,8,2,9,100,98
+EMP1335,36,5,2,Design,Senior,Average,Fast (50-100 Mbps),High,Weekly,35,7,22,5,9,100,87.7
+EMP1336,31,3,1,Engineering,Mid-Level,Excellent,Fast (50-100 Mbps),Moderate,Daily,36,9,16,8,4,70.5,65
+EMP1337,29,0,4,Engineering,Junior,Poor,Fast (50-100 Mbps),High,Daily,47,3,34,5,9,100,75
+EMP1338,32,5,2,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),High,Weekly,35,9,19,4,6,100,91.3
+EMP1339,31,4,4,Customer Success,Mid-Level,Poor,Very Fast (100+ Mbps),High,Daily,39,9,32,6,1,100,98
+EMP1340,36,4,2,HR,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Few times per week,43,13,51,6,9,100,98
+EMP1341,36,0,5,Sales,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Daily,42,6,0,10,2,100,73.6
+EMP1342,35,1,3,Engineering,Junior,Good,Fast (50-100 Mbps),High,Weekly,50,6,53,5,2,100,79.3
+EMP1343,38,7,1,Operations,Senior,Average,Moderate (25-50 Mbps),Moderate,Daily,27,8,13,9,10,100,90
+EMP1344,45,8,3,Engineering,Lead,Good,Fast (50-100 Mbps),High,Daily,44,8,42,8,5,100,83.5
+EMP1345,43,12,2,HR,Manager,Poor,Very Fast (100+ Mbps),Low,Few times per week,40,9,30,5,7,100,81.5
+EMP1346,22,0,1,Marketing,Junior,Good,Moderate (25-50 Mbps),High,Daily,49,10,73,9,9,100,73.4
+EMP1347,22,0,3,Finance,Junior,Poor,Moderate (25-50 Mbps),Low,Weekly,40,7,40,7,9,75.2,70.7
+EMP1348,43,5,4,Customer Success,Senior,Average,Moderate (25-50 Mbps),Moderate,Weekly,40,10,39,8,4,87.4,74.8
+EMP1349,22,1,5,Marketing,Junior,Average,Fast (50-100 Mbps),Moderate,Weekly,41,9,0,8,6,89.5,80.7
+EMP1350,32,0,3,Sales,Junior,Good,Very Fast (100+ Mbps),Moderate,Few times per week,38,2,13,3,1,52.6,61
+EMP1351,24,0,5,HR,Junior,Good,Very Fast (100+ Mbps),High,Weekly,38,4,0,8,3,100,63.1
+EMP1352,22,0,5,Engineering,Junior,Average,Fast (50-100 Mbps),Moderate,Few times per week,41,14,0,6,9,74.3,74.3
+EMP1353,39,9,5,Product,Lead,Good,Very Fast (100+ Mbps),High,Daily,51,10,0,6,6,100,98
+EMP1354,41,4,3,Engineering,Mid-Level,Average,Very Fast (100+ Mbps),High,Daily,39,6,22,5,4,100,98
+EMP1355,29,3,1,Customer Success,Mid-Level,Average,Moderate (25-50 Mbps),Moderate,Weekly,37,7,43,6,7,77.9,63
+EMP1356,22,1,2,Engineering,Junior,Good,Fast (50-100 Mbps),High,Bi-weekly,39,9,23,2,4,100,94
+EMP1357,30,3,4,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),High,Daily,42,12,35,5,10,100,87.2
+EMP1358,38,11,3,Sales,Lead,Excellent,Very Fast (100+ Mbps),Low,Bi-weekly,52,12,52,6,7,90.8,93.2
+EMP1359,22,0,1,Design,Junior,Excellent,Very Fast (100+ Mbps),Low,Weekly,37,5,22,4,6,98.1,98
+EMP1360,36,7,3,Data Science,Lead,Average,Very Fast (100+ Mbps),Moderate,Few times per week,56,7,14,7,6,100,68.6
+EMP1361,34,6,0,Engineering,Senior,Average,Fast (50-100 Mbps),Moderate,Weekly,44,13,23,8,9,100,92
+EMP1362,40,8,4,Engineering,Mid-Level,Excellent,Very Fast (100+ Mbps),Very Low,Daily,35,6,47,2,9,100,88.7
+EMP1363,36,2,0,Sales,Junior,Average,Moderate (25-50 Mbps),Moderate,Weekly,38,19,31,6,9,86.4,78.2
+EMP1364,26,0,4,Sales,Junior,Excellent,Moderate (25-50 Mbps),Low,Weekly,30,6,49,6,6,67.8,35
+EMP1365,45,4,4,HR,Mid-Level,Good,Fast (50-100 Mbps),High,Few times per week,42,7,36,7,8,100,70.8
+EMP1366,33,2,1,Marketing,Junior,Excellent,Fast (50-100 Mbps),Moderate,Bi-weekly,48,9,43,7,6,81.4,78.6
+EMP1367,34,3,3,HR,Senior,Poor,Very Fast (100+ Mbps),Very High,Daily,42,4,53,6,7,100,88
+EMP1368,26,0,4,HR,Junior,Poor,Fast (50-100 Mbps),Moderate,Weekly,46,9,13,5,6,79.8,71.2
+EMP1369,31,2,2,Operations,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Daily,44,10,0,10,7,99.7,78.5
+EMP1370,27,1,1,Customer Success,Junior,Good,Fast (50-100 Mbps),High,Weekly,49,10,20,6,6,100,87.3
+EMP1371,33,3,2,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Few times per week,36,8,31,5,4,85.3,71.3
+EMP1372,50,13,3,Engineering,Senior,Average,Very Fast (100+ Mbps),Low,Weekly,47,4,29,10,3,89.8,82
+EMP1373,22,1,3,HR,Mid-Level,Excellent,Very Fast (100+ Mbps),Low,Few times per week,53,11,36,4,9,93.9,89.2
+EMP1374,22,0,1,Engineering,Junior,Good,Fast (50-100 Mbps),Very High,Bi-weekly,57,7,42,4,6,100,89.9
+EMP1375,48,3,3,Engineering,Mid-Level,Average,Fast (50-100 Mbps),Moderate,Daily,50,10,32,9,9,100,98
+EMP1376,33,6,2,Product,Senior,Good,Fast (50-100 Mbps),High,Daily,43,8,33,7,7,100,98
+EMP1377,28,1,4,Operations,Mid-Level,Excellent,Fast (50-100 Mbps),Moderate,Daily,36,6,34,6,3,94.9,58.9
+EMP1378,44,7,2,Marketing,Lead,Good,Very Fast (100+ Mbps),High,Weekly,37,14,41,2,5,100,82.9
+EMP1379,29,5,4,Finance,Mid-Level,Average,Moderate (25-50 Mbps),Very High,Few times per week,40,12,44,5,8,100,35
+EMP1380,51,19,3,Sales,Manager,Poor,Fast (50-100 Mbps),High,Few times per week,53,10,33,5,4,100,86.7
+EMP1381,41,11,4,Design,Manager,Excellent,Very Fast (100+ Mbps),High,Weekly,38,11,36,6,1,100,98
+EMP1382,30,4,3,Engineering,Senior,Good,Fast (50-100 Mbps),Moderate,Weekly,43,6,64,5,4,100,98
+EMP1383,54,3,4,Operations,Mid-Level,Good,Fast (50-100 Mbps),Very High,Daily,47,6,20,5,6,100,55.2
+EMP1384,29,0,3,HR,Mid-Level,Excellent,Very Fast (100+ Mbps),Moderate,Few times per week,25,12,40,10,4,100,91
+EMP1385,41,2,4,Marketing,Junior,Good,Fast (50-100 Mbps),Very Low,Daily,35,6,26,9,2,87.8,65.3
+EMP1386,37,5,3,HR,Mid-Level,Excellent,Moderate (25-50 Mbps),Moderate,Bi-weekly,53,9,21,3,8,100,98
+EMP1387,46,12,3,Design,Senior,Good,Very Fast (100+ Mbps),High,Weekly,48,5,23,4,10,100,98
+EMP1388,49,6,3,HR,Senior,Average,Fast (50-100 Mbps),Moderate,Weekly,48,11,36,9,10,100,90.2
+EMP1389,35,10,4,Sales,Senior,Good,Very Fast (100+ Mbps),Very High,Weekly,36,7,22,5,9,100,98
+EMP1390,28,0,4,Operations,Junior,Poor,Moderate (25-50 Mbps),High,Few times per week,50,9,0,6,1,100,91.2
+EMP1391,39,4,2,Product,Mid-Level,Good,Very Fast (100+ Mbps),Low,Few times per week,37,13,25,7,5,100,87.6
+EMP1392,28,1,4,Marketing,Junior,Good,Very Fast (100+ Mbps),Very High,Few times per week,42,11,46,6,4,100,98
+EMP1393,53,25,4,Finance,Lead,Good,Fast (50-100 Mbps),Low,Daily,46,5,35,1,7,97.8,77.2
+EMP1394,36,12,5,Marketing,Senior,Excellent,Very Fast (100+ Mbps),Very High,Bi-weekly,46,12,0,8,8,100,98
+EMP1395,31,1,4,Engineering,Mid-Level,Average,Very Fast (100+ Mbps),Very High,Few times per week,44,5,0,7,7,100,68.2
+EMP1396,36,2,4,Engineering,Junior,Average,Very Fast (100+ Mbps),Very High,Bi-weekly,40,5,14,2,6,100,78.9
+EMP1397,22,1,2,Design,Junior,Good,Very Fast (100+ Mbps),Moderate,Bi-weekly,30,5,13,8,9,100,72.6
+EMP1398,26,2,4,Operations,Junior,Average,Very Fast (100+ Mbps),High,Weekly,42,6,0,8,6,100,65.1
+EMP1399,45,0,3,Engineering,Mid-Level,Poor,Moderate (25-50 Mbps),Very High,Few times per week,28,6,24,5,4,100,91.2
+EMP1400,29,4,5,Customer Success,Mid-Level,Excellent,Moderate (25-50 Mbps),Moderate,Daily,45,9,0,3,7,70.6,60.9
+EMP1401,25,0,2,Marketing,Junior,Good,Fast (50-100 Mbps),Low,Daily,36,15,59,5,1,85.5,74.2
+EMP1402,39,6,0,HR,Lead,Excellent,Fast (50-100 Mbps),Moderate,Few times per week,41,10,15,8,2,100,98
+EMP1403,45,8,0,Engineering,Senior,Average,Fast (50-100 Mbps),Very High,Daily,38,5,23,6,7,100,84.1
+EMP1404,41,8,4,Product,Senior,Excellent,Very Fast (100+ Mbps),Very High,Daily,45,6,20,5,8,100,98
+EMP1405,43,4,5,Operations,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Weekly,37,5,0,4,4,100,78.3
+EMP1406,28,2,0,HR,Junior,Good,Fast (50-100 Mbps),Moderate,Bi-weekly,43,7,0,5,7,94.3,83
+EMP1407,22,0,4,Engineering,Junior,Good,Very Fast (100+ Mbps),Low,Bi-weekly,43,10,57,10,8,88.8,65.3
+EMP1408,48,7,4,Sales,Lead,Average,Fast (50-100 Mbps),Moderate,Daily,42,10,37,8,9,100,89.5
+EMP1409,32,0,4,Engineering,Junior,Good,Fast (50-100 Mbps),Very High,Bi-weekly,44,4,27,6,6,100,97.3
+EMP1410,32,3,2,Design,Senior,Good,Fast (50-100 Mbps),High,Weekly,34,6,21,8,4,100,82.2
+EMP1411,46,12,4,Engineering,Lead,Poor,Moderate (25-50 Mbps),Moderate,Weekly,35,9,5,5,3,100,98
+EMP1412,40,4,0,Finance,Mid-Level,Good,Fast (50-100 Mbps),High,Daily,50,9,19,6,8,100,98
+EMP1413,39,8,4,Engineering,Senior,Excellent,Slow (<25 Mbps),Very Low,Weekly,32,3,41,8,3,100,95.2
+EMP1414,54,18,2,Engineering,Lead,Average,Fast (50-100 Mbps),High,Weekly,54,12,21,5,8,100,98
+EMP1415,29,1,3,Sales,Junior,Average,Very Fast (100+ Mbps),Moderate,Few times per week,41,10,23,8,6,58.6,80.3
+EMP1416,43,11,4,Customer Success,Manager,Good,Fast (50-100 Mbps),High,Few times per week,36,9,25,6,6,100,98
+EMP1417,35,3,2,HR,Mid-Level,Excellent,Fast (50-100 Mbps),Very High,Weekly,47,12,101,6,6,100,98
+EMP1418,37,10,1,Design,Mid-Level,Average,Fast (50-100 Mbps),Moderate,Bi-weekly,38,4,23,2,4,87.7,78.9
+EMP1419,48,13,4,Product,Lead,Average,Fast (50-100 Mbps),Moderate,Bi-weekly,44,4,8,8,8,100,84
+EMP1420,39,13,3,Engineering,Senior,Average,Very Fast (100+ Mbps),Very High,Daily,49,6,0,7,5,100,98
+EMP1421,39,9,3,Customer Success,Lead,Average,Slow (<25 Mbps),High,Few times per week,46,7,15,2,7,100,97.6
+EMP1422,44,3,2,Marketing,Mid-Level,Excellent,Moderate (25-50 Mbps),Moderate,Daily,44,12,81,6,1,93.9,91.4
+EMP1423,31,7,0,Product,Senior,Average,Fast (50-100 Mbps),Moderate,Weekly,45,11,46,7,5,100,98
+EMP1424,27,2,3,Engineering,Junior,Excellent,Very Fast (100+ Mbps),High,Weekly,42,4,47,7,2,100,98
+EMP1425,25,1,1,Customer Success,Junior,Average,Moderate (25-50 Mbps),Moderate,Daily,46,7,44,3,5,89.6,87.3
+EMP1426,22,0,5,Engineering,Junior,Average,Very Fast (100+ Mbps),High,Bi-weekly,35,5,0,6,4,100,61.5
+EMP1427,53,18,0,Sales,Manager,Good,Very Fast (100+ Mbps),Moderate,Weekly,50,10,28,4,3,100,82.1
+EMP1428,25,1,3,Engineering,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Daily,41,6,35,6,8,75.4,61.5
+EMP1429,33,2,0,Engineering,Junior,Excellent,Fast (50-100 Mbps),Very High,Few times per week,43,12,16,6,6,100,79.5
+EMP1430,32,7,1,Marketing,Lead,Excellent,Very Fast (100+ Mbps),Moderate,Daily,40,11,48,2,8,72.9,90.5
+EMP1431,37,8,4,Customer Success,Lead,Good,Fast (50-100 Mbps),High,Few times per week,45,6,40,5,9,100,98
+EMP1432,42,11,4,HR,Senior,Average,Fast (50-100 Mbps),Very High,Daily,48,15,39,7,6,100,94.2
+EMP1433,42,5,0,Engineering,Junior,Good,Fast (50-100 Mbps),Moderate,Weekly,36,8,30,8,7,100,95.9
+EMP1434,29,3,0,Engineering,Senior,Excellent,Very Fast (100+ Mbps),High,Weekly,41,12,59,5,7,100,86.4
+EMP1435,33,6,0,Sales,Lead,Average,Very Fast (100+ Mbps),Moderate,Few times per week,43,12,12,5,7,100,88.7
+EMP1436,37,6,4,Product,Senior,Excellent,Very Fast (100+ Mbps),Very High,Daily,44,7,35,8,7,100,98
+EMP1437,32,1,3,Engineering,Junior,Average,Very Fast (100+ Mbps),Moderate,Few times per week,40,8,29,4,7,100,87.3
+EMP1438,49,2,0,Marketing,Junior,Good,Very Fast (100+ Mbps),Very High,Few times per week,39,12,21,7,6,100,87.8
+EMP1439,39,3,3,Engineering,Mid-Level,Good,Very Fast (100+ Mbps),High,Bi-weekly,47,8,8,5,9,100,98
+EMP1440,41,3,4,Marketing,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Few times per week,45,7,23,10,8,60,59.6
+EMP1441,40,0,5,Engineering,Mid-Level,Average,Very Fast (100+ Mbps),High,Daily,43,10,0,6,5,100,94.8
+EMP1442,45,2,5,Engineering,Junior,Excellent,Very Fast (100+ Mbps),Very Low,Few times per week,49,4,0,3,6,98.5,78.8
+EMP1443,36,4,2,Engineering,Mid-Level,Excellent,Very Fast (100+ Mbps),Moderate,Weekly,33,4,36,4,6,100,85.3
+EMP1444,23,0,1,Engineering,Junior,Good,Fast (50-100 Mbps),High,Daily,46,7,22,2,2,100,58.4
+EMP1445,38,11,2,Engineering,Senior,Average,Fast (50-100 Mbps),Low,Few times per week,44,4,9,7,10,80,69
+EMP1446,29,2,4,Operations,Junior,Excellent,Very Fast (100+ Mbps),High,Weekly,33,10,37,5,6,100,89.2
+EMP1447,30,0,5,Engineering,Mid-Level,Average,Very Fast (100+ Mbps),High,Daily,48,6,0,1,8,100,94.1
+EMP1448,40,8,3,Engineering,Lead,Average,Fast (50-100 Mbps),High,Daily,45,9,39,3,4,100,95.8
+EMP1449,46,17,2,Engineering,Director,Good,Very Fast (100+ Mbps),Low,Weekly,46,6,76,5,7,100,80.6
+EMP1450,35,7,3,Product,Senior,Good,Moderate (25-50 Mbps),Moderate,Weekly,40,6,14,5,6,100,74.5
+EMP1451,37,4,2,Operations,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Weekly,46,10,36,9,9,100,83.3
+EMP1452,50,3,2,HR,Senior,Good,Very Fast (100+ Mbps),Moderate,Few times per week,37,5,54,6,9,100,86.3
+EMP1453,37,2,3,Sales,Junior,Average,Fast (50-100 Mbps),Moderate,Few times per week,33,7,40,8,7,100,89.9
+EMP1454,58,29,0,Engineering,Director,Excellent,Fast (50-100 Mbps),Moderate,Few times per week,41,9,42,4,3,96.8,87.6
+EMP1455,40,2,2,Engineering,Junior,Good,Very Fast (100+ Mbps),High,Weekly,46,2,49,5,6,100,98
+EMP1456,22,0,4,Marketing,Junior,Good,Very Fast (100+ Mbps),Very High,Few times per week,48,9,15,8,1,100,78.7
+EMP1457,41,7,0,Operations,Senior,Good,Fast (50-100 Mbps),High,Daily,42,5,37,6,6,100,98
+EMP1458,38,0,1,Product,Junior,Good,Moderate (25-50 Mbps),Low,Daily,42,14,17,6,6,73.4,41.8
+EMP1459,46,4,2,Product,Mid-Level,Average,Very Fast (100+ Mbps),Moderate,Weekly,48,8,48,6,6,94.6,90.8
+EMP1460,41,3,5,Sales,Mid-Level,Good,Very Fast (100+ Mbps),Moderate,Few times per week,39,6,0,6,6,100,98
+EMP1461,33,2,4,Sales,Mid-Level,Excellent,Very Fast (100+ Mbps),Very High,Daily,38,11,41,6,7,100,79.5
+EMP1462,23,0,0,Engineering,Junior,Excellent,Fast (50-100 Mbps),High,Daily,51,10,104,7,4,100,98
+EMP1463,33,1,3,Engineering,Junior,Good,Fast (50-100 Mbps),Moderate,Bi-weekly,40,12,47,3,2,81.4,91.6
+EMP1464,27,0,2,Design,Junior,Good,Very Fast (100+ Mbps),High,Monthly,47,11,0,7,8,100,94.8
+EMP1465,29,2,4,Engineering,Junior,Average,Fast (50-100 Mbps),Moderate,Daily,50,10,9,4,8,82,46.5
+EMP1466,40,1,4,Data Science,Junior,Good,Very Fast (100+ Mbps),High,Few times per week,43,13,47,5,7,100,98
+EMP1467,50,1,5,Marketing,Junior,Average,Fast (50-100 Mbps),Moderate,Daily,43,7,0,8,8,100,91.3
+EMP1468,38,6,3,Marketing,Senior,Average,Very Fast (100+ Mbps),Moderate,Daily,52,5,33,6,6,100,98
+EMP1469,24,0,5,Engineering,Junior,Excellent,Fast (50-100 Mbps),Moderate,Few times per week,34,4,0,9,1,86.6,70.5
+EMP1470,39,12,5,Finance,Senior,Average,Moderate (25-50 Mbps),High,Daily,34,13,0,4,4,100,84.9
+EMP1471,45,17,5,Marketing,Manager,Excellent,Fast (50-100 Mbps),Moderate,Weekly,46,15,0,9,6,100,90.6
+EMP1472,29,1,3,Sales,Junior,Good,Very Fast (100+ Mbps),High,Few times per week,39,5,26,6,8,100,97.8
+EMP1473,33,5,3,Engineering,Mid-Level,Good,Fast (50-100 Mbps),Low,Weekly,47,11,24,5,5,100,86.6
+EMP1474,35,0,2,Engineering,Junior,Average,Fast (50-100 Mbps),Moderate,Weekly,41,7,15,7,2,70.6,83.7
+EMP1475,27,0,0,Marketing,Junior,Good,Slow (<25 Mbps),High,Daily,46,7,0,9,6,100,64.7
+EMP1476,40,6,2,Sales,Lead,Average,Very Fast (100+ Mbps),Moderate,Daily,36,8,16,7,3,91.5,98
+EMP1477,33,5,4,Finance,Senior,Good,Fast (50-100 Mbps),Moderate,Bi-weekly,45,5,21,1,7,100,93.2
+EMP1478,38,1,4,Finance,Junior,Good,Very Fast (100+ Mbps),Moderate,Weekly,38,11,28,1,3,100,98
+EMP1479,27,3,5,Sales,Mid-Level,Excellent,Very Fast (100+ Mbps),Very High,Few times per week,46,7,0,3,1,100,98
+EMP1480,31,5,0,Finance,Junior,Average,Very Fast (100+ Mbps),High,Daily,56,8,29,8,9,100,98
+EMP1481,41,5,1,Engineering,Mid-Level,Excellent,Very Fast (100+ Mbps),Low,Bi-weekly,37,8,9,7,7,100,98
+EMP1482,31,0,4,Finance,Mid-Level,Good,Very Fast (100+ Mbps),Low,Daily,39,10,16,6,4,92.4,80
+EMP1483,50,1,2,Engineering,Junior,Good,Very Fast (100+ Mbps),High,Daily,41,9,37,7,7,100,89.7
+EMP1484,31,8,1,Engineering,Senior,Excellent,Very Fast (100+ Mbps),Very High,Bi-weekly,43,7,39,6,5,100,98
+EMP1485,37,0,5,Engineering,Junior,Excellent,Fast (50-100 Mbps),High,Weekly,28,13,0,5,8,100,87.9
+EMP1486,43,0,4,HR,Mid-Level,Excellent,Fast (50-100 Mbps),High,Weekly,42,10,18,7,8,100,59.6
+EMP1487,22,1,3,Engineering,Mid-Level,Good,Moderate (25-50 Mbps),High,Daily,40,9,19,9,6,100,95.5
+EMP1488,22,1,4,Engineering,Junior,Good,Fast (50-100 Mbps),High,Few times per week,40,8,37,7,6,100,98
+EMP1489,22,0,4,Sales,Junior,Good,Moderate (25-50 Mbps),Moderate,Weekly,43,6,28,8,5,88.6,70.2
+EMP1490,46,7,4,Engineering,Mid-Level,Average,Fast (50-100 Mbps),Very High,Weekly,44,14,19,4,2,100,98
+EMP1491,30,1,4,HR,Junior,Good,Very Fast (100+ Mbps),Moderate,Few times per week,44,11,30,5,7,86.5,72
+EMP1492,58,12,1,Operations,Senior,Good,Fast (50-100 Mbps),Moderate,Monthly,35,6,0,6,6,100,94.5
+EMP1493,29,4,4,Product,Mid-Level,Average,Fast (50-100 Mbps),Moderate,Daily,40,5,20,6,5,100,98
+EMP1494,36,8,0,Engineering,Mid-Level,Good,Fast (50-100 Mbps),Moderate,Daily,40,9,31,6,7,100,95
+EMP1495,48,2,0,Engineering,Mid-Level,Poor,Moderate (25-50 Mbps),Moderate,Daily,45,2,34,6,6,77.6,52
+EMP1496,53,5,5,HR,Senior,Good,Fast (50-100 Mbps),Moderate,Weekly,36,9,0,8,5,71.4,78.5
+EMP1497,53,9,3,Finance,Mid-Level,Average,Very Fast (100+ Mbps),Moderate,Weekly,43,3,11,8,8,95.8,74.7
+EMP1498,45,2,4,Engineering,Junior,Average,Moderate (25-50 Mbps),Very High,Weekly,51,11,34,4,5,100,88.6
+EMP1499,44,12,4,Operations,Senior,Average,Fast (50-100 Mbps),Very High,Daily,26,10,6,3,6,100,92.1
+EMP1500,40,4,5,Customer Success,Mid-Level,Poor,Very Fast (100+ Mbps),Moderate,Bi-weekly,40,12,0,5,7,100,71.4

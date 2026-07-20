@@ -1,0 +1,720 @@
+---
+title: "Remote Work and Productivity: The Role of Home Office Quality"
+author: "Nuria García Ruiz de Alarcón"
+date: "Last compiled on `r format(Sys.time(), '%B %d, %Y')`"
+output:
+   pdf_document:
+      fig_caption: true
+      number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\newpage 
+\tableofcontents 
+\listoffigures
+\listoftables
+\newpage
+
+```{r libraries,message=FALSE,warning=FALSE,echo=FALSE}
+
+library(tidyverse) # data manipulation, visualization, and data import.
+library(janitor) # cleaning and standardizing data - clean_names()
+library(knitr) # creating cleaner tables with functions - kable()
+```
+
+## Abstract
+
+This project aims to examine whether the number of days an employee works from home each week is associated with their productivity, and whether this relationship varies depending on the quality of their home workspace. The analysis is based on the dataset `remote_work_productivity_analysis.csv`, which includes 1,500 employee-level observations. The outcome variable is `productivity_score`, and the main explanatory variable is `wfh_days_per_week`. In addition, home office quality is included as an important contextual variable, since the effect of remote work may not be the same for all employees. The project also considers control variables related to workload, wellbeing, and professional experience. Initial checks of the dataset show that there are no missing values or duplicated observations, indicating that the data are well prepared for analysis. Therefore, the data preparation stage focuses mainly on selecting the most relevant variables and creating useful groups for the exploratory analysis.
+
+\newpage
+
+
+# Introduction
+
+Remote and hybrid work became much more common during and after the COVID-19 pandemic, when many organizations had to adapt quickly in order to continue operating under new working conditions. As a result, working from home became a central part of the labor market and raised important questions about its long-term effects on employees and organizations.
+
+One of the main questions in this context is whether remote work is as productive as in-person work, or whether it may be more or less effective depending on the situation. The answer is not straightforward, since employee productivity may depend not only on how often people work from home, but also on the quality of the environment in which they work.
+
+As a result, this project studies the relationship between work-from-home (WFH) frequency and employee productivity using employee-level survey data. In particular, it focuses on whether home office quality changes the way remote work is associated with productivity. This question is especially relevant because the same number of remote workdays may lead to different outcomes depending on whether an employee has a poor, average, good, or excellent home office setup.
+
+## Background
+
+Previous work on this topic has explored how remote work may be related to employee performance, work-life balance, stress, collaboration, and job satisfaction. The information used for this proposal shows that the broader project was based on survey data collected in Australia in 2020 and 2021, when remote work was becoming much more common. These surveys focused on employees whose jobs could be done remotely and included information about work arrangements, company policies, time use, barriers to hybrid work, and expectations about future remote work.
+
+From this broader context, this project focuses on a more specific question: whether productivity changes according to the number of days worked from home each week, and whether this relationship depends on home office quality. This makes the project more focused and provides a clear basis for the exploratory analysis and the statistical methods that will be used later.
+
+
+\newpage
+
+# The Data
+
+```{r data loading, echo=FALSE}
+
+df <- read_csv("data/remote_work_productivity_analysis.csv") %>%
+  clean_names()
+
+```
+
+This line imports the dataset from the `data` folder into `df` and uses `clean_names()` to make the column names simpler and easier to use.
+
+## Source
+
+The dataset used in this project comes from the CSV file `remote_work_productivity_analysis.csv`. Based on the uploaded project notes, this analysis dataset was created from a remote work project shared in the GitHub repository RemoteWorkAnalysis. According to the project documentation described in the notes, the broader project uses survey data on remote employees across different industries in Australia during the COVID-19 period.
+
+This dataset is appropriate for the analysis because it contains a great number of observations and variables, making it suitable for exploring multiple relationships. In addition, the combination of categorical and numerical variables supports a broad and well-structured statistical analysis.
+
+## Variables
+
+The main outcome variable in this project is `productivity_score`, which is a continuous measure of employee productivity. The main explanatory variable is `wfh_days_per_week`, which shows how many days per week an employee works from home. Another important variable is `home_office_quality`, because the effect of remote work may change depending on the employee’s working conditions at home.
+
+To make the analysis more accurate, the project also includes some control variables: `work_hours_per_week`, `meetings_per_week`, `stress_level`, `job_satisfaction`, `years_experience`, and `job_level`. Other variables, such as age and department, are also useful because they provide additional background information about the employees in the dataset.
+
+For this reason, the table below has been reduced to the 11 variables that are most relevant to the research question and the main analysis.
+
+A vertical table is used below because it is easier to read than a wide horizontal one.
+
+
+```{r variables, echo=FALSE}
+
+variable_table <- tibble(
+  Variable = c(
+    "productivity_score",
+    "wfh_days_per_week",
+    "home_office_quality",
+    "work_hours_per_week",
+    "meetings_per_week",
+    "stress_level",
+    "job_satisfaction",
+    "years_experience",
+    "job_level",
+    "age",
+    "department"
+  ),
+  Type = c(
+    "Continuous numeric",
+    "Discrete numeric",
+    "Categorical",
+    "Numeric",
+    "Numeric",
+    "Ordinal/numeric",
+    "Numeric",
+    "Numeric",
+    "Categorical",
+    "Numeric",
+    "Categorical"
+  ),
+  Description = c(
+    "Employee productivity score and main response variable.",
+    "Number of days worked from home each week; main predictor.",
+    "Quality of the employee's home office setup.",
+    "Average number of hours worked per week.",
+    "Number of meetings per week.",
+    "Employee stress rating on a 1--10 scale.",
+    "Job satisfaction score.",
+    "Years of work experience.",
+    "Employee job level category.",
+    "Employee age in years.",
+    "Employee department."
+  )
+)
+
+kable(variable_table, caption = "Key variables used in the analysis")
+
+```
+
+
+## Observations
+
+Each observation in the dataset represents one employee and each row includes personal information, work-related variables, productivity measures, wellbeing indicators, and other factors that may affect employee performance. This makes the dataset appropriate for studying the relationship between remote work and productivity.
+
+Below, a single observation is presented. 
+
+```{r observation,echo=FALSE}
+
+df %>%
+  slice(1) %>%
+  select(employee_id, age, years_experience, wfh_days_per_week,
+         department, job_level, home_office_quality,
+         work_hours_per_week, meetings_per_week,
+         stress_level, job_satisfaction, productivity_score) %>%
+  mutate(across(everything(), as.character)) %>%
+  pivot_longer(cols = everything(), names_to = "Variable", values_to = "Value") %>%
+  kable(caption = "Example of one employee observation")
+
+```
+
+A single employee observation is reshaped into a vertical format to make it easier to read. Since the selected variables include both numerical and categorical values, all columns are converted to character before applying pivot_longer().
+
+
+## Cleaning 
+
+From an initial inspection, the dataset seems to be in good condition because it contains no missing values and no duplicated rows. Also, the observed ranges of the main variables look reasonable. For example, `wfh_days_per_week` ranges from 0 to 5, `stress_level` and `work_life_balance` range from 1 to 10, and `productivity_score` falls within a plausible range.
+
+For this reason, no major cleaning steps were needed. Instead, the main focus at this stage is on selecting the variables that are most useful for the analysis.
+
+```{r cleaning-checks, echo=FALSE}
+
+sum(duplicated(df))
+colSums(is.na(df))
+summary(df)
+
+```
+
+To keep the analysis focused, a reduced dataset called `analysis_df` is created below. This step reduces the original data frame from 17 variables to 13 variables, keeping only those that are most relevant to the research question and making the dataset easier to interpret.
+
+```{r analysis-data, echo=FALSE}
+
+analysis_df <- df %>%
+  select(
+    employee_id,
+    age,
+    years_experience,
+    wfh_days_per_week,
+    department,
+    job_level,
+    home_office_quality,
+    work_hours_per_week,
+    meetings_per_week,
+    stress_level,
+    work_life_balance,
+    job_satisfaction,
+    productivity_score
+  )
+
+analysis_df %>% glimpse()
+dim(analysis_df)
+
+```
+
+Grouped variables are also created to simplify early comparisons in the exploratory stage.
+
+```{r grouped-variables, echo=FALSE}
+
+analysis_df <- analysis_df %>%
+  mutate(
+    wfh_group = case_when(
+      wfh_days_per_week <= 1 ~ "Low WFH",
+      wfh_days_per_week <= 3 ~ "Hybrid",
+      TRUE ~ "High WFH"
+    ),
+    home_office_group = case_when(
+      home_office_quality %in% c("Poor", "Average") ~ "Poor/Average",
+      TRUE ~ "Good/Excellent"
+    ),
+    wfh_group = factor(wfh_group, levels = c("Low WFH", "Hybrid", "High WFH")),
+    home_office_group = factor(home_office_group, levels = c("Poor/Average", "Good/Excellent")),
+    department = factor(department),
+    job_level = factor(job_level),
+    home_office_quality = factor(home_office_quality)
+  )
+
+```
+
+The grouped variable `wfh_group` classifies employees into low, hybrid, and high remote-work intensity. On the other hand, the grouped variable `home_office_group` combines poor and average home office conditions into one category and good and excellent conditions into another. These grouped variables do not replace the original measures, but they make initial summaries and visual comparisons easier to interpret.
+
+\newpage
+
+# Exploratory Data Analysis
+
+This section presents an initial analysis of the most important variables in the dataset. These first interpretations are important because they help us understand the data better and also support the methodology used later in the project. Here, basic descriptive measures such as the mean, median, and other summary statistics are used to explore the general behavior of the variables.
+
+## Distribution of Productivity Scores
+
+First of all, the most important variable to analyze is `productivity_score`, since the rest of the analysis is based on it. Besides showing it graphically and observing its distribution, it is also useful to calculate basic descriptive measures such as the mean, median, and other summary statistics. These measures provide extra information and help us better understand the variable in this first part of the exploratory analysis.
+
+```{r summary-productivity_score, echo=FALSE}
+
+analysis_df %>%
+  summarise(
+    mean_productivity = mean(productivity_score),
+    median_productivity = median(productivity_score),
+    sd_productivity = sd(productivity_score),
+    iqr_productivity = IQR(productivity_score)
+  ) %>%
+  kable(caption = "Summary statistics for productivity_score")
+ 
+```
+
+The table shows that `productivity_score` has a mean of 83.09 and a median of 86.7. Since the median is slightly higher than the mean, the distribution may be somewhat left-skewed. The standard deviation (15.23) and the IQR (24.3) show that there is a moderate amount of variability in productivity across employees.
+
+
+
+```{r visualization-productivity_score, echo=FALSE}
+
+ggplot(analysis_df, aes(x = productivity_score)) +
+  geom_histogram(bins = 30) +
+  labs(
+    title = "Distribution of Productivity Scores",
+    x = "Productivity Score",
+    y = "Count"
+  )
+ 
+```
+
+Consistent with the summary statistics, the histogram shows that most productivity scores are concentrated at relatively high values, with a clear peak near the upper end of the scale. This suggests that many employees report high productivity scores, although there is still moderate variability across the dataset.
+
+
+## Productivity by WFH Group
+
+This section compares `productivity_score` across the grouped work-from-home categories: Low WFH, Hybrid, and High WFH. A boxplot is useful here because it allows us to compare the center, spread, and overall distribution of productivity across these three groups. This helps provide an initial idea of whether employees with different levels of remote work intensity appear to have different productivity levels.
+
+```{r visualization-productivity_score-WFH, echo=FALSE}
+
+ggplot(analysis_df, aes(x = wfh_group, y = productivity_score)) +
+  geom_boxplot() +
+  labs(
+    title = "Productivity by WFH Group",
+    x = "WFH Group",
+    y = "Productivity Score"
+  )
+
+```
+
+The boxplot shows that productivity is relatively high in all three WFH groups. The Hybrid group seems to have the highest median productivity, although the differences are small. The graph also shows a few low outliers in the Hybrid group, indicating that some employees in this category have much lower productivity scores than the rest. These outliers may reflect unusual cases; however, there is not enough information to justify removing them at this stage. Overall, the differences between groups are visible but not very large.
+
+## WFH Days and Productivity
+
+This section explores the relationship between `wfh_days_per_week` and `productivity_score`. A scatterplot is useful here because it shows how productivity changes across different numbers of work-from-home days. Also, adding a fitted linear trend line helps show whether the overall relationship appears positive, negative, or weak.
+
+```{r visualization-productivity_score-WFH_days, echo=FALSE}
+
+ggplot(analysis_df, aes(x = wfh_days_per_week, y = productivity_score)) +
+  geom_point(alpha = 0.4) +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(
+    title = "WFH Days and Productivity",
+    x = "WFH Days per Week",
+    y = "Productivity Score"
+  )
+
+```
+
+The scatterplot suggests that the relationship between `wfh_days_per_week` and `productivity_score` is relatively weak. Although the fitted line shows a slight positive trend, the points are widely dispersed across all WFH values. This indicates that productivity varies even among employees with the same number of remote workdays.
+
+## Productivity by Home Office Quality
+
+This section compares `productivity_score` across the grouped home office quality categories: Poor/Average and Good/Excellent. A boxplot is useful here because it allows us to compare the center, spread, and overall distribution of productivity between employees with lower and higher quality home working conditions. This is especially relevant for the project because home office quality is one of the key contextual variables in the research question.
+
+```{r visualization-productivity_score-office, echo=FALSE}
+
+ggplot(analysis_df, aes(x = home_office_group, y = productivity_score)) +
+  geom_boxplot() +
+  labs(
+    title = "Productivity by Home Office Quality",
+    x = "Home Office Quality Group",
+    y = "Productivity Score"
+  )
+
+```
+
+The boxplot suggests that employees with Good/Excellent home office conditions tend to have slightly higher productivity than those in the Poor/Average group. Although the difference is not very large, the median is somewhat higher in the better-quality group. The graph also shows a few low outliers in the Good/Excellent category, but the overall pattern still suggests a positive association between home office quality and productivity.
+
+## Interaction Between WFH and Home Office Quality
+
+This section explores whether the relationship between `wfh_days_per_week` and `productivity_score` appears to differ depending on `home_office_group`. This is an important step because the main research question is not only whether work-from-home frequency is associated with productivity, but also whether this relationship changes according to the quality of the employee’s home working environment.
+
+A useful way to explore this is to plot `productivity_score` against `wfh_days_per_week` while separating observations by `home_office_group`. 
+
+```{r visualization-productivity_score-WFH_days_office, echo=FALSE}
+
+ggplot(analysis_df,
+       aes(x = wfh_days_per_week, y = productivity_score, color = home_office_group)) +
+  geom_point(alpha = 0.4) +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(
+    title = "Interaction Between WFH and Home Office Quality",
+    x = "WFH Days per Week",
+    y = "Productivity Score",
+    color = "Home Office Group"
+  )
+
+```
+
+The interaction plot shows that both groups have a slight positive trend between WFH days and productivity. However, the two fitted lines are quite similar, which suggests that the interaction effect may not be very strong. At the same time, the Good/Excellent group appears to have consistently higher productivity than the Poor/Average group across all WFH levels.
+
+\newpage
+
+
+# Methodology
+
+This section explains the methods used to analyze the relationship between work-from-home frequency and employee productivity. The main idea is to go from the first descriptive exploration of the data to a more formal statistical analysis that can answer the research question more clearly. Since `productivity_score` is a continuous variable, the main method used in this project is linear regression.
+
+A train/test split is not used in this proposal because the goal is not to predict future observations, but to understand the relationship between `wfh_days_per_week`, `home_office_group`, and productivity in the dataset. For this reason, the analysis is explanatory rather than predictive.
+
+## Data Transformations 
+
+Before starting the analysis, some transformations were applied to prepare the data and make the later steps easier to interpret. First, the column names were cleaned using clean_names(), which makes the variable names simpler and more consistent throughout the code.
+
+After that, a reduced dataset called `analysis_df` was created by selecting only the variables that are most relevant to the research question. This step helped reduce the original dataset to a smaller and more manageable version focused on the main variables of interest.
+
+In addition, two grouped variables were created. The first one, `wfh_group`, classifies employees into Low WFH, Hybrid, and High WFH according to the number of days they work from home each week. The second one, `home_office_group`, combines home office quality into two broader categories: Poor/Average and Good/Excellent.
+
+Finally, the main categorical variables used in the analysis, such as department, `job_level`, and `home_office_quality`, were converted to factors. These transformations make the dataset easier to work with in the exploratory analysis and in the regression models.
+
+
+## Types of Models
+
+This project uses five different models or analytical approaches. First, a descriptive group comparison is used to compare productivity across the WFH groups. Then, a simple linear regression is used to study the direct relationship between `wfh_days_per_week` and `productivity_score`. After that, a multiple linear regression is added to control for other important variables. Another model includes `home_office_group` to check whether home office quality is also related to productivity. Finally, an interaction model is used to see whether the effect of WFH days changes depending on home office quality.
+
+These models were used because they help answer the research question step by step, starting with simple comparisons and moving to more complete models that include controls and interaction effects.
+
+### Descriptive Group Comparison
+
+The group comparison is useful because it provides a first view of whether productivity differs across the WFH groups before applying more formal models. 
+
+### Simple Linear Regression
+
+The second model used is a simple linear regression in which `productivity_score` is explained by `wfh_days_per_week`. This model is useful because it provides a first estimate of the relationship between work-from-home frequency and employee productivity.
+
+```{r model-1-lm, echo=FALSE}
+
+model_1 <- lm(productivity_score ~ wfh_days_per_week, data = analysis_df)
+
+```
+
+### Multiple Linear Regression
+
+The third model consists of a multiple linear regression in which `productivity_score` is explained by `wfh_days_per_week` together with several control variables: `work_hours_per_week`, `meetings_per_week`, `stress_level`, `job_satisfaction`, `years_experience`, and `job_level`.
+
+This model allows the analysis to move beyond the simple relationship between WFH frequency and productivity. In the previous model, `wfh_days_per_week` was considered on its own. Here, additional variables are included in order to account for other factors that may also influence employee productivity, such as workload, wellbeing, experience, and job seniority.
+
+```{r model-2-mrm, echo=FALSE}
+
+model_2 <- lm(
+  productivity_score ~ wfh_days_per_week +
+    work_hours_per_week +
+    meetings_per_week +
+    stress_level +
+    job_satisfaction +
+    years_experience +
+    job_level,
+  data = analysis_df
+)
+
+```
+
+
+### Home Office Quality Model
+
+The fourth model adds `home_office_group` to the regression, together with `wfh_days_per_week` and the selected control variables. This model is useful because it allows the analysis to examine whether home office quality has its own association with productivity, beyond the number of days worked from home and the other work-related factors included in the model.
+
+The main reason for using this model is that the previous exploratory analysis suggested that employees with better home office conditions may have slightly higher productivity scores. By including `home_office_group` in the regression, the project can test whether this pattern is true after controlling for variables such as workload, stress, job satisfaction, experience, and job level.
+
+In this way, the model helps separate two related questions: whether productivity changes with the frequency of remote work, and whether it also varies according to the quality of the employee’s home working environment.
+
+```{r model-home-office_model, echo=FALSE}
+
+model_3 <- lm(
+  productivity_score ~ wfh_days_per_week +
+    home_office_group +
+    work_hours_per_week +
+    meetings_per_week +
+    stress_level +
+    job_satisfaction +
+    years_experience +
+    job_level,
+  data = analysis_df
+)
+
+```
+
+### Interaction Model
+
+The fifth model is an interaction model in which `productivity_score` is explained by `wfh_days_per_week,` `home_office_group`, and the interaction between these two variables, together with the selected control variables. This model is especially important because it directly tests the main hypothesis of the project: whether the relationship between work-from-home frequency and productivity depends on the quality of the employee’s home office setup.
+
+The reason for using this model is that the previous exploratory analysis suggested two things. First, employees with better home office conditions tend to show somewhat higher productivity. Second, the visual evidence for a strong interaction between WFH days and home office quality was limited, but still worth examining more formally. By including an interaction term, this model allows the project to test whether the effect of `wfh_days_per_week` changes between employees in the Poor/Average and Good/Excellent home office groups.
+
+
+```{r model-4-interaction, echo=FALSE}
+
+model_4 <- lm(
+  productivity_score ~ wfh_days_per_week * home_office_group +
+    work_hours_per_week +
+    meetings_per_week +
+    stress_level +
+    job_satisfaction +
+    years_experience +
+    job_level,
+  data = analysis_df
+)
+
+```
+
+## Method of Model Selection
+
+The final model will be chosen by comparing the different models using adjusted R2, AIC, interpretability, and their relevance to the research question. As a result, the model that offers the best combination of statistical fit and clear interpretation will be selected. 
+
+\newpage
+
+
+# Results
+
+## Descriptive Group Comparison Results
+
+```{r model-1-descriptive, echo=FALSE}
+
+analysis_df %>%
+  group_by(wfh_group) %>%
+  summarise(
+    mean_productivity = mean(productivity_score),
+    median_productivity = median(productivity_score),
+    sd_productivity = sd(productivity_score),
+    n = n()
+  ) %>%
+  kable(caption = "Productivity by WFH Group")
+
+```
+
+The results show that productivity is relatively high in all three groups, although the Hybrid group has the highest values. This suggests that employees who work from home 2 to 3 days per week may have a slight productivity advantage. However, the differences are not very large. 
+
+## Simple Linear Regression Results
+
+The intercept of 82.56 represents the expected productivity score when the number of WFH days is zero. On the other hand, the coefficient for `wfh_days_per_week` is 0.19, which suggests that each additional day worked from home is associated with an increase of about 0.19 points in productivity.
+
+This result is consistent with the exploratory analysis. In the scatterplot, the fitted line already suggested a slight positive trend, but the dispersion of the points showed that the relationship was weak. Therefore, this regression model confirms that same pattern in a more formal and numerical way.
+
+## Multiple Linear Regression Results
+
+The multiple linear regression shows that `wfh_days_per_week` still has a positive association with `productivity_score`, although the effect remains very small after controlling for other variables. In contrast, variables such as `job_satisfaction`, `years_experience`, and `job_level` show larger positive coefficients in the model, suggesting that they may have a stronger association with productivity. This indicates that employee productivity is not influenced only by the number of days worked from home, but may also be related to other work-related and personal factors.
+
+## Home Office Quality Model Results
+
+The home office quality model shows that `wfh_days_per_week` still has a small positive association with `productivity_score`, with an estimated increase of about 0.19 points for each additional WFH day. However, the coefficient for `home_office_group` = Good/Excellent is 3.35, suggesting that employees with better home office conditions tend to have higher predicted productivity scores than those in the Poor/Average group.
+
+## Interaction Model Results
+
+The interaction model shows that `wfh_days_per_week` still has a small positive association with `productivity_score`, while `home_office_group` = Good/Excellent remains positively associated with higher predicted productivity. However, the interaction term between `wfh_days_per_week` and `home_office_group`is very small (0.014), which suggests that the effect of WFH days does not change much across home office quality groups. In practical terms, this means that employees with better home office conditions tend to have higher productivity overall, but the relationship between WFH frequency and productivity appears to be fairly similar in both groups.
+
+## Selected Model Results
+
+```{r model-3-summary, echo=FALSE}
+
+model_comparison <- tibble(
+  Model = c("Simple Linear Regression",
+            "Multiple Linear Regression",
+            "Home Office Quality Model",
+            "Interaction Model"),
+  AIC = c(AIC(model_1), AIC(model_2), AIC(model_3), AIC(model_4)),
+  Adjusted_R2 = c(summary(model_1)$adj.r.squared,
+                  summary(model_2)$adj.r.squared,
+                  summary(model_3)$adj.r.squared,
+                  summary(model_4)$adj.r.squared)
+)
+
+kable(model_comparison, caption = "Model Comparison")
+
+summary(model_3)
+```
+
+The Home Office Quality Model was selected as the final model because it has the lowest AIC (11869.51) and the highest adjusted R2 (0.3168) among the candidate models. Although the interaction model was more complex, it did not improve model performance and was slightly worse in both AIC and adjusted R2. For this reason, the Home Office Quality Model was preferred because it provided the best balance between statistical fit and interpretability.
+  
+The final model explains about 31.7% of the variation in `productivity_score` and is statistically significant overall. The results also show that `home_office_group` = Good/Excellent has a positive and significant association with productivity, with an estimated increase of about 3.35 points compared with the Poor/Average group. In contrast, `wfh_days_per_week` has only a very small and non-significant coefficient, suggesting that the number of days worked from home is less important than the quality of the employee’s home working conditions. Nevertheless, it shows that `job_satisfaction` and `years_experience` are positively and significantly associated with productivity.
+
+\newpage
+
+# Discussion
+
+## Final Model Interpretation
+
+The final model shows that the relationship between remote work and productivity is not as simple as it may seem at first. At the beginning, it looked like the number of days worked from home might have some effect on productivity, but the final model suggests that this effect is actually very small.
+
+However, what seems more important is the quality of the employee’s home office. The final model suggests that employees in the Good/Excellent home office group tend to have higher predicted productivity than those in the Poor/Average group, even after controlling for other variables. This suggests that the conditions in which employees work from home may matter more than the number of days they work remotely.
+
+Lastly, the model also shows that variables such as `job_satisfaction` and `years_experience` are positively related to productivity, meaning that productivity is not explained only by remote work, but also by other personal and work-related factors. 
+
+
+## Use of Model
+
+This model could be useful for companies that want to understand how remote work is related to employee productivity. The results suggest that it may not be enough to focus only on how many days employees work from home. It may also be important to consider the quality of their home working conditions. For example, companies could use this information when thinking about home office support, equipment, or hybrid work policies. The model may also be useful for future research on productivity and remote work, since it highlights the importance of contextual factors such as home office quality.
+
+## Comparison
+
+The result is quite similar to what was expected at the start of the project, but more detailed. At the beginning, the idea was that remote work might affect productivity differently depending on home office quality. Furthermore, the exploratory analysis concluded that employees with better home office conditions had slightly higher productivity, and the final model supports that idea.
+
+However, the results do not show a strong interaction between `wfh_days_per_week` and `home_office_group`. So, even if home office quality matters, it does not seem to strongly change the effect of WFH days. Instead, it seems to have its own positive relationship with productivity.
+
+In the end, the conclusion is that the apparent advantage of hybrid workers is not very strong once other variables are included. Additionally, the results suggest that the number of days worked from home is not the most important factor, while variables such as home office quality, job satisfaction, and experience seem to matter more.
+
+\newpage
+
+# Future Work
+
+Several improvements could be made to enhance the model and increase its effectiveness.
+
+First, additional variables from the original dataset could be included in order to capture other aspects of remote work, such as collaboration or manager support. 
+
+Second, the analysis could be repeated separately by department or job level to see whether the results are different across groups.
+
+Finally, testing the model in real-world settings would help identify its limitations, evaluate its reliability, and reveal areas for further development.
+
+
+\newpage
+# References
+
+Betsysavage. RemoteWorkAnalysis. GitHub repository.
+
+New South Wales Productivity Commission. Remote Working Insight Surveys (2020–2021).
+
+remote_work_productivity_analysis.csv. Analysis dataset used in this project.
+
+
+\newpage
+# Appendix
+## Appendix A.1 Residuals vs Fitted Values
+
+```{r appendix A1, echo=FALSE}
+
+plot(model_3, which = 1)
+
+```
+
+The plot suggests the residuals are not fully random and there may be some uneven spread.
+
+## Appendix A.2 Normal Q-Q Plot
+
+```{r appendix A2, echo=FALSE}
+
+plot(model_3, which = 2)
+
+```
+
+It shows that the residuals are approximately normal in the middle, but not perfect in the tails.
+
+## Appendix A.3 Scale-Location Plot
+
+```{r appendix A3, echo=FALSE}
+
+plot(model_3, which = 3)
+```
+
+Because the red line is not fully flat and the spread changes somewhat across fitted values, the variance of the residuals may not be completely constant.
+
+## Appendix A.4 Residual vs Leverage
+
+```{r appendix A5, echo=FALSE}
+
+plot(model_3, which = 5)
+```
+
+It shows a few potentially influential points, but nothing that makes the model unusable.
+
+\newpage
+
+## Appendix B.1. Full Final Model Output
+
+```{r appendix B1, echo=FALSE}
+
+summary(model_3)
+
+```
+This table shows the complete output of the final selected model. It includes the estimated coefficients, standard errors, t-values, p-values, and overall fit statistics such as R2 and adjusted 
+R2. This appendix is useful because it provides the full numerical details of the final model.
+
+
+### Appendix B.2 Model Comparison Table
+
+```{r appendix B2, echo=FALSE}
+
+model_comparison <- tibble(
+  Model = c("Simple Linear Regression",
+            "Multiple Linear Regression",
+            "Home Office Quality Model",
+            "Interaction Model"),
+  AIC = c(AIC(model_1), AIC(model_2), AIC(model_3), AIC(model_4)),
+  Adjusted_R2 = c(summary(model_1)$adj.r.squared,
+                  summary(model_2)$adj.r.squared,
+                  summary(model_3)$adj.r.squared,
+                  summary(model_4)$adj.r.squared)
+)
+
+kable(model_comparison, caption = "Model Comparison")
+
+```
+
+This table compares the main candidate models used in the project. It includes measures such as AIC and adjusted R2, which help evaluate model fit and complexity. The purpose of this table is to support the choice of the final model by showing how the different models perform relative to each other.
+ 
+### Appendix B.3 Descriptive Table by WFH Group
+
+```{r appendix B3, echo=FALSE}
+
+analysis_df %>%
+  group_by(wfh_group) %>%
+  summarise(
+    mean_productivity = mean(productivity_score),
+    median_productivity = median(productivity_score),
+    sd_productivity = sd(productivity_score),
+    n = n()
+  ) %>%
+  kable(caption = "Productivity by WFH Group")
+
+```
+
+This table presents descriptive statistics for `productivity_score` across the different wfh_group categories. It includes the mean, median, standard deviation, and number of observations in each group. This appendix is useful because it provides a more detailed numerical summary of the group comparison shown earlier in the exploratory analysis.
+
+### Appendix B.4 Summary Statistics for Productivity
+
+```{r appendix B4, echo=FALSE}
+
+analysis_df %>%
+  summarise(
+    mean_productivity = mean(productivity_score),
+    median_productivity = median(productivity_score),
+    sd_productivity = sd(productivity_score),
+    iqr_productivity = IQR(productivity_score)
+  ) %>%
+  kable(caption = "Summary Statistics for Productivity Score")
+
+```
+
+This table provides the main summary statistics for `productivity_score`, including the mean, median, standard deviation, and interquartile range. Its purpose is to give a compact numerical description of the outcome variable used throughout the analysis.
+
+       
+## Code
+
+```{r cleaning, echo=FALSE, eval=FALSE}
+
+df <- read_csv("data/remote_work_productivity_analysis.csv") %>%
+  clean_names()
+
+analysis_df <- df %>%
+  select(
+    employee_id,
+    age,
+    years_experience,
+    wfh_days_per_week,
+    department,
+    job_level,
+    home_office_quality,
+    work_hours_per_week,
+    meetings_per_week,
+    stress_level,
+    work_life_balance,
+    job_satisfaction,
+    productivity_score
+  ) %>%
+  mutate(
+    wfh_group = case_when(
+      wfh_days_per_week <= 1 ~ "Low WFH",
+      wfh_days_per_week <= 3 ~ "Hybrid",
+      TRUE ~ "High WFH"
+    ),
+    home_office_group = case_when(
+      home_office_quality %in% c("Poor", "Average") ~ "Poor/Average",
+      TRUE ~ "Good/Excellent"
+    ),
+    wfh_group = factor(wfh_group, levels = c("Low WFH", "Hybrid", "High WFH")),
+    home_office_group = factor(home_office_group, levels = c("Poor/Average", "Good/Excellent")),
+    department = factor(department),
+    job_level = factor(job_level),
+    home_office_quality = factor(home_office_quality)
+  )
+
+```
+
+
+```{r ref.label=knitr::all_labels(), echo=TRUE, eval=FALSE}
+```
+
