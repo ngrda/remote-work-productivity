@@ -54,6 +54,7 @@ This is an explanatory (not predictive) analysis, so no train/test split was use
 ├── remote_work_productivity.pptx            # Slide deck presenting the study
 ├── data/
 │   └── remote_work_productivity_analysis.csv
+    └── remote_work_productivity.csv
 ├── requirements.txt
 ├── LICENSE
 └── README.md
